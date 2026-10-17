@@ -1,0 +1,5 @@
+.env.local
+node_modules
+*.zip
+.DS_Store
+/tools/node_modules

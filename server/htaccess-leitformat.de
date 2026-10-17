@@ -1,0 +1,38 @@
+# Von Hand gepflegt – WordPress darf diese Datei nicht überschreiben.
+# Ziel: /www/htdocs/w01eedfd/leitformat.de/.htaccess
+
+# HTTPS erzwingen (KAS macht das auch, doppelt schadet nicht)
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://leitformat.de/$1 [R=301,L]
+
+# .com und www → https://leitformat.de
+RewriteCond %{HTTP_HOST} ^(www\.)?leitformat\.com$ [NC]
+RewriteRule ^(.*)$ https://leitformat.de/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.leitformat\.de$ [NC]
+RewriteRule ^(.*)$ https://leitformat.de/$1 [R=301,L]
+
+# BEGIN WordPress (manuell)
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# Caching für Theme-Assets
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/webp "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+</IfModule>
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript image/svg+xml application/json
+</IfModule>

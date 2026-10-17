@@ -1,0 +1,186 @@
+/* Leitformat – Ergänzungen zu theme.json (Header, Buttons, Footer, Mobil-CTA) */
+
+:root {
+	--lf-ink: #15171C;
+	--lf-paper: #F6F3EE;
+	--lf-white: #FFFFFF;
+	--lf-signal: #D7261E;
+	--lf-panel: #1C1F26;
+	--lf-text-2: #3A3D44;
+	--lf-grey: #5E626A;
+	--lf-grey-2: #B8BBC0;
+	--lf-line: #DAD6CE;
+	--lf-logo-grey: #8A8E96;
+}
+
+body { -webkit-font-smoothing: antialiased; }
+p, li { max-width: var(--wp--custom--measure); }
+:where(.wp-site-blocks) > * { margin-block-start: 0; }
+:focus-visible { outline: 2px solid var(--lf-signal); outline-offset: 3px; }
+
+/* ---------- Buttons ---------- */
+
+.lf-btn,
+.wp-block-button .wp-block-button__link {
+	box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: var(--wp--custom--button--height);
+	padding: 0 24px;
+	border: 1.5px solid transparent;
+	border-radius: var(--wp--custom--radius--button);
+	font-family: var(--wp--preset--font-family--lf-text);
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .15s, color .15s, border-color .15s;
+}
+
+.lf-btn--primary,
+.wp-block-button.is-style-lf-primary .wp-block-button__link { background: var(--lf-signal); border-color: var(--lf-signal); color: var(--lf-white); }
+.lf-btn--primary:hover,
+.wp-block-button.is-style-lf-primary .wp-block-button__link:hover { background: #B81F18; border-color: #B81F18; color: var(--lf-white); }
+
+.lf-btn--secondary,
+.wp-block-button.is-style-lf-secondary .wp-block-button__link { background: transparent; border-color: var(--lf-ink); color: var(--lf-ink); }
+.lf-btn--secondary:hover,
+.wp-block-button.is-style-lf-secondary .wp-block-button__link:hover { background: var(--lf-ink); color: var(--lf-white); }
+
+.lf-btn--dark,
+.wp-block-button.is-style-lf-dark .wp-block-button__link { background: var(--lf-ink); border-color: var(--lf-ink); color: var(--lf-white); }
+.lf-btn--dark:hover,
+.wp-block-button.is-style-lf-dark .wp-block-button__link:hover { background: var(--lf-panel); color: var(--lf-white); }
+
+.lf-btn--light,
+.wp-block-button.is-style-lf-light .wp-block-button__link { background: var(--lf-white); border-color: var(--lf-white); color: var(--lf-ink); }
+.lf-btn--light:hover,
+.wp-block-button.is-style-lf-light .wp-block-button__link:hover { background: transparent; color: var(--lf-white); }
+
+/* Hero-Buttons: Klasse lf-hero an der Buttons-Gruppe */
+.lf-hero .wp-block-button__link { min-height: var(--wp--custom--button--height-hero); }
+
+@media (max-width: 767px) {
+	.wp-block-buttons > .wp-block-button { flex: 1 1 100%; }
+	.wp-block-buttons > .wp-block-button .wp-block-button__link { width: 100%; }
+}
+
+/* ---------- Logo ---------- */
+
+.lf-logo { display: inline-flex; color: var(--lf-ink); line-height: 0; }
+.lf-logo svg { height: 27px; width: auto; }  /* entspricht 30 px Schriftgröße im Entwurf */
+.lf-footer .lf-logo svg { height: 20px; }
+
+/* ---------- Header ---------- */
+
+.lf-header-wrap { padding-block: 20px; }
+.lf-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+.lf-nav { display: flex; align-items: center; gap: 28px; }
+.lf-nav ul { display: flex; gap: 28px; margin: 0; padding: 0; list-style: none; }
+.lf-nav li { max-width: none; }
+.lf-nav ul a { font-size: 16px; font-weight: 500; text-decoration: none; }
+.lf-nav .lf-btn { min-height: 44px; padding: 0 20px; font-size: 16px; }
+.lf-burger { display: none; }
+
+@media (max-width: 899px) {
+	.lf-burger {
+		position: relative;
+		z-index: 101;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		margin-right: -12px;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: var(--lf-ink);
+		cursor: pointer;
+	}
+	.lf-burger span,
+	.lf-burger span::before,
+	.lf-burger span::after {
+		display: block;
+		width: 22px;
+		height: 2px;
+		background: currentColor;
+		transition: transform .2s, background-color .2s;
+	}
+	.lf-burger span { position: relative; }
+	.lf-burger span::before,
+	.lf-burger span::after { content: ""; position: absolute; left: 0; }
+	.lf-burger span::before { top: -7px; }
+	.lf-burger span::after { top: 7px; }
+	.lf-burger[aria-expanded="true"] span { background: transparent; }
+	.lf-burger[aria-expanded="true"] span::before { transform: translateY(7px) rotate(45deg); }
+	.lf-burger[aria-expanded="true"] span::after { transform: translateY(-7px) rotate(-45deg); }
+
+	.lf-nav {
+		position: fixed;
+		inset: 0;
+		z-index: 100;
+		display: none;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 32px;
+		padding: 96px var(--wp--preset--spacing--gutter) 32px;
+		background: var(--lf-paper);
+		overflow-y: auto;
+	}
+	.lf-nav.is-open { display: flex; }
+	.lf-nav ul { flex-direction: column; gap: 4px; }
+	.lf-nav ul a {
+		display: block;
+		padding: 10px 0;
+		font-family: var(--wp--preset--font-family--lf-display);
+		font-size: 28px;
+		font-weight: 700;
+		letter-spacing: -0.02em;
+	}
+	.lf-nav .lf-btn { min-height: 52px; font-size: 17px; }
+	body.lf-menu-open { overflow: hidden; }
+}
+
+/* ---------- Footer ---------- */
+
+.lf-footer > * + * { margin-top: var(--wp--preset--spacing--l); }
+.lf-footer__brand p { max-width: 560px; margin: 0; }
+.lf-footer__title {
+	margin: 0 0 12px;
+	font-family: var(--wp--preset--font-family--lf-text);
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: var(--lf-grey);
+}
+.lf-footer__list { margin: 0; padding: 0; list-style: none; font-size: 15px; color: var(--lf-grey); }
+.lf-footer__list li { padding: 4px 0; }
+.lf-footer__list a { color: var(--lf-ink); text-decoration: none; }
+.lf-footer__list a:hover { color: var(--lf-signal); text-decoration: underline; }
+
+/* ---------- Mobil-CTA ---------- */
+
+.lf-sticky-cta { display: none; }
+@media (max-width: 767px) {
+	.lf-sticky-cta.is-visible {
+		position: fixed;
+		inset: auto 0 0;
+		z-index: 90;
+		display: block;
+		padding: 12px var(--wp--preset--spacing--gutter) calc(12px + env(safe-area-inset-bottom));
+		background: rgba(246, 243, 238, .96);
+		border-top: 1px solid var(--lf-line);
+	}
+	.lf-sticky-cta .lf-btn { width: 100%; }
+	body:has(.lf-sticky-cta.is-visible) { padding-bottom: 76px; }
+}
