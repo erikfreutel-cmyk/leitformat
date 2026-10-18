@@ -440,7 +440,7 @@ button.lf-video__play:hover { transform: scale(1.06); }
 
 .lf-danke { padding-top: 32px; }
 .lf-teaser__grid { display: grid; gap: 28px 20px; }
-@media (min-width: 900px) { .lf-teaser__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .lf-teaser__grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); } }
 .lf-teaser__item { display: flex; flex-direction: column; gap: 10px; }
 .lf-teaser__item .lf-video__play { width: 64px; height: 64px; }
 
@@ -558,3 +558,7 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-projekt__text { display: flex; flex-direction: column; gap: 12px; }
 .lf-projekt__titel { font-size: var(--wp--preset--font-size--headline-3); }
 .lf-karten--dunkel .lf-karte__nr { color: var(--lf-grey-2); }
+
+.lf-video--link { color: var(--lf-white); text-decoration: none; }
+.lf-video--link:hover { color: var(--lf-white); }
+.lf-video--link:hover .lf-video__play { transform: scale(1.06); }

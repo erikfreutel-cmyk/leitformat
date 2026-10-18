@@ -21,10 +21,9 @@ echo lf_section( 'lf-anfrage lf-danke',
 		)
 	)
 ) . "\n\n" . lf_section( 'lf-section--white lf-teaser',
-	lf_h( 2, 'Bis zum Gespräch: drei kurze Videos.' ) . "\n"
+	lf_h( 2, 'Bis zum Gespräch: zwei kurze Videos.' ) . "\n"
 	. lf_group( 'lf-teaser__grid',
-		lf_group( 'lf-teaser__item', lf_video( 'Tom Kalányos, Gegenbauer · 0:26', 'Kundenstimme Gegenbauer abspielen', '1052003179' ) . "\n" . lf_p( '<strong>Kundenstimme Gegenbauer</strong>' ) . "\n" . lf_p( 'Kosten und Nutzen im Vergleich zu anderen Agenturen. ' . LF_NEXTGEN_HINWEIS, 'lf-muted' ) )
-		. lf_group( 'lf-teaser__item', lf_video( 'Simon Mader, Adbaker', 'Porsche-Story abspielen', '1169274184' ) . "\n" . lf_p( '<strong>Nach dem Podcast rief Porsche an</strong>' ) . "\n" . lf_p( 'Wie ein Gastauftritt im Hauptstadt-Podcast zu einem Anruf führte.', 'lf-muted' ) )
-		. lf_group( 'lf-teaser__item', lf_video( 'Wolfgang Patz', 'Video Warum Podcasts scheitern abspielen', '', '', '', 'QHnuyR7Gq7o' ) . "\n" . lf_p( '<strong>Warum Podcasts immer wieder scheitern</strong>' ) . "\n" . lf_p( 'Die häufigsten Gründe – und was Sie vorher klären.', 'lf-muted' ) )
+		lf_group( 'lf-teaser__item', lf_video( 'Tom Kalányos, Gegenbauer · 0:26', 'Kundenstimme Gegenbauer abspielen', '1052003179' ) . "\n" . lf_p( '<strong>Kundenstimme Gegenbauer</strong>' ) . "\n" . lf_p( 'Kosten und Nutzen im Vergleich zu anderen Agenturen, in 26 Sekunden. ' . LF_NEXTGEN_HINWEIS, 'lf-muted' ) )
+		. lf_group( 'lf-teaser__item', lf_video_link( 'Simon Mader, CEO Adbaker', 'https://vimeo.com/1169274184' ) . "\n" . lf_p( '<strong>Nach dem Podcast rief Porsche an</strong>' ) . "\n" . lf_p( 'Wie ein Gastauftritt im Hauptstadt-Podcast von Wolfgang Patz zu einem Anruf führte.', 'lf-muted' ) )
 	)
 );

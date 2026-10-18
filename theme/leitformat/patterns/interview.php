@@ -3,7 +3,7 @@
  * Title: Seite Interview-Podcast
  * Slug: lf/interview
  * Categories: leitformat
- * Description: Wert-Rechner per assets/js/rechner.js. Porsche-Video (Vimeo 1169274184) – Freigabe für leitformat.de prüfen.
+ * Description: Wert-Rechner per assets/js/rechner.js. Porsche-Video (Vimeo 1169274184) als Standbild mit Link, bis die Domain in Vimeo freigegeben ist (WOLFGANG-03 D8).
  */
 
 $lf_rechner = '<!-- wp:html -->
@@ -46,11 +46,11 @@ echo lf_section( 'lf-hero',
 )
 . "\n\n" . lf_section( 'lf-porsche',
 	lf_group( 'lf-testimonial',
-		lf_group( 'lf-testimonial__media', lf_video( 'Simon Mader, CEO Adbaker', 'Porsche-Story abspielen', '1169274184' ) ) . "\n"
+		lf_group( 'lf-testimonial__media', lf_video_link( 'Simon Mader, CEO Adbaker', 'https://vimeo.com/1169274184' ) ) . "\n"
 		. lf_group( 'lf-testimonial__text',
 			lf_p( 'Fallgeschichte', 'lf-eyebrow lf-eyebrow--plain' ) . "\n"
 			. lf_h( 2, 'Nach einem Podcast-Auftritt rief Porsche an.' ) . "\n"
-			. lf_p( 'Simon Mader ist als Gast in Podcasts gegangen, statt kalt zu akquirieren. Nach seinem Auftritt im Hauptstadt-Podcast kam der Anruf:' ) . "\n"
+			. lf_p( 'Simon Mader ist als Gast in Podcasts gegangen, statt kalt zu akquirieren. Nach seinem Auftritt im Hauptstadt-Podcast von Wolfgang Patz kam der Anruf:' ) . "\n"
 			. '<!-- wp:quote {"className":"lf-bigquote"} -->' . "\n" . '<blockquote class="wp-block-quote lf-bigquote">' . lf_p( '„Hey Simon, hier hat grad jemand von Porsche angerufen und der will dich sprechen.“' ) . '</blockquote>' . "\n" . '<!-- /wp:quote -->'
 		)
 	)

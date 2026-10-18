@@ -24,7 +24,7 @@ function lf_faq( string $set ): array {
 			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
 			array( 'Wie lange dauert es bis zur ersten Folge?', 'Vier Wochen vom Erstgespräch. Die Pilotfolge ist in 14 Tagen fertig.' ),
 			array( 'Geht das auch remote?', 'Ja. Remote nehmen wir mit Ihrer Technik auf – wir sagen Ihnen vorher genau, was Sie brauchen. Studio Berlin und Dreh vor Ort sind die Alternativen.' ),
-			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
+			array( 'Wem gehören die Rechte?', 'Sie erhalten die ausschließlichen Nutzungsrechte an Folge, Rohmaterial und Clips – zeitlich und räumlich unbegrenzt, für alle Ihre Kanäle, mit vollständiger Zahlung. Musik lizenzieren wir für Ihre Nutzung. Als Referenz nennen wir die Produktion nur mit Ihrer Zustimmung.' ),
 			array( 'Wir haben keine Gäste. Was dann?', 'Gästeakquise ist Teil der Formate Unternehmen und Konzern. Im Konzern-Format kommen die Gäste aus Ihrer Zielkundenliste.' ),
 			array( 'Brauchen wir ein eigenes Studio?', 'Nein. Unser Studio steht in Berlin, mobil kommen wir zu Ihnen.' ),
 			array( 'Wie laufen Freigaben?', 'Jede Folge und jeder Clip wird per Link freigegeben, mit Kommentaren an der Stelle. Zwei Korrekturschleifen sind inklusive.' ),
@@ -33,7 +33,7 @@ function lf_faq( string $set ): array {
 		'pilot'  => array(
 			array( 'Was ist drin?', 'Formatgespräch, Aufnahme im Studio Berlin oder remote, Schnitt in Video und Audio, 6 Clips im Hochformat, Thumbnail und Shownotes. Festpreis 2.900 € netto.' ),
 			array( 'Studio oder remote?', 'Beides geht. Das Studio in Berlin hat 4 × 5 m, 3 Kameras und Platz für bis zu 4 Personen. Remote nehmen wir mit Ihrer Technik auf.' ),
-			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
+			array( 'Wem gehören die Rechte?', 'Sie erhalten die ausschließlichen Nutzungsrechte an Folge, Rohmaterial und Clips – zeitlich und räumlich unbegrenzt, für alle Ihre Kanäle, mit vollständiger Zahlung. Musik lizenzieren wir für Ihre Nutzung. Als Referenz nennen wir die Produktion nur mit Ihrer Zustimmung.' ),
 			array( 'Was, wenn uns das Ergebnis nicht gefällt?', 'Zwei Korrekturrunden sind inklusive. Passt es danach nicht, sprechen wir darüber, bevor Sie etwas weiter buchen.' ),
 			array( 'Was passiert nach der Pilotfolge?', 'Die Pilotfolge wird vollständig auf das Setup angerechnet. Beim Format Experte ist die Pilotfolge das Setup – danach zahlen Sie nur die Monatsrate.' ),
 		),
@@ -52,7 +52,7 @@ function lf_faq( string $set ): array {
 			array( 'Wie laufen Freigaben?', 'Jede Folge und jeder Clip wird per Link freigegeben, mit Kommentaren an der Stelle. Wir richten den Ablauf nach Ihrem Freigabeprozess – auch mit Rechtsabteilung und Vorstandsbüro.' ),
 			array( 'Wie gehen Sie mit Datenschutz um?', 'Für Gäste- und Mitarbeiterdaten schließen wir einen Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Die Einwilligungen der Personen vor der Kamera stimmen wir vor der Aufnahme mit Ihnen ab.' ),
 			array( 'Geht das mehrsprachig?', 'Ja. Für die Unternehmensgruppe Theo Müller produzieren wir einen Video-Podcast in Deutsch, Englisch und Polnisch. Untertitel und Sprachfassungen sind als Zusatzmodul buchbar.' ),
-			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
+			array( 'Wem gehören die Rechte?', 'Sie erhalten die ausschließlichen Nutzungsrechte an Folge, Rohmaterial und Clips – zeitlich und räumlich unbegrenzt, für alle Ihre Kanäle, mit vollständiger Zahlung. Musik lizenzieren wir für Ihre Nutzung. Als Referenz nennen wir die Produktion nur mit Ihrer Zustimmung.' ),
 			array( 'Was passiert mit vertraulichen Inhalten?', 'Beide Seiten verpflichten sich zur Vertraulichkeit. Interne Folgen veröffentlichen wir nur in den Kanälen, die Sie freigeben – etwa im Intranet oder in einem geschützten Feed.' ),
 			array( 'Wie sieht das Reporting aus?', 'Monatlich, als Gespräch: Abrufe je Kanal, Reichweite bei Zielkunden auf LinkedIn, und im Konzern-Format, welche Gäste und Zuschauer später angefragt haben.' ),
 		),
@@ -84,7 +84,7 @@ function lf_faq( string $set ): array {
 			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
 			array( 'Gibt es Rabatt bei Jahresbuchung?', 'Wer die gesamte Laufzeit im Voraus zahlt, bekommt 10 % auf die Monatsraten. Auf das Setup gibt es keinen Rabatt.' ),
 			array( 'Was kostet der Dreh vor Ort?', 'Das hängt von Ort, Dauer und Anzahl der Kameras ab. Sie bekommen den Preis schriftlich vor dem Dreh.' ),
-			array( 'Sind Musik-Lizenzen enthalten?', 'Ja. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
+			array( 'Sind Musik-Lizenzen enthalten?', 'Ja. Musik lizenzieren wir für Ihre Nutzung.' ),
 			array( 'Was passiert nach der Laufzeit?', 'Der Vertrag verlängert sich automatisch. Sie können mit vier Wochen Frist zum Ende der Laufzeit kündigen.' ),
 			array( 'Wie wird abgerechnet?', 'Das Setup mit Beginn, danach monatlich. Zahlungsziel 14 Tage. Alle Preise netto zuzüglich Umsatzsteuer.' ),
 		),
@@ -223,7 +223,7 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 	if ( ! $vergleich ) {
 		return $out;
 	}
-	$out .= lf_p( 'Zum Vergleich: Audio-Produktion ohne Video kostet in Berlin ab 2.300 € je Folge (<a href="https://podcastmania.de/" rel="noopener">Podcastmania</a>, Stand Oktober 2026). Wir liefern Video und Clips darunter.', 'lf-note' );
+	$out .= lf_p( 'Zum Vergleich: Audio-Produktion ohne Video kostet in Berlin ab 2.300 € je Folge (<a href="https://podcastmania.de/" rel="noopener">Podcastmania</a>, Stand Oktober 2026). Unsere Formate: ab 1.200 € je Video-Folge, ohne Setup gerechnet.', 'lf-note' );
 	return $out;
 }
 
@@ -428,4 +428,9 @@ function lf_quelle( string $text, string $url ): string {
 
 function lf_testimonial_gegenbauer_section(): string {
 	return lf_section( 'lf-testimonial-section', lf_testimonial_gegenbauer() );
+}
+
+/** Video-Fläche ohne Player: Standbild mit Link (Video noch nicht für leitformat.de freigegeben). */
+function lf_video_link( string $caption, string $url, string $bild = 'studio/studio-totale-600.webp' ): string {
+	return "<!-- wp:html -->\n<a class=\"lf-video lf-video--link\" href=\"" . esc_url( $url ) . "\" rel=\"noopener\"><img class=\"lf-video__poster\" src=\"" . lf_img( $bild ) . "\" alt=\"\" loading=\"lazy\" decoding=\"async\"><span class=\"lf-video__play\" aria-hidden=\"true\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M8 5v14l12-7z\"/></svg></span><span class=\"lf-video__caption\">" . lf_e( $caption ) . " · auf Vimeo ansehen</span></a>\n<!-- /wp:html -->";
 }

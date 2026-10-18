@@ -15,7 +15,7 @@ echo lf_section( 'lf-hero',
 		. lf_p( 'Video-Podcasts für Unternehmenskommunikation, Corporate Brand und Public Affairs. Gäste aus Ihren Zielkunden, Freigaben nach Ihrem Prozess, Reporting bis zur Anfrage.', 'lf-lead' ) . "\n"
 		. lf_buttons( 'lf-hero__cta', lf_button( 'Gespräch mit Wolfgang', '#anfrage' ), lf_button( 'Preise ansehen', '/preise/', 'lf-secondary' ) )
 	) . "\n"
-	. lf_group( 'lf-hero__media', lf_video( 'Wer wir sind · 3:42', 'Video Wer wir sind abspielen', '1127602118' ) )
+	. lf_group( 'lf-hero__media', lf_video( 'Tom Kalányos, damals Marketingleiter Gegenbauer · 0:26', 'Kundenstimme Gegenbauer abspielen', '1052003179' ) )
 )
 . "\n\n" . lf_section( 'lf-logos', lf_p( 'Wir produzieren für', 'lf-logos__label' ) . "\n" . lf_list( array_map( 'lf_e', lf_logos( true ) ), 'lf-logos__list' ) )
 . "\n\n" . lf_section( 'lf-section--white lf-versprechen',

@@ -16,7 +16,9 @@ def p(text): return f'<!-- wp:paragraph -->\n<p>{text}</p>\n<!-- /wp:paragraph -
 
 out = []
 for block in re.split(r'\n\s*\n', open(sys.argv[1], encoding='utf-8').read().strip()):
-    lines = block.strip().split('\n')
+    lines = [l for l in block.strip().split('\n') if not l.startswith('[//]:')]
+    if not lines:
+        continue
     if lines[0].startswith('# '):
         out.append(f'<!-- wp:heading {{"level":1}} -->\n<h1 class="wp-block-heading">{inline(lines[0][2:])}</h1>\n<!-- /wp:heading -->')
     elif lines[0].startswith('## '):

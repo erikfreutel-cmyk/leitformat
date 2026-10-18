@@ -56,15 +56,15 @@ Ihre Auswahl können Sie jederzeit mit Wirkung für die Zukunft über den Link �
 
 Die Angaben werden per E-Mail an uns gesendet und zusätzlich automatisch (Webhook) in eine Tabelle in Google Workspace übertragen, in der wir Anfragen bearbeiten. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Mit Google besteht ein Vertrag zur Auftragsverarbeitung.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf einen Vertrag gerichtet ist, im Übrigen unser berechtigtes Interesse an der Bearbeitung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO). Die Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind; kommt kein Auftrag zustande, spätestens nach [SPEICHERDAUER – Erik] Monaten. Gesetzliche Aufbewahrungsfristen bleiben unberührt.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf einen Vertrag gerichtet ist, im Übrigen unser berechtigtes Interesse an der Bearbeitung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO). Die Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind; kommt kein Auftrag zustande, spätestens nach 12 Monaten. Gesetzliche Aufbewahrungsfristen bleiben unberührt.
 
 **E-Mail und Telefon.** Kontaktieren Sie uns per E-Mail oder Telefon, speichern wir Ihre Anfrage mit den daraus hervorgehenden personenbezogenen Daten zur Bearbeitung Ihres Anliegens. Eine Weitergabe an Dritte erfolgt nicht ohne Ihre Einwilligung.
 
 ## 6. Terminbuchung mit Calendly
 
-Für Erstgespräche nutzen wir Calendly (Calendly LLC, 271 17th St NW, Ste 1000, Atlanta, Georgia 30363, USA). Der Kalender wird auf unserer Website eingebettet. Bei der Buchung geben Sie Name, E-Mail-Adresse und Wunschtermin ein; diese Daten werden auf den Servern von Calendly gespeichert und zur Planung, Durchführung und Nachbereitung des Termins verwendet.
+Für Erstgespräche nutzen wir Calendly (Calendly, LLC, 115 E Main St., Ste A1B, Buford, Georgia 30518, USA). Der Kalender wird erst geladen, wenn Sie ihn per Klick aktivieren; vorher besteht keine Verbindung zu Calendly. Bei der Buchung geben Sie Name, E-Mail-Adresse und Wunschtermin ein; diese Daten werden auf den Servern von Calendly gespeichert und zur Planung, Durchführung und Nachbereitung des Termins verwendet.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Buchung der Vorbereitung eines Vertrags dient, im Übrigen Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), mit der der Kalender geladen wird. Die Übermittlung in die USA stützt sich auf das EU-US Data Privacy Framework bzw. die Standardvertragsklauseln der EU-Kommission. Weitere Informationen: [calendly.com/legal/privacy-notice](https://calendly.com/legal/privacy-notice)
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Buchung der Vorbereitung eines Vertrags dient, im Übrigen Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), mit der der Kalender geladen wird. Calendly ist nach dem EU-US Data Privacy Framework zertifiziert; die Übermittlung in die USA stützt sich darauf. Weitere Informationen: [calendly.com/legal/privacy-notice](https://calendly.com/legal/privacy-notice)
 
 ## 7. Webanalyse und Werbung
 
@@ -74,13 +74,13 @@ Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Buchung der Vorbereit
 
 **Erweiterte Conversions.** Senden Sie nach Einwilligung das Anfrageformular ab, werden Ihre E-Mail-Adresse und gegebenenfalls Telefonnummer in Ihrem Browser verschlüsselt (gehasht, SHA-256) und an Google übermittelt. Google gleicht diese Werte mit angemeldeten Google-Konten ab, um Conversions genauer zuzuordnen; die Klardaten erhält Google nicht.
 
-**Google Analytics 4.** Nach Ihrer Einwilligung analysieren wir mit Google Analytics 4, wie unsere Website genutzt wird. IP-Adressen werden in GA4 nicht gespeichert.
+**Google Analytics 4.** Nach Ihrer Einwilligung analysieren wir mit Google Analytics 4, wie unsere Website genutzt wird, etwa wie weit Seiten gelesen werden und wie lange Besucher bleiben. Google Analytics wird über den Google Tag Manager geladen. IP-Adressen werden in GA4 nicht gespeichert.
 
-Rechtsgrundlage für Google Ads, erweiterte Conversions und Google Analytics ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), die Sie jederzeit widerrufen können. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Daten können an die Google LLC in den USA übermittelt werden; die Übermittlung stützt sich auf das EU-US Data Privacy Framework. Weitere Informationen: [policies.google.com/privacy](https://policies.google.com/privacy?hl=de)
+Rechtsgrundlage für Google Ads, erweiterte Conversions und Google Analytics ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), die Sie jederzeit widerrufen können. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Daten können an die Google LLC in den USA übermittelt werden; Google ist nach dem EU-US Data Privacy Framework zertifiziert, die Übermittlung stützt sich darauf. Weitere Informationen: [policies.google.com/privacy](https://policies.google.com/privacy?hl=de)
 
 ## 8. Eingebundene Inhalte Dritter
 
-**Vimeo.** Wir binden Videos der Plattform Vimeo ein (Vimeo.com, Inc., 330 West 34th Street, 5th Floor, New York, New York 10001, USA). Das Video wird erst geladen, wenn Sie auf den Abspielknopf klicken; vorher besteht keine Verbindung zu Vimeo. Wir nutzen den Parameter „Do Not Track“, mit dem Vimeo keine Sitzungsdaten zur Analyse speichert. Rechtsgrundlage ist Ihre Einwilligung durch den Klick (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Weitere Informationen: [vimeo.com/privacy](https://vimeo.com/privacy)
+**Vimeo.** Wir binden Videos der Plattform Vimeo ein (Vimeo.com, Inc., 330 West 34th Street, 10th Floor, New York, New York 10001, USA). Das Video wird erst geladen, wenn Sie auf den Abspielknopf klicken; vorher besteht keine Verbindung zu Vimeo. Wir nutzen den Parameter „Do Not Track“, mit dem Vimeo keine Sitzungsdaten zur Analyse speichert. Rechtsgrundlage ist Ihre Einwilligung durch den Klick (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Vimeo ist nach dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen: [vimeo.com/privacy](https://vimeo.com/privacy)
 
 **YouTube.** Einzelne Videos binden wir im erweiterten Datenschutzmodus (youtube-nocookie.com) ein. Anbieter ist die Google Ireland Limited. Das Video wird erst nach Ihrem Klick geladen. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Weitere Informationen: [policies.google.com/privacy](https://policies.google.com/privacy?hl=de)
 

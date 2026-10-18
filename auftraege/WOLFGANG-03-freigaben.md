@@ -1,6 +1,6 @@
 # Auftrag an Wolfgang: Zusagen und Zahlen freigeben
 
-Was: Auf leitformat.de stehen Sätze, die du halten musst, und Zahlen, die nur du belegen kannst. Beim Bau sind sie aufgefallen. Du gehst die Liste durch und schreibst hinter jede Zeile **Ja**, **Nein** oder die richtige Fassung. Dauer: 20 Minuten. Deadline: Freitag, 23.10.2026 – vorher gehen keine Anzeigen live.
+Was: Auf leitformat.de stehen Sätze, die du halten musst, und Zahlen, die nur du belegen kannst. Beim Bau sind sie aufgefallen. Du gehst die Liste durch und schreibst hinter jede Zeile **Ja**, **Nein** oder die richtige Fassung. Dauer: 30 Minuten. Deadline: Freitag, 23.10.2026 – vorher gehen keine Anzeigen live.
 
 Lies dazu einmal die drei Seiten, die schon stehen (noindex, nur per Link erreichbar): https://leitformat.de/ · https://leitformat.de/preise/ · https://leitformat.de/pilotfolge/
 
@@ -42,7 +42,21 @@ Lies dazu einmal die drei Seiten, die schon stehen (noindex, nur per Link erreic
 | C4 | Studio: 4×5 m, bis 4 Personen, 3× Sony 4K, 3× Shure SM7B, 2× Amaran, Mo–Fr 8–18 Uhr, Franz-Jacob-Straße 2c – alles noch aktuell? | Studio-LP | |
 | C5 | Team: Lenny (Aufnahme, Produktion), Andreas (Schnitt, Sounddesign), Clemens (Veröffentlichung, Distribution) – Rollen richtig? Sophia: bleibt sie, mit welcher Zeile? | /ueber-uns/ | |
 
-## D. Was danach passiert
+## D. Nachtrag 18.10. – aus dem Bau der weiteren Seiten
+
+| Nr. | Punkt | Wo | Bis zu deiner Antwort steht | Deine Antwort |
+| --- | --- | --- | --- | --- |
+| D1 | Corporate-FAQ: AV-Vertrag für Gästedaten, Veröffentlichung im Intranet oder geschützten Feed möglich, Freigaben mit der Rechtsabteilung eingeplant – machen wir das so? | /corporate-podcast-agentur/ | so | |
+| D2 | Corporate-Ablauf: Konzept an Tag 7, Pilotfolge an Tag 21, Staffelplan in Woche 6 | /corporate-podcast-agentur/ | so | |
+| D3 | Studio-Galerie: Kamera 1 = linke Perspektive, Kamera 3 = rechte – stimmt die Zuordnung? | /podcast-studio-berlin/ | so | |
+| D4 | Produktionsablauf: Clips 48 Stunden nach der Aufnahme, fertige Folge nach 5 Werktagen | /podcast-produktion/ | so | |
+| D5 | Zitat Kolbow mit „damals“ – ist die Person nicht mehr beim Kunden, und ist das Zitat so freigegeben? | Referenzen | mit „damals“ | |
+| D6 | Video „Wer wir sind“ (Vimeo 1127602118, 3:42, alter Name): darf das irgendwo auf leitformat.de laufen, oder drehen wir das mit dem Hero-Video neu? | derzeit nirgends | nicht eingebunden | |
+| D7 | Hauptstadt-Podcast: Link zu Spotify/Apple/YouTube. Hinweis: Unter „Hauptstadt Podcast“ findet man bei Spotify zuerst „Hauptstadt – Das Briefing“ von The Pioneer – deshalb brauchen wir deinen Link. | /ueber-uns/, /interview-podcast/ | ohne Link | |
+| D8 | Porsche-Story (Vimeo 1169274184): In Vimeo unter Privatsphäre → Einbetten die Domains leitformat.de und www.leitformat.de freigeben – machst du das, oder Erik? | /interview-podcast/ | Standbild | |
+| D9 | Mobilnummer +49 160 78 49 590 steht auf /kontakt/ – willst du sie dort (Anrufe aus Google Ads, auch abends), oder nur die Festnetznummer? | /kontakt/ | drin | |
+
+## E. Was danach passiert
 
 Deine Antworten gehen in `auftraege/RUECKFRAGEN.md`, die Texte werden angepasst, und die Seiten gehen in die Abnahme. Alles, was du mit „Nein“ markierst, wird vor dem Ads-Start entfernt – nicht abgeschwächt, sondern gestrichen. Lieber ein Versprechen weniger als eines, das wir nicht halten.
 

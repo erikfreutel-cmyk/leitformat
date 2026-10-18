@@ -3,13 +3,13 @@
  * Title: Über uns
  * Slug: lf/ueber-uns
  * Categories: leitformat
- * Description: Zeitstrahl, Wolfgang, Team, Presse, Bewertungen, ehemals NextGen Podcast. Fotos kommen mit AUFTRAG-05.
+ * Description: Zeitstrahl, Wolfgang, Team, Presse, Bewertungen, ehemals NextGen Podcast. Fotos kommen mit AUFTRAG-05. Sophia und die fünf Presse-Kürzel (Medium/Link von Wolfgang, WOLFGANG-02) fehlen bewusst – keine sichtbaren Platzhalter.
  */
 
 $lf_zeit = array(
 	array( '2015', 'Blog mit Erik Freutel', 'Zeitweise über 400.000 Seitenaufrufe im Monat. Reichweite, Content und Distribution selbst gelernt.' ),
 	array( '2018', 'NextGen Media GmbH', 'Gründung in Berlin, Wolfgang Patz und Erik Freutel als Geschäftsführer.' ),
-	array( '2020', 'Hauptstadt-Podcast', 'Eigenes Interview-Format mit Politikern, Spitzensportlern, Schauspielern und CEOs.' ),
+	array( '2020', 'Hauptstadt-Podcast', 'Wolfgang Patz startet sein eigenes Interview-Format mit Politikern, Spitzensportlern, Schauspielern und CEOs.' ),
 	array( 'Danach', 'Gegenbauer', 'Erstes Kundenformat: Mitarbeiterinterviews als Video-Podcast. Der Start der Podcast-Agentur.' ),
 	array( '2026', 'Leitformat', 'Neuer Name, Video als Standard. Dieselben Menschen, dasselbe Studio.' ),
 );
@@ -24,7 +24,6 @@ $lf_team = array(
 	array( 'Lenny', 'Aufnahme, Produktion, Qualitätssicherung.' ),
 	array( 'Andreas', 'Schnitt, Sounddesign, Postproduktion.' ),
 	array( 'Clemens', 'Veröffentlichung, Distribution, Plattformen.' ),
-	array( 'Sophia', '[Rolle – WOLFGANG-03, C5]' ),
 );
 $lf_karten = '';
 foreach ( $lf_team as $t ) {
@@ -34,16 +33,12 @@ foreach ( $lf_team as $t ) {
 $lf_presse = lf_list( array(
 	'Comenius-EduMedia-Siegel 2024 für das Podcast-Projekt der Fortbildungsakademie des Innenministeriums NRW',
 	'business-on.de, 6. Januar 2026: <a href="https://www.business-on.de/corporate-podcast-experte-wolfgang-patz-strategie-produktion-b2b-marketing.html" rel="noopener">Die Podcast-Matrix: Warum für Corporate Podcasts kein Weg an Wolfgang Patz vorbeiführt</a>',
-	'Vergleich: TOP 7 Podcast-Agenturen in Deutschland – [Medium und Link – Wolfgang]',
-	'Ratgeber: Warum Konzerne keine großen Agenturen brauchen – [Medium und Link – Wolfgang]',
-	'Interview: Corporate Podcasts brauchen Klarheit, nicht Komplexität – [Medium und Link – Wolfgang]',
-	'Interview: Vom Fleischer zum Corporate-Podcast-Strategen – [Medium und Link – Wolfgang]',
-	'Interview: Corporate Podcasts und die wichtigsten Grundlagen – [Medium und Link – Wolfgang]',
+	'Auftritt: <a href="https://www.youtube.com/watch?v=QHnuyR7Gq7o" rel="noopener">Corporate Podcast – Wolfgang Patz im Business Talk am Kudamm</a> (YouTube)',
 ), 'lf-presse' );
 
 echo lf_section( 'lf-intro lf-ueber',
 	lf_p( 'Über uns', 'lf-eyebrow' ) . "\n"
-	. lf_h( 1, 'Sechs Leute, ein Studio in Berlin.' ) . "\n"
+	. lf_h( 1, 'Fünf Leute, ein Studio in Berlin.' ) . "\n"
 	. lf_p( 'Ein festes Team aus Strategie, Redaktion, Produktion und Technik. Keine wechselnden Freelancer, jedes Projekt hat feste Ansprechpartner.', 'lf-lead' )
 )
 . "\n\n" . lf_section( 'lf-section--white lf-ablauf lf-zeit',
@@ -55,7 +50,7 @@ echo lf_section( 'lf-intro lf-ueber',
 		lf_p( 'Wolfgang Patz, Gründer und Geschäftsführer', 'lf-eyebrow lf-eyebrow--plain lf-eyebrow--dark' ) . "\n"
 		. lf_h( 2, '„Ein Podcast ist die authentischste Content-Quelle eines Unternehmens.“' ) . "\n"
 		. lf_p( 'Gelernter Fleischer, danach Jahre in leitender Verantwortung. 2017 der Neustart als Praktikant in einer Berliner Werbeagentur, um zu verstehen, wie Konzerne kommunizieren, dann ein Jahr in einer PR-Agentur. 2018 gründete er mit Erik Freutel die NextGen Media GmbH. Seit 2020 moderiert er den Hauptstadt-Podcast – Gespräche mit Politikern, Spitzensportlern, Schauspielern und CEOs.' ) . "\n"
-		. lf_p( '<a href="https://www.linkedin.com/in/wolfgang-patz/" rel="noopener">Wolfgang auf LinkedIn</a> · [Link Hauptstadt-Podcast – Wolfgang]', 'lf-link' )
+		. lf_p( '<a href="https://www.linkedin.com/in/wolfgang-patz/" rel="noopener">Wolfgang auf LinkedIn</a>', 'lf-link' )
 	)
 )
 . "\n\n" . lf_section( 'lf-team',

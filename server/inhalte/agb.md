@@ -1,3 +1,5 @@
+[//]: # (Vor dem Ads-Start anwaltlich prüfen lassen: insbesondere § 6 und § 11 – Erik organisiert. Dieser Vermerk erscheint nicht auf der Seite.)
+
 # Allgemeine Geschäftsbedingungen
 
 NextGen Media GmbH, Franz-Jacob-Straße 2c, 10369 Berlin, HRB 200440 B, Amtsgericht Charlottenburg. Leitformat ist eine Marke der NextGen Media GmbH.
@@ -56,13 +58,15 @@ Stand: Oktober 2026
 
 ## § 6 Nutzungsrechte
 
-(1) NextGen räumt dem Kunden mit vollständiger Bezahlung der vereinbarten Vergütung die für den vertraglich vorgesehenen Verwendungszweck erforderlichen Nutzungsrechte an den erstellten Arbeitsergebnissen (z. B. produzierte Audio- und Videodateien, Schnittfassungen, Grafiken, Texte) ein. Sofern nichts anderes vereinbart ist, handelt es sich um ein einfaches, räumlich und zeitlich unbeschränktes Nutzungsrecht für die im Angebot beschriebenen Zwecke (z. B. Veröffentlichung des Podcasts auf den vereinbarten Plattformen sowie zugehörige Content-Verwertung).
+(1) NextGen räumt dem Kunden mit vollständiger Bezahlung der vereinbarten Vergütung das ausschließliche, zeitlich und räumlich unbeschränkte Nutzungsrecht an den für ihn erstellten Arbeitsergebnissen ein (insbesondere fertige Folgen, Rohmaterial, Clips, Grafiken und Texte), für alle Nutzungsarten und Kanäle des Kunden. Das Recht ist übertragbar und unterlizenzierbar.
 
 (2) Bis zur vollständigen Bezahlung verbleiben sämtliche Nutzungsrechte bei NextGen.
 
-(3) Eigene Vorleistungen von NextGen, die nicht speziell für den Kunden entwickelt wurden (z. B. Vorlagen, Templates, interne Werkzeuge, allgemeines Know-how), bleiben im Eigentum von NextGen und werden dem Kunden nicht übertragen, soweit nicht ausdrücklich anders vereinbart.
+(3) Von Dritten lizenzierte Bestandteile, insbesondere Musik, lizenziert NextGen für die vertragsgemäße Nutzung durch den Kunden; insoweit gelten die Bedingungen des jeweiligen Lizenzgebers.
 
-(4) NextGen ist berechtigt, im Rahmen einzelner Folgen entstandene Rohaufnahmen und Arbeitsmaterialien für interne Zwecke (z. B. Qualitätssicherung, Weiterentwicklung von Prozessen) zu archivieren, soweit dies nicht im Widerspruch zu vertraglichen Vertraulichkeitsregelungen steht.
+(4) Eigene Vorleistungen von NextGen, die nicht speziell für den Kunden entwickelt wurden (z. B. Vorlagen, Templates, interne Werkzeuge, allgemeines Know-how), bleiben bei NextGen, soweit nicht ausdrücklich anders vereinbart.
+
+(5) NextGen ist berechtigt, Rohaufnahmen und Arbeitsmaterialien für interne Zwecke (z. B. Qualitätssicherung, Nachlieferungen) zu archivieren, soweit dies nicht im Widerspruch zu vertraglichen Vertraulichkeitsregelungen steht. Eine Veröffentlichung oder Nennung als Referenz erfolgt nur nach § 7.
 
 ## § 7 Referenznennung
 
@@ -94,7 +98,7 @@ Ist NextGen durch Umstände außerhalb ihres Einflussbereichs (z. B. technische 
 
 ## § 11 Pilotfolge, Formate und Studio
 
-(1) Pilotfolge: Die Pilotfolge wird zum Festpreis laut Angebot erbracht (derzeit 2.900 € netto) und umfasst die dort beschriebenen Leistungen. Bucht der Kunde im Anschluss ein Format (Experte, Unternehmen oder Konzern), wird der Preis der Pilotfolge vollständig auf das Setup dieses Formats angerechnet[, sofern die Buchung innerhalb von [FRIST – Erik] nach Lieferung der Pilotfolge erfolgt]. Eine Auszahlung oder Anrechnung auf Monatsraten ist ausgeschlossen.
+(1) Pilotfolge: Die Pilotfolge wird zum Festpreis laut Angebot erbracht (derzeit 2.900 € netto) und umfasst die dort beschriebenen Leistungen. Bucht der Kunde im Anschluss ein Format (Experte, Unternehmen oder Konzern), wird der Preis der Pilotfolge vollständig auf das Setup dieses Formats angerechnet, sofern die Buchung innerhalb von 6 Monaten nach Lieferung der Pilotfolge erfolgt. Eine Auszahlung oder Anrechnung auf Monatsraten ist ausgeschlossen.
 
 (2) Formate: Für die Formate gelten, soweit im Angebot nicht anders vereinbart, folgende Mindestlaufzeiten: Experte 6 Monate, Unternehmen 12 Monate, Konzern 12 Monate. Die Verlängerung richtet sich nach § 5. Zahlt der Kunde die Monatsraten der gesamten Mindestlaufzeit im Voraus, gewährt NextGen 10 % Nachlass auf die Monatsraten; auf das Setup wird kein Nachlass gewährt.
 

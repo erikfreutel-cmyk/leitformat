@@ -98,8 +98,8 @@ add_action( 'wp_head', function () {
 	}
 	$d = lf_ref();
 	$e = $d['embed'] ?? null;
-	if ( ! $e || ! in_array( $e['typ'] ?? '', array( 'youtube', 'vimeo' ), true ) ) {
-		return;
+	if ( ! $e || ! in_array( $e['typ'] ?? '', array( 'youtube', 'vimeo' ), true ) || empty( $e['datum'] ) ) {
+		return; // Ohne echtes Veröffentlichungsdatum lieber kein Schema.
 	}
 	$url    = 'youtube' === $e['typ'] ? 'https://www.youtube.com/watch?v=' . preg_replace( '~.*(?:v=|youtu\.be/|embed/)([A-Za-z0-9_-]{11}).*~', '$1', $e['id_oder_url'] ) : 'https://vimeo.com/' . preg_replace( '~\D~', '', $e['id_oder_url'] );
 	$thumb  = has_post_thumbnail() ? get_the_post_thumbnail_url( null, 'large' ) : get_theme_file_uri( 'assets/img/og-default.png' );
@@ -109,7 +109,7 @@ add_action( 'wp_head', function () {
 		'name'         => $d['podcast_name'] ?? get_the_title(),
 		'description'  => $d['kurz'] ?? ( $d['format_text'] ?? '' ),
 		'thumbnailUrl' => $thumb,
-		'uploadDate'   => get_the_date( 'c' ),
+		'uploadDate'   => $e['datum'],
 		'contentUrl'   => $url,
 		'publisher'    => array( '@id' => home_url( '/#organization' ) ),
 	);

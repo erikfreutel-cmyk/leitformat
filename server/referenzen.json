@@ -546,7 +546,8 @@
    "embed": {
     "typ": "vimeo",
     "id_oder_url": "https://player.vimeo.com/video/1158773694",
-    "start": 43
+    "start": 43,
+    "datum": "2026-01-27"
    },
    "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/10/website-roi-1-1440x1440-c-default.webp",
    "probleme": [
@@ -1755,7 +1756,8 @@
    "embed": {
     "typ": "vimeo",
     "id_oder_url": "https://player.vimeo.com/video/473027141",
-    "start": null
+    "start": null,
+    "datum": "2020-10-28"
    },
    "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/05/ibbf-Cover.jpg",
    "probleme": [
@@ -2093,6 +2095,83 @@
      "hinweis": "von der alten Duplikatseite /kenjo/"
     }
    ]
+  },
+  {
+   "slug": "primagas",
+   "gruppe": "interne-formate",
+   "podcast_name": "Interner Podcast",
+   "kunde": "PRIMAGAS",
+   "branche": "Energie",
+   "format": "Interner Podcast (Audio)",
+   "kategorien": [
+    "Interner Podcast"
+   ],
+   "leistungen": "Audio-Postproduktion, Schnitt, Klangoptimierung, Transkripte zur Abstimmung, Metadaten und Cover",
+   "rhythmus": "regelmäßig",
+   "laufzeit": null,
+   "ausgangslage": "PRIMAGAS nimmt den Podcast intern auf und veröffentlicht ihn regelmäßig für die interne Kommunikation. Für Nachbearbeitung und technische Aufbereitung sollte ein externer Partner die internen Ressourcen entlasten.",
+   "format_text": "Aufgenommen wird intern über Riverside.fm. Wir schneiden, optimieren den Ton und liefern Transkripte, in denen das Team Anmerkungen direkt einträgt. Nach Freigabe folgen die finalen Dateien mit Titel, Beschreibung und Cover.",
+   "ergebnis": "Der Podcast unterstützt die interne Kommunikation regelmäßig, mit gleichbleibender Tonqualität und weniger internem Abstimmungsaufwand.",
+   "kurz": "Interner Podcast mit fester Postproduktion und Abstimmung per Transkript.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Primagas-Cover.jpg",
+   "probleme": []
+  },
+  {
+   "slug": "goldbeck-solar",
+   "gruppe": "schnitt-und-lieferung",
+   "podcast_name": "Video-Podcast",
+   "kunde": "Goldbeck Solar",
+   "branche": "Solarenergie",
+   "format": "Video-Podcast (Aufnahme beim Kunden)",
+   "kategorien": [
+    "Video-Podcast"
+   ],
+   "leistungen": "Beratung zu Setup und Aufnahme mit vorhandener Technik, Remote-Begleitung, Postproduktion Audio und Video, Intro und Outro mit Musik und Sprechertext",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Goldbeck Solar wollte mit vorhandener Kamera-, Licht- und Audiotechnik einen Video-Podcast aufbauen und dabei vor allem Ton, Struktur und Wiedererkennbarkeit verbessern.",
+   "format_text": "Das Team nimmt selbst auf, wir beraten vorab zur Technik und begleiten remote. In der Postproduktion optimieren wir die Tonspuren, synchronisieren Bild und Ton und schneiden die Folgen; dazu kamen Intro und Outro mit Musik und Sprechertext.",
+   "ergebnis": "Ein Video-Podcast mit überschaubarem technischem Aufwand, sauberem Ton und klarer Struktur. Interne Aufnahme und externe Postproduktion halten den Aufwand gering.",
+   "kurz": "Video-Podcast mit eigener Technik aufgenommen, von uns geschnitten.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/16ulKdpYkeEx7PBxhfwrOe",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Goldbeck-Solar.jpeg",
+   "probleme": []
+  },
+  {
+   "slug": "anna-ewald-podcast",
+   "gruppe": "medizin",
+   "podcast_name": "Anna Ewald Podcast",
+   "kunde": "Anna Ewald",
+   "branche": "Psychologie",
+   "format": "Video-Podcast und Audio-Podcast",
+   "kategorien": [
+    "Video-Podcast"
+   ],
+   "leistungen": "Podcast-Beratung, technische Optimierung, Video-Aufnahmen im Studio, Postproduktion Audio und Video, Reels, Anbindung an Podcast-Plattformen",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die Psychologin und Psychotherapeutin Anna Ewald wollte ihren bestehenden Podcast professionalisieren: bessere Technik, eine optimierte Produktion und mehr Präsenz auf Social Media und Podcast-Plattformen.",
+   "format_text": "In einer Beratung haben wir ihr Setup analysiert und die Technik optimiert. Die Video-Folgen entstehen in unserem Studio; Schnitt in Audio und Video, Reels für Social Media und die Anbindung an die Plattformen kommen von uns.",
+   "ergebnis": null,
+   "kurz": "Bestehenden Podcast auf Video umgestellt, mit Studio-Aufnahmen und Reels.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/show/3qQOG1a3ZUWNozAiRhHj4p",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Anna-Ewald_Cover.jpeg",
+   "probleme": []
   }
  ]
 }

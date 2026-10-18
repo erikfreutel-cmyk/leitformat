@@ -64,7 +64,7 @@ $lf_absaetze = '';
 foreach ( array( 'ausgangslage' => 'Ausgangslage', 'format_text' => 'Format', 'ergebnis' => 'Ergebnis' ) as $lf_k => $lf_t ) {
 	$lf_txt = $lf_d[ $lf_k ] ?? '';
 	if ( ! $lf_txt ) {
-		$lf_txt = '[' . $lf_t . ' – WOLFGANG-02]';
+		continue; // Keine sichtbaren Platzhalter – Ergebnis kommt mit WOLFGANG-02.
 	}
 	$lf_absaetze .= lf_h( 2, $lf_t, 'lf-ref__h' ) . "\n" . lf_p( esc_html( $lf_txt ) ) . "\n";
 }
