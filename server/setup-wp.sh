@@ -24,7 +24,7 @@ define('DISALLOW_FILE_EDIT', true);
 define('WP_POST_REVISIONS', 10);
 define('LF_GTM_ID', '');            // AUFTRAG-04
 PHP
-$WP core is-installed || $WP core install --url=https://leitformat.de --title="Leitformat" --admin_user=erik --admin_email='$LF_ADMIN_EMAIL' --skip-email
+$WP core is-installed || $WP core install --url=https://leitformat.de --title="Leitformat" --admin_user=erik --admin_email='$LF_ADMIN_EMAIL' --admin_password="\$(head -c 32 /dev/urandom | base64)" --skip-email | grep -v -i password
 $WP option update blog_public 0
 $WP option update timezone_string Europe/Berlin
 $WP option update permalink_structure '/%postname%/'
@@ -36,6 +36,5 @@ REMOTE
 "$DIR/../deploy.sh"
 scp "$DIR/htaccess-leitformat.de" "$HOST:$WEBROOT/.htaccess"
 scp "$DIR/robots.txt" "$HOST:$WEBROOT/robots.txt"
-scp "$DIR/htaccess-leitformat.com" "$HOST:/www/htdocs/w01eedfd/leitformat.com/.htaccess"
 ssh "$HOST" "$WP theme activate leitformat && $WP theme delete twentytwentythree twentytwentyfour twentytwentyfive || true; $WP rewrite flush; $WP cache flush"
 echo "Fertig. Admin-Passwort setzen: ssh $HOST \"$WP user update erik --user_pass=…\" (nicht ins Repo)."

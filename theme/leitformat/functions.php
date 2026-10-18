@@ -105,6 +105,9 @@ remove_action( 'wp_head', 'rest_output_link_wp_head' );
 remove_action( 'template_redirect', 'rest_output_link_header', 11 );
 add_filter( 'the_generator', '__return_empty_string' );
 
+// .htaccess wird von Hand gepflegt (server/htaccess-leitformat.de) – WordPress schreibt nie hinein.
+add_filter( 'flush_rewrite_rules_hard', '__return_false' );
+
 add_filter( 'document_title_separator', fn() => '–' );
 
 /* --------------------------------------------------------------------------
