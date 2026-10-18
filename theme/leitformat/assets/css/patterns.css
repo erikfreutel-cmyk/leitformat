@@ -832,3 +832,5 @@ body.lf-menu-open .wp-site-blocks > header { -webkit-backdrop-filter: none; back
 }
 a[href^="tel:"] { white-space: nowrap; }
 .lf-termin-block__titel h2 { font-size: 20px; }
+/* „+ 48 Stunden“ auf Grau #F2F2F2: dunkleres Signalrot für 4,5:1 Kontrast */
+.lf-section--white .lf-step__when--rec { color: #B81F18; }
