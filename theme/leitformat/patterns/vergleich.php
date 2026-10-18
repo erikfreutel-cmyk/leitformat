@@ -13,8 +13,7 @@ echo lf_section( 'lf-vergleich',
 			array( 'Video-Folge', 'Ja', 'Aufpreis', 'Nur Raum', 'Je nach Person', 'Selten' ),
 			array( 'Clips in 48 Stunden', 'Ja', '–', '–', '–', '–' ),
 			array( 'Konzept und Gäste', 'Ja', 'Ja', '–', '–', 'Eigene Zeit' ),
-			// Vorschlag statt „39 % hören auf“: „Oft nach wenigen Folgen Schluss“ (RUECKFRAGEN 18.10.).
-			array( 'Bei Folge 9 noch da', 'Ja, 12 Monate geplant', 'Je nach Vertrag', '–', 'Selten', '39 % hören auf' ),
+			array( 'Bei Folge 9 noch da', 'Ja, 12 Monate geplant', 'Je nach Vertrag', '–', 'Selten', 'Oft nach wenigen Folgen Schluss' ),
 			array( 'Reporting bis zur Anfrage', 'Ja', 'Downloads', '–', '–', '–' ),
 		),
 		'lf-table--vergleich'

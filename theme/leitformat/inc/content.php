@@ -11,6 +11,7 @@ defined( 'ABSPATH' ) || exit;
 const LF_NEXTGEN_HINWEIS = 'Aufgenommen, als wir noch NextGen Podcast hießen.';
 const LF_TELEFON         = '+49 30 20 63 49 03';
 const LF_TELEFON_LINK    = 'tel:+493020634903';
+const LF_GOOGLE_PROFIL   = 'https://www.google.com/search?q=NextGen+Podcast+Berlin'; // bis Erik die Profil-URL liefert
 
 /**
  * FAQ-Sätze. Schlüssel: start, pilot, preise.
@@ -20,10 +21,10 @@ const LF_TELEFON_LINK    = 'tel:+493020634903';
 function lf_faq( string $set ): array {
 	$faq = array(
 		'start'  => array(
-			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 1.950 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
+			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
 			array( 'Wie lange dauert es bis zur ersten Folge?', 'Vier Wochen vom Erstgespräch. Die Pilotfolge ist in 14 Tagen fertig.' ),
-			array( 'Geht das auch remote?', 'Ja. Wir schicken Kamera-Kits oder nehmen mit Ihrer Technik auf. Studio Berlin und Dreh vor Ort sind die Alternativen.' ),
-			array( 'Wem gehören die Rechte?', 'Ihnen, an allem: Rohmaterial, Schnitt, Clips, Musik-Lizenzen.' ),
+			array( 'Geht das auch remote?', 'Ja. Remote nehmen wir mit Ihrer Technik auf – wir sagen Ihnen vorher genau, was Sie brauchen. Studio Berlin und Dreh vor Ort sind die Alternativen.' ),
+			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
 			array( 'Wir haben keine Gäste. Was dann?', 'Gästeakquise ist Teil der Formate Unternehmen und Konzern. Im Konzern-Format kommen die Gäste aus Ihrer Zielkundenliste.' ),
 			array( 'Brauchen wir ein eigenes Studio?', 'Nein. Unser Studio steht in Berlin, mobil kommen wir zu Ihnen.' ),
 			array( 'Wie laufen Freigaben?', 'Jede Folge und jeder Clip wird per Link freigegeben, mit Kommentaren an der Stelle. Zwei Korrekturschleifen sind inklusive.' ),
@@ -32,14 +33,15 @@ function lf_faq( string $set ): array {
 		'pilot'  => array(
 			array( 'Was ist drin?', 'Formatgespräch, Aufnahme im Studio Berlin oder remote, Schnitt in Video und Audio, 6 Clips im Hochformat, Thumbnail und Shownotes. Festpreis 2.900 € netto.' ),
 			array( 'Studio oder remote?', 'Beides geht. Das Studio in Berlin hat 4 × 5 m, 3 Kameras und Platz für bis zu 4 Personen. Remote nehmen wir mit Ihrer Technik auf.' ),
-			array( 'Wem gehören die Rechte?', 'Ihnen, an allem: Rohmaterial, Schnitt, Clips, Musik-Lizenzen.' ),
+			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
 			array( 'Was, wenn uns das Ergebnis nicht gefällt?', 'Zwei Korrekturrunden sind inklusive. Passt es danach nicht, sprechen wir darüber, bevor Sie etwas weiter buchen.' ),
+			array( 'Was passiert nach der Pilotfolge?', 'Die Pilotfolge wird vollständig auf das Setup angerechnet. Beim Format Experte ist die Pilotfolge das Setup – danach zahlen Sie nur die Monatsrate.' ),
 		),
 		'preise' => array(
-			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 1.950 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
-			array( 'Gibt es Rabatt bei Jahresbuchung?', '[RABATT – Entscheidung Erik, siehe RUECKFRAGEN 18.10.]' ),
+			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
+			array( 'Gibt es Rabatt bei Jahresbuchung?', 'Wer die gesamte Laufzeit im Voraus zahlt, bekommt 10 % auf die Monatsraten. Auf das Setup gibt es keinen Rabatt.' ),
 			array( 'Was kostet der Dreh vor Ort?', 'Das hängt von Ort, Dauer und Anzahl der Kameras ab. Sie bekommen den Preis schriftlich vor dem Dreh.' ),
-			array( 'Sind Musik-Lizenzen enthalten?', 'Ja. Die Musik ist für Ihre Nutzung auf allen Kanälen lizenziert.' ),
+			array( 'Sind Musik-Lizenzen enthalten?', 'Ja. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
 			array( 'Was passiert nach der Laufzeit?', 'Der Vertrag verlängert sich automatisch. Sie können mit vier Wochen Frist zum Ende der Laufzeit kündigen.' ),
 			array( 'Wie wird abgerechnet?', 'Das Setup mit Beginn, danach monatlich. Zahlungsziel 14 Tage. Alle Preise netto zuzüglich Umsatzsteuer.' ),
 		),
@@ -125,18 +127,18 @@ function lf_paket_karten(): string {
 		array(
 			'name'   => 'Format Experte',
 			'preis'  => 'ab 2.400 €',
-			'meta'   => 'Setup 2.400 € · Laufzeit 6 Monate',
+			'meta'   => 'Setup 2.900 € = Pilotfolge · Laufzeit 6 Monate',
 			'fuer'   => 'Für Kanzleien, Berater, Praxen und Makler mit eigenem Gesicht.',
-			'punkte' => array( '2 Video-Folgen, remote oder Studio', 'Audio-Folge und Hosting', '6 Clips, Thumbnails, Shownotes' ),
+			'punkte' => array( '2 Video-Folgen, remote oder Studio', 'Audio-Folge und Hosting', '3 Clips je Folge, Thumbnails, Shownotes' ),
 			'button' => array( 'Erstgespräch buchen', '#anfrage', 'lf-secondary' ),
 			'top'    => false,
 		),
 		array(
 			'name'   => 'Format Unternehmen',
-			'preis'  => 'ab 3.900 €',
+			'preis'  => 'ab 4.400 €',
 			'meta'   => 'Setup 4.900 € inkl. Workshop und Pilotfolge · 12 Monate',
 			'fuer'   => 'Für Marketing, HR und Vertrieb im Mittelstand.',
-			'punkte' => array( '2 Studio-Folgen mit 3 Kameras', '10 Clips, LinkedIn-Textvorlagen', 'Gäste-Management und Monatsreport' ),
+			'punkte' => array( '2 Studio-Folgen mit 3 Kameras', '5 Clips je Folge, LinkedIn-Textvorlagen', 'Gäste-Management und Monatsreport' ),
 			'button' => array( 'Erstgespräch buchen', '#anfrage', 'lf-dark' ),
 			'top'    => true,
 		),
@@ -145,7 +147,7 @@ function lf_paket_karten(): string {
 			'preis'  => 'ab 8.500 €',
 			'meta'   => 'Setup ab 12.000 € · 12 Monate',
 			'fuer'   => 'Für Unternehmenskommunikation und Corporate Brand.',
-			'punkte' => array( 'Account-Based: Gäste aus Ihren Zielkunden', 'Video, Audio, Clips, Newsletter, Event-Schnitt', 'Freigabeprozess und Pipeline-Reporting' ),
+			'punkte' => array( 'Account-Based: Gäste aus Ihren Zielkunden', 'Video, Audio, Newsletter, Event-Schnitt, Clips nach Vereinbarung', 'Freigabeprozess und Pipeline-Reporting' ),
 			'button' => array( 'Gespräch mit Wolfgang', '#anfrage', 'lf-secondary' ),
 			'top'    => false,
 		),

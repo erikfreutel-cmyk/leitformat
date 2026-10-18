@@ -11,6 +11,6 @@ echo lf_section( 'lf-kundenstimmen',
 		. lf_stimme( '„NextGen Podcast hat uns dabei geholfen, das Tool Podcast technisch und redaktionell aufs nächste Level zu heben. Wir schätzen die professionelle und pragmatische Zusammenarbeit sehr.“', 'Carolin Kossin', 'Unternehmensgruppe Theo Müller · Produktion und Übersetzung des Video-Podcasts', true ) . "\n"
 		. lf_stimme( '„Wir haben mit NextGen Podcast von der ersten Idee bis zur Produktion und Moderation unseres Podcasts zusammengearbeitet. Sie haben uns im gesamten Prozess hervorragend unterstützt. Die Zusammenarbeit mit NextGen Podcast ist sehr unkompliziert und zielorientiert.“', 'Johanna Vogel', 'Rheinische Notarkammer · Konzeption, Moderation und Produktion des Video-Podcasts', true )
 	) . "\n"
-	// Google-Profil-URL fehlt noch (RUECKFRAGEN 18.10.).
-	. lf_p( 'Die Menschen dahinter sind dieselben: <a href="#">33 Bewertungen auf Google</a>.', 'lf-note' )
+	// Bis Erik die Profil-URL liefert: Google-Suche (RUECKFRAGEN 18.10.).
+	. lf_p( 'Die Menschen dahinter sind dieselben: <a href="' . esc_url( LF_GOOGLE_PROFIL ) . '" rel="noopener">33 Bewertungen auf Google</a>.', 'lf-note' )
 );

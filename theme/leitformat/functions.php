@@ -236,3 +236,31 @@ add_filter( 'render_block', function ( string $html, array $block ) {
 	}
 	return $html;
 }, 10, 2 );
+
+/* --------------------------------------------------------------------------
+ * Seiten aus Pattern-Verweisen nicht im Editor bearbeitbar (würde sie einfrieren)
+ * ----------------------------------------------------------------------- */
+
+function lf_is_pattern_page( $post ): bool {
+	$post = get_post( $post );
+	if ( ! $post || 'page' !== $post->post_type ) {
+		return false;
+	}
+	$rest = trim( preg_replace( '/<!-- wp:pattern \{[^}]*\} \/-->/', '', $post->post_content ) );
+	return '' === $rest && '' !== trim( $post->post_content );
+}
+
+add_filter( 'map_meta_cap', function ( array $caps, string $cap, int $user_id, array $args ) {
+	if ( in_array( $cap, array( 'edit_post', 'delete_post' ), true ) && ! empty( $args[0] ) && lf_is_pattern_page( $args[0] ) ) {
+		return array( 'do_not_allow' );
+	}
+	return $caps;
+}, 10, 4 );
+
+// Hinweis in der Seitenliste, warum „Bearbeiten“ fehlt.
+add_filter( 'display_post_states', function ( array $states, $post ) {
+	if ( lf_is_pattern_page( $post ) ) {
+		$states['lf-pattern'] = 'Aus Theme-Patterns – Änderungen über Aufträge';
+	}
+	return $states;
+}, 10, 2 );

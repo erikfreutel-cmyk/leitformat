@@ -8,7 +8,7 @@
 $lf_karten = array(
 	array( 'placeholder-video.svg', 'Platzhalter: Standbild einer Video-Folge im Querformat', 'Video-Folge', 'YouTube und Spotify Video, 30–45 Minuten.' ),
 	array( 'placeholder-audio.svg', 'Platzhalter: Audio-Wellenform', 'Audio-Folge', 'Spotify, Apple Podcasts, alle Apps, mit Hosting.' ),
-	array( 'placeholder-clips.svg', 'Platzhalter: drei Clips im Hochformat', '6–10 Clips im Hochformat', 'Untertitelt, für LinkedIn, Shorts und Reels.' ),
+	array( 'placeholder-clips.svg', 'Platzhalter: drei Clips im Hochformat', '3 bis 10 Clips im Hochformat', 'Je Folge, je nach Paket. Untertitelt, für LinkedIn, Shorts und Reels.' ),
 	array( 'placeholder-zitat.svg', 'Platzhalter: Zitatkarte mit dem Satz „Folge 9 entscheidet, nicht Folge 1.“', 'Zitatkarten', 'Kernsätze als Bild, bereit zum Posten.' ),
 	array( 'placeholder-newsletter.svg', 'Platzhalter: Newsletter-Textblock', 'Newsletter-Text', 'Zusammenfassung und Zitate, fertig für Ihren Versand.' ),
 );

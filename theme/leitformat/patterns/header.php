@@ -6,6 +6,7 @@
  * Inserter: no
  */
 
+// Header-Button: auf Seiten mit Anfrage-Block springt nav.js zu #anfrage, sonst /kontakt/#termin (Fallback /#anfrage).
 $lf_nav = array(
 	'/pilotfolge/'           => 'Pilotfolge',
 	'/preise/'               => 'Pakete & Preise',
@@ -24,7 +25,7 @@ $lf_nav = array(
 			<li><a href="<?php echo esc_url( home_url( $lf_url ) ); ?>"><?php echo esc_html( $lf_label ); ?></a></li>
 			<?php endforeach; ?>
 		</ul>
-		<a class="lf-btn lf-btn--dark" href="<?php echo esc_url( home_url( '/kontakt/#termin' ) ); ?>">Erstgespräch buchen</a>
+		<a class="lf-btn lf-btn--dark" href="<?php echo esc_url( home_url( get_page_by_path( 'kontakt' ) ? '/kontakt/#termin' : '/#anfrage' ) ); ?>" data-lf-cta>Erstgespräch buchen</a>
 	</nav>
 </div>
 <!-- /wp:html -->

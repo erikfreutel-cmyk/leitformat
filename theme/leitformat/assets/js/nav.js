@@ -1,5 +1,7 @@
-// Mobilmenü: Overlay, Fokus-Falle, Esc schließt.
+// Mobilmenü: Overlay, Fokus-Falle, Esc schließt. Header-Button zum Anfrage-Block der Seite.
 (() => {
+	const cta = document.querySelector('[data-lf-cta]');
+	if (cta && document.getElementById('anfrage')) cta.href = '#anfrage';
 	const btn = document.querySelector('.lf-burger');
 	const nav = document.getElementById('lf-nav');
 	if (!btn || !nav) return;

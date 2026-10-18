@@ -17,7 +17,7 @@ function lf_seo(): array {
 	$map = array(
 		'front'      => array(
 			'title' => 'Video-Podcast-Agentur für Unternehmen – Leitformat',
-			'desc'  => 'Video-Podcasts, die bei Entscheidern ankommen. Konzept, Studio Berlin, Clips in 48 Stunden, Preise ab 2.400 € im Monat. Seit 2018 für DKB, thyssenkrupp, Weleda.',
+			'desc'  => 'Video-Podcasts, die bei Entscheidern ankommen. Konzept, Studio Berlin, Clips in 48 Stunden, Preise ab 2.400 € im Monat. Podcasts seit 2020 für DKB, thyssenkrupp, Weleda.',
 			'faq'   => 'start',
 		),
 		'pilotfolge' => array(
