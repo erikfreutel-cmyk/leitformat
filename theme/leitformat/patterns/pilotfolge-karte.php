@@ -1,0 +1,22 @@
+<?php
+/**
+ * Title: Pilotfolge im Detail
+ * Slug: lf/pilotfolge-karte
+ * Categories: leitformat
+ */
+
+echo lf_section( 'lf-pilotdetail',
+	lf_group( 'lf-pilot lf-pilot--detail',
+		lf_group( 'lf-pilot__text',
+			lf_p( 'Was drin ist', 'lf-eyebrow lf-eyebrow--dark' ) . "\n"
+			. lf_h( 2, 'Eine fertige Folge, sechs Clips, ein Festpreis.' ) . "\n"
+			. lf_list( array( 'Formatgespräch mit Wolfgang Patz', 'Aufnahme im Studio Berlin oder remote', 'Schnitt in Video und Audio', '6 Clips im Hochformat, untertitelt', 'Thumbnail', 'Shownotes' ), 'lf-checks' ) . "\n"
+			. lf_p( 'Wer danach ein Format bucht, bekommt die 2.900 € auf das Setup angerechnet.' )
+		) . "\n"
+		. lf_group( 'lf-pilot__preis',
+			lf_p( '2.900 €', 'lf-price lf-price--xl' ) . "\n"
+			. lf_p( 'Festpreis netto, fertig in 14 Tagen', 'lf-pilot__hinweis' ) . "\n"
+			. lf_buttons( 'lf-pilot__cta', lf_button( 'Pilotfolge anfragen', '#anfrage' ) )
+		)
+	)
+);

@@ -11,4 +11,5 @@ rsync -avz --delete \
   --exclude '.git' --exclude '.DS_Store' \
   "$DIR/theme/leitformat/" "$HOST:$TARGET"
 
-ssh "$HOST" "/usr/bin/wp --path=$WEBROOT cache flush"
+# Pattern-Liste und Template-Cache stecken in Transients – ohne Löschen sieht WordPress neue Patterns nicht.
+ssh "$HOST" "/usr/bin/wp --path=$WEBROOT transient delete --all --network --quiet; /usr/bin/wp --path=$WEBROOT transient delete --all --quiet; /usr/bin/wp --path=$WEBROOT cache flush"

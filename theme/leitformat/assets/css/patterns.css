@@ -1,0 +1,397 @@
+/* Leitformat – Patterns (AUFTRAG-02). Mobile first, Breakpoints 600 / 900 / 1200. */
+
+/* ---------- Grundgerüst ---------- */
+
+.lf-main { overflow-x: clip; }
+.lf-content > :not(.lf-section) {
+	width: min(100% - 2 * var(--wp--preset--spacing--gutter), 1200px);
+	margin-inline: auto;
+}
+
+.lf-section { padding-block: var(--wp--preset--spacing--section); }
+.lf-section--white { background: var(--lf-white); border-block: 1px solid var(--lf-line); }
+.lf-section--ink { background: var(--lf-ink); color: var(--lf-white); }
+.lf-section--ink :where(h1, h2, h3, a) { color: var(--lf-white); }
+.lf-section--ink a:hover { color: var(--lf-grey-2); }
+.lf-section + .lf-section:not(.lf-section--white, .lf-section--ink) { padding-top: 0; }
+.lf-section--white + .lf-section, .lf-section--ink + .lf-section { padding-top: var(--wp--preset--spacing--section); }
+
+.lf-container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	width: min(100% - 2 * var(--wp--preset--spacing--gutter), 1200px);
+	margin-inline: auto;
+}
+.lf-section :where(.wp-block-group, .wp-block-quote, .lf-container) > * { margin-block: 0; }
+.lf-section .wp-block-heading { margin: 0; }
+
+.lf-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; }
+.lf-head h2 { max-width: 640px; }
+.lf-head p { max-width: 460px; color: var(--lf-text-2); }
+
+.lf-eyebrow {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: var(--lf-grey);
+}
+.lf-eyebrow::before { content: ""; flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--lf-signal); }
+.lf-eyebrow--plain::before { display: none; }
+.lf-eyebrow--dark { color: var(--lf-grey-2); }
+
+.lf-lead { font-size: var(--wp--preset--font-size--lead); color: var(--lf-text-2); max-width: 560px; }
+.lf-muted { font-size: 15px; color: var(--lf-grey); }
+.lf-section--ink .lf-muted { color: var(--lf-grey-2); }
+.lf-note { font-size: 15px; color: var(--lf-grey); }
+.lf-link a { font-weight: 600; }
+
+.lf-card {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 28px;
+	background: var(--lf-white);
+	border: 1px solid var(--lf-line);
+	border-radius: var(--wp--custom--radius--card-l);
+}
+
+.lf-price {
+	font-family: var(--wp--preset--font-family--lf-display);
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: -.03em;
+	line-height: 1;
+}
+
+.lf-pakete__grid .lf-price { font-size: clamp(32px, 3.4vw, 40px); }
+.lf-price span { white-space: nowrap; font-family: var(--wp--preset--font-family--lf-text); font-size: 16px; font-weight: 500; letter-spacing: 0; color: var(--lf-grey); }
+.lf-price--xl { font-size: 48px; }
+
+.lf-checks { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.lf-checks li { position: relative; padding-left: 30px; }
+.lf-checks li::before {
+	content: "";
+	position: absolute;
+	left: 2px;
+	top: .3em;
+	width: 14px;
+	height: 8px;
+	border-left: 2.5px solid var(--lf-signal);
+	border-bottom: 2.5px solid var(--lf-signal);
+	transform: rotate(-45deg);
+}
+@media (min-width: 600px) { .lf-checks--cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; } }
+
+.screen-reader-text {
+	position: absolute !important;
+	width: 1px; height: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap;
+}
+
+/* ---------- Hero ---------- */
+
+.lf-hero { padding-top: 32px; }
+.lf-hero .lf-container { display: grid; gap: 40px; align-items: center; }
+.lf-hero__text { display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.lf-hero h1 { font-size: var(--wp--preset--font-size--headline-1); }
+.lf-hero__cta .wp-block-button__link { min-height: var(--wp--custom--button--height-hero); }
+.lf-hero__media { min-width: 0; }
+@media (min-width: 900px) {
+	.lf-hero { padding-top: 56px; }
+	.lf-hero .lf-container { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 48px; }
+}
+
+.lf-stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px 40px;
+	padding-top: 12px;
+	border-top: 1px solid var(--lf-line);
+}
+.lf-stat { display: flex; flex-direction: column; }
+.lf-stat__value { font-family: var(--wp--preset--font-family--lf-display); font-size: var(--wp--preset--font-size--stat); font-weight: 700; letter-spacing: -.02em; line-height: 1.15; }
+.lf-stat__label { font-size: 14px; color: var(--lf-grey); }
+
+/* ---------- Video ---------- */
+
+.lf-video {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+	border-radius: var(--wp--custom--radius--card);
+	background: var(--lf-panel);
+	color: var(--lf-white);
+}
+.lf-video__play {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 84px;
+	height: 84px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: var(--lf-white);
+	fill: var(--lf-ink);
+}
+button.lf-video__play { cursor: pointer; transition: transform .15s; }
+button.lf-video__play:hover { transform: scale(1.06); }
+.lf-video__caption {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 16px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 14px;
+}
+.lf-video__caption::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--lf-signal); }
+.lf-video__consent { position: absolute; top: 12px; right: 16px; left: 16px; text-align: right; font-size: 12px; color: var(--lf-grey-2); }
+.lf-video__player { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #000; }
+
+/* ---------- Logoleiste ---------- */
+
+.lf-logos .lf-container { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 16px 40px; }
+.lf-logos__label { font-size: 14px; color: var(--lf-grey); }
+.lf-logos__list { display: contents; list-style: none; }
+.lf-logos__list li {
+	font-family: var(--wp--preset--font-family--lf-display);
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--lf-grey); /* Platzhalter-Text braucht 4,5:1; echte Logos (05) bekommen --lf-logo-grey */
+}
+
+/* ---------- Ausspielungen ---------- */
+
+.lf-ausspielungen__grid { display: grid; gap: 28px 20px; }
+@media (min-width: 600px) { .lf-ausspielungen__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .lf-ausspielungen__grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+.lf-ausspielung { display: flex; flex-direction: column; gap: 10px; }
+.lf-ausspielung__bild img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 1px solid var(--lf-line); border-radius: 10px; }
+
+/* ---------- Pakete ---------- */
+
+.lf-pilot {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+	align-items: center;
+	padding: 28px;
+	border-radius: var(--wp--custom--radius--card-l);
+	background: var(--lf-ink);
+	color: var(--lf-white);
+	scroll-margin-top: 24px;
+}
+.lf-pilot__text { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.lf-pilot h2, .lf-pilot h3 { color: var(--lf-white); }
+.lf-pilot__title { font-size: clamp(26px, 3vw, 34px) !important; }
+.lf-pilot p:not([class]) { color: #D5D7DB; }
+.lf-pilot__preis { flex: 1 1 260px; max-width: 100%; display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+.lf-pilot__hinweis { font-size: 14px; color: var(--lf-grey-2); }
+.lf-pilot__cta { width: 100%; }
+.lf-pilot .lf-checks li { color: #D5D7DB; }
+@media (min-width: 900px) { .lf-pilot { padding: 40px; } .lf-pilot__preis { flex-grow: 0; } }
+
+.lf-pakete__grid { display: grid; gap: 20px; }
+@media (min-width: 900px) { .lf-pakete__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.lf-paket {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 28px;
+	background: var(--lf-white);
+	border: 1px solid var(--lf-line);
+	border-radius: var(--wp--custom--radius--card-l);
+}
+.lf-paket--top { border: 2px solid var(--lf-ink); }
+.lf-paket--top .lf-eyebrow { color: var(--lf-signal); }
+.lf-paket .lf-eyebrow::before { display: none; }
+.lf-paket__meta { font-size: 15px; color: var(--lf-grey); }
+.lf-paket > p:not([class]) { color: var(--lf-text-2); }
+.lf-paket__list { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; color: var(--lf-text-2); }
+.lf-paket__cta { margin-top: auto !important; }
+.lf-paket__cta .wp-block-button { flex: 1 1 100%; }
+.lf-paket__cta .wp-block-button__link { width: 100%; }
+@media (min-width: 900px) { .lf-paket { padding: 32px; } }
+
+/* ---------- Ablauf ---------- */
+
+.lf-ablauf h2 { max-width: 720px; }
+.lf-steps { display: grid; gap: 28px 20px; }
+@media (min-width: 600px) { .lf-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .lf-steps { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); } }
+.lf-step { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 2px solid var(--lf-ink); }
+.lf-step__when { font-size: 14px; font-weight: 600; color: var(--lf-signal); }
+
+/* ---------- Referenzen ---------- */
+
+.lf-ref-grid { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 900px) { .lf-ref-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; } }
+.lf-ref {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 4px;
+	aspect-ratio: 1 / 1;
+	padding: 16px;
+	border-radius: var(--wp--custom--radius--card);
+	background: var(--lf-panel);
+	color: var(--lf-white);
+	text-decoration: none;
+	transition: background-color .15s;
+}
+.lf-ref:hover { background: var(--lf-ink); color: var(--lf-white); }
+.lf-ref:hover .lf-ref__name { text-decoration: underline; text-decoration-color: var(--lf-signal); }
+.lf-ref__name { font-family: var(--wp--preset--font-family--lf-display); font-size: clamp(17px, 2.2vw, 22px); font-weight: 700; line-height: 1.1; overflow-wrap: anywhere; }
+.lf-ref__sub { font-size: 13px; color: var(--lf-grey-2); }
+@media (min-width: 600px) { .lf-ref { padding: 20px; } }
+
+.lf-testimonial { display: grid; gap: 32px; align-items: center; padding-top: 24px; }
+@media (min-width: 900px) { .lf-testimonial { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; } }
+.lf-testimonial__text { display: flex; flex-direction: column; gap: 16px; }
+.lf-testimonial-section .lf-testimonial { padding-top: 0; }
+
+.lf-bigquote { margin: 0; padding: 0; border: 0; }
+.lf-bigquote p {
+	font-family: var(--wp--preset--font-family--lf-display);
+	font-size: clamp(24px, 2.6vw, 30px);
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -.01em;
+}
+
+/* ---------- Wolfgang ---------- */
+
+.lf-wolfgang .lf-container { display: grid; gap: 40px; align-items: center; }
+@media (min-width: 900px) { .lf-wolfgang .lf-container { grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 48px; } }
+.lf-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--wp--custom--radius--card); }
+.lf-wolfgang__bild { max-width: 360px; }
+.lf-wolfgang__text { display: flex; flex-direction: column; gap: 20px; }
+.lf-wolfgang h2 { font-size: clamp(28px, 3.4vw, 40px); }
+.lf-wolfgang__text > p:not([class]) { color: #D5D7DB; }
+.lf-sidequote { margin: 0; padding: 0 0 0 20px; border-left: 3px solid var(--lf-signal); }
+.lf-sidequote p { font-family: var(--wp--preset--font-family--lf-display); font-size: 22px; font-weight: 500; line-height: 1.3; }
+.lf-sidequote cite { display: block; margin-top: 12px; font-size: 15px; font-style: normal; color: var(--lf-grey-2); }
+
+/* ---------- Tabellen ---------- */
+
+.lf-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.lf-table { margin: 0; }
+.lf-table table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.lf-table--vergleich table { min-width: 720px; }
+.lf-table--markt table { min-width: 760px; }
+.lf-table th, .lf-table td { padding: 14px 12px; text-align: left; vertical-align: top; border: 0; }
+.lf-table thead th { border-bottom: 2px solid var(--lf-ink); font-weight: 600; }
+.lf-table tbody td { border-bottom: 1px solid var(--lf-line); color: var(--lf-grey); }
+.lf-table tbody td:first-child { font-weight: 600; color: var(--lf-ink); }
+.lf-table--vergleich thead th:nth-child(2) { color: var(--lf-signal); font-weight: 700; }
+.lf-table--vergleich tbody td:nth-child(2) { font-weight: 700; color: var(--lf-ink); }
+.lf-table--preise tbody td:last-child { font-family: var(--wp--preset--font-family--lf-display); font-weight: 700; color: var(--lf-ink); }
+.lf-table--preise table { max-width: 720px; }
+
+/* ---------- Kundenstimmen ---------- */
+
+.lf-stimmen { display: grid; gap: 20px; }
+@media (min-width: 900px) { .lf-stimmen { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.lf-stimme__text { font-size: 17px; line-height: 1.5; }
+.lf-stimme__name { margin-top: auto !important; font-size: 14px; color: var(--lf-grey); }
+.lf-stimme__name strong { font-size: 16px; color: var(--lf-ink); }
+.lf-stimme__hinweis { font-size: 13px; color: var(--lf-grey); }
+
+/* ---------- FAQ ---------- */
+
+.lf-faq__list { display: grid; gap: 0 48px; align-items: start; }
+@media (min-width: 900px) { .lf-faq__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-faq__item { border-bottom: 1px solid var(--lf-line); }
+.lf-faq__item summary {
+	position: relative;
+	padding: 18px 36px 18px 0;
+	font-weight: 600;
+	cursor: pointer;
+	list-style: none;
+}
+.lf-faq__item summary::-webkit-details-marker { display: none; }
+.lf-faq__item summary::after {
+	content: "";
+	position: absolute;
+	right: 6px;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid var(--lf-ink);
+	border-bottom: 2px solid var(--lf-ink);
+	transform: translateY(-70%) rotate(45deg);
+	transition: transform .15s;
+}
+.lf-faq__item[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
+.lf-faq__item p { margin: 0 0 18px; color: var(--lf-text-2); }
+
+/* ---------- Anfrage ---------- */
+
+.lf-anfrage .lf-container { display: grid; gap: 48px; }
+@media (min-width: 900px) { .lf-anfrage:not(.lf-anfrage--solo) .lf-container { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+.lf-anfrage--solo .lf-container { max-width: 720px; }
+.lf-anfrage__form, .lf-anfrage__side { display: flex; flex-direction: column; gap: 20px; }
+.lf-anfrage__form > p:not([class]) { color: var(--lf-text-2); }
+.lf-anfrage__tel { font-size: 15px; color: var(--lf-text-2); }
+.lf-termin__embed {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 320px;
+	border: 1px dashed var(--lf-grey-2);
+	border-radius: 10px;
+	background: var(--lf-paper);
+	color: var(--lf-grey);
+	font-size: 14px;
+	text-align: center;
+	scroll-margin-top: 24px;
+}
+
+.lf-form { display: flex; flex-direction: column; gap: 16px; }
+.lf-form__row { display: grid; gap: 16px; }
+@media (min-width: 600px) { .lf-form__row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-form label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600; }
+.lf-form input, .lf-form select {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 48px;
+	padding: 0 14px;
+	border: 1px solid var(--lf-grey-2);
+	border-radius: var(--wp--custom--radius--button);
+	background: var(--lf-white);
+	color: var(--lf-ink);
+	font: inherit;
+	font-size: 16px;
+	font-weight: 400;
+}
+.lf-form input:focus-visible, .lf-form select:focus-visible { outline: 2px solid var(--lf-signal); outline-offset: 1px; border-color: var(--lf-ink); }
+.lf-form button { width: 100%; min-height: var(--wp--custom--button--height-hero); cursor: pointer; }
+@media (min-width: 600px) { .lf-form button { width: auto; align-self: flex-start; } }
+.lf-form__hint { font-size: 13px; color: var(--lf-grey); }
+
+/* ---------- Preise ---------- */
+
+.lf-intro { padding-bottom: 32px; }
+.lf-intro .lf-container { gap: 20px; }
+.lf-pakete--flat { padding-top: 0; }
+.lf-zusatz .lf-checks { max-width: 900px; }
+.lf-audit__grid { display: grid; gap: 20px; }
+@media (min-width: 900px) { .lf-audit__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* ---------- Landingpage-Header/-Footer ---------- */
+
+.lf-header__tel { font-weight: 600; text-decoration: none; white-space: nowrap; }
+.lf-footer--minimal { padding-block: 32px; border-top: 1px solid var(--lf-line); }
+.lf-footer__legal { max-width: none; font-size: 14px; color: var(--lf-grey); }

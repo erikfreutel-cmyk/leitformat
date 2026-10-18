@@ -9,6 +9,9 @@ defined( 'ABSPATH' ) || exit;
 
 define( 'LF_VERSION', wp_get_theme( 'leitformat' )->get( 'Version' ) );
 
+require_once __DIR__ . '/inc/content.php';
+require_once __DIR__ . '/inc/seo.php';
+
 /**
  * SVG aus assets/img/ inline ausgeben (Logo im Header/Footer).
  */
@@ -32,7 +35,7 @@ add_action( 'after_setup_theme', function () {
 	add_theme_support( 'html5', array( 'search-form', 'gallery', 'caption', 'style', 'script' ) );
 	add_theme_support( 'responsive-embeds' );
 	remove_theme_support( 'core-block-patterns' );
-	add_editor_style( 'assets/css/theme.css' );
+	add_editor_style( array( 'assets/css/theme.css', 'assets/css/patterns.css' ) );
 } );
 
 add_action( 'init', function () {
@@ -57,8 +60,11 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'lf-theme', get_theme_file_uri( 'assets/css/theme.css' ), array(), LF_VERSION );
 	// Klein genug, dass WordPress es inline ausgibt (kein render-blockierender Request).
 	wp_style_add_data( 'lf-theme', 'path', get_theme_file_path( 'assets/css/theme.css' ) );
+	wp_enqueue_style( 'lf-patterns', get_theme_file_uri( 'assets/css/patterns.css' ), array( 'lf-theme' ), LF_VERSION );
+	wp_style_add_data( 'lf-patterns', 'path', get_theme_file_path( 'assets/css/patterns.css' ) );
 
 	wp_enqueue_script( 'lf-nav', get_theme_file_uri( 'assets/js/nav.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	wp_enqueue_script( 'lf-video', get_theme_file_uri( 'assets/js/video.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 	wp_enqueue_script( 'lf-sticky-cta', get_theme_file_uri( 'assets/js/sticky-cta.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 
 	// Nicht genutzte Core-Styles.
@@ -68,7 +74,7 @@ add_action( 'wp_enqueue_scripts', function () {
 
 // Block-CSS nur für Blöcke, die auf der Seite vorkommen.
 add_filter( 'should_load_separate_core_block_assets', '__return_true' );
-add_filter( 'styles_inline_size_limit', fn() => 40000 );
+add_filter( 'styles_inline_size_limit', fn() => 60000 );
 
 // Schriften vorladen, die über dem Falz gebraucht werden.
 add_action( 'wp_head', function () {
@@ -122,7 +128,7 @@ add_action( 'wp_head', function () {
 	echo '<meta name="theme-color" content="#15171C">' . "\n";
 
 	$title = wp_get_document_title();
-	$desc  = is_singular() && has_excerpt() ? get_the_excerpt() : get_bloginfo( 'description' );
+	$desc  = lf_meta_description();
 	$url   = is_singular() ? get_permalink() : home_url( add_query_arg( array() ) );
 	$image = is_singular() && has_post_thumbnail() ? get_the_post_thumbnail_url( null, 'large' ) : $img . 'og-default.png';
 
@@ -218,3 +224,15 @@ add_action( 'wp_footer', function () {
 	}
 	echo do_blocks( '<!-- wp:pattern {"slug":"lf/sticky-cta"} /-->' );
 } );
+
+/* --------------------------------------------------------------------------
+ * Typografie: Zahl und Einheit nie trennen („2.900 €“, „50 %“)
+ * ----------------------------------------------------------------------- */
+
+add_filter( 'render_block', function ( string $html, array $block ) {
+	$types = array( 'core/paragraph', 'core/heading', 'core/list-item', 'core/table', 'core/details', 'core/button' );
+	if ( in_array( $block['blockName'] ?? '', $types, true ) ) {
+		$html = preg_replace( '/(\d) (€|%|Stunden|Minuten|Tagen|Werktagen)/u', "$1\u{00A0}$2", $html );
+	}
+	return $html;
+}, 10, 2 );
