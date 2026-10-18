@@ -9,6 +9,8 @@ defined( 'ABSPATH' ) || exit;
 
 define( 'LF_VERSION', wp_get_theme( 'leitformat' )->get( 'Version' ) );
 
+require_once __DIR__ . '/inc/form.php';
+require_once __DIR__ . '/inc/consent.php';
 require_once __DIR__ . '/inc/content.php';
 require_once __DIR__ . '/inc/seo.php';
 require_once __DIR__ . '/inc/referenzen.php';

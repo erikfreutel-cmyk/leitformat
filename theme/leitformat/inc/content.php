@@ -248,22 +248,39 @@ function lf_testimonial_gegenbauer(): string {
 /**
  * Formular (Funktion in AUFTRAG-04).
  */
-function lf_formular( string $vorauswahl = '' ): string {
-	$optionen = array( 'Pilotfolge', 'Ein Format für unser Unternehmen', 'Konzernprojekt', 'Studio buchen', 'Noch unklar' );
-	$opts     = '';
-	foreach ( $optionen as $o ) {
-		$opts .= '<option' . ( $o === $vorauswahl ? ' selected' : '' ) . '>' . lf_e( $o ) . '</option>';
+function lf_formular( string $vorauswahl = '', bool $nachricht = false ): string {
+	$state  = function_exists( 'lf_form_state' ) ? lf_form_state() : array( 'werte' => array(), 'fehler' => array() );
+	$w      = $state['werte'];
+	$f      = $state['fehler'];
+	$wahl   = $w['vorhaben'] ?? ( array_search( $vorauswahl, LF_VORHABEN, true ) ?: '' );
+	$opts   = '';
+	foreach ( LF_VORHABEN as $key => $label ) {
+		$opts .= '<option value="' . esc_attr( $key ) . '"' . selected( $wahl, $key, false ) . '>' . lf_e( $label ) . '</option>';
 	}
+	$feld = function ( string $name, string $label, string $type, string $auto, bool $pflicht = false ) use ( $w, $f ): string {
+		$id  = 'lf-' . $name;
+		$err = $f[ $name ] ?? '';
+		return '<label for="' . $id . '">' . lf_e( $label ) . ( $pflicht ? ' *' : '' )
+			. '<input id="' . $id . '" type="' . $type . '" name="' . $name . '" autocomplete="' . $auto . '" value="' . esc_attr( $w[ $name ] ?? '' ) . '"'
+			. ( $pflicht ? ' required' : '' ) . ( $err ? ' aria-invalid="true" aria-describedby="' . $id . '-fehler"' : '' ) . '>'
+			. ( $err ? '<span class="lf-form__fehler" id="' . $id . '-fehler">' . lf_e( $err ) . '</span>' : '' ) . '</label>';
+	};
+	$hidden = '<input type="hidden" name="_lf" value="' . esc_attr( wp_create_nonce( 'lf_anfrage' ) ) . '">'
+		. '<input type="hidden" name="ts" value="' . esc_attr( lf_form_ts() ) . '">'
+		. '<input type="hidden" name="seite" value="' . esc_url( home_url( remove_query_arg( array( 'lf_form', 't', 'src', 'v' ), wp_unslash( $_SERVER['REQUEST_URI'] ?? '/' ) ) ) ) . '">';
+	foreach ( LF_ATTR_FELDER as $a ) {
+		$hidden .= '<input type="hidden" name="' . $a . '" value="" data-lf-attr="' . $a . '">';
+	}
+	$summary = $f ? '<div class="lf-form__summary" role="alert"><strong>Bitte prüfen Sie Ihre Angaben.</strong> ' . lf_e( implode( ' ', $f ) ) . '</div>' : '';
 	return '<!-- wp:html -->' . "\n"
 		. '<form class="lf-form" method="post" action="/anfrage-senden/">'
-		. '<div class="lf-form__row">'
-		. '<label>Name<input type="text" name="name" autocomplete="name"></label>'
-		. '<label>Unternehmen *<input type="text" name="firma" required autocomplete="organization"></label>'
-		. '</div><div class="lf-form__row">'
-		. '<label>E-Mail *<input type="email" name="email" required autocomplete="email"></label>'
-		. '<label>Telefon (optional)<input type="tel" name="telefon" autocomplete="tel"></label>'
-		. '</div>'
-		. '<label>Was planen Sie?<select name="vorhaben">' . $opts . '</select></label>'
+		. $summary
+		. '<div class="lf-form__row">' . $feld( 'name', 'Name', 'text', 'name' ) . $feld( 'firma', 'Unternehmen', 'text', 'organization', true ) . '</div>'
+		. '<div class="lf-form__row">' . $feld( 'email', 'E-Mail', 'email', 'email', true ) . $feld( 'telefon', 'Telefon (optional)', 'tel', 'tel' ) . '</div>'
+		. '<label for="lf-vorhaben">Was planen Sie?<select id="lf-vorhaben" name="vorhaben">' . $opts . '</select></label>'
+		. ( $nachricht ? '<label for="lf-nachricht">Nachricht (optional)<textarea id="lf-nachricht" name="nachricht" rows="4">' . esc_textarea( $w['nachricht'] ?? '' ) . '</textarea></label>' : '' )
+		. '<div class="lf-form__hp" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>'
+		. $hidden
 		. '<button class="lf-btn lf-btn--primary lf-btn--hero" type="submit">Anfrage senden</button>'
 		. '<p class="lf-form__hint">Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben zur Beantwortung der Anfrage zu. Details in der <a href="/datenschutz/">Datenschutzerklärung</a>.</p>'
 		. '</form>' . "\n" . '<!-- /wp:html -->';
@@ -369,7 +386,7 @@ function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $c
 		lf_group( 'lf-card lf-termin',
 			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
 			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
-			. "<!-- wp:html -->\n<div class=\"lf-termin__embed\" id=\"termin\">[Calendly-Kalender eingebettet – AUFTRAG-04]</div>\n<!-- /wp:html -->"
+			. lf_termin_embed()
 		) . "\n" . $telefon
 	);
 	if ( $calendly_zuerst ) {

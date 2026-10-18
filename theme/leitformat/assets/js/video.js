@@ -30,6 +30,7 @@ document.addEventListener('click', (e) => {
 		if (poster) el.poster = poster;
 	} else return;
 	el.className = 'lf-video__player';
+	(window.dataLayer = window.dataLayer || []).push({ event: 'lf_video_play', lf_video: vimeo || youtube || src });
 	box.classList.add('is-playing');
 	box.append(el);
 	el.focus();

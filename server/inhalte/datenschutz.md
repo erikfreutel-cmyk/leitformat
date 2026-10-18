@@ -46,13 +46,15 @@ Schriften werden lokal von unserem Server geladen. Eine Verbindung zu Google Fon
 
 Technisch notwendige Cookies setzen wir auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO und § 25 Abs. 2 TDDDG ein. Alle übrigen Cookies und vergleichbaren Technologien (Analyse, Werbung) setzen wir nur ein, wenn Sie über unser Einwilligungsbanner zugestimmt haben (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG).
 
-Ihre Auswahl können Sie jederzeit mit Wirkung für die Zukunft über den Link „Cookie-Einstellungen“ am Ende jeder Seite ändern oder widerrufen.
+Ihre Auswahl speichern wir für sechs Monate im Cookie „lf_consent“ (technisch notwendig). Sie können sie jederzeit mit Wirkung für die Zukunft über den Link „Cookie-Einstellungen“ am Ende jeder Seite ändern oder widerrufen.
+
+**Herkunft eines Besuchs.** Kommen Sie über eine Anzeige oder einen Link mit Kampagnenparametern (z. B. utm_source, gclid) auf unsere Website, übernehmen wir diese Angaben in das Anfrageformular. Nur mit Ihrer Einwilligung speichern wir sie für 30 Tage im Cookie „lf_attr“, damit wir eine spätere Anfrage der Anzeige zuordnen können. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG).
 
 **Google Consent Mode (v2).** Wir nutzen den Einwilligungsmodus von Google. Er übermittelt Ihre Auswahl im Banner an die Google-Dienste auf dieser Website. Ohne Ihre Einwilligung setzen diese Dienste keine Cookies und lesen keine aus. In diesem Fall können cookielose Signale übertragen werden (z. B. Zeitpunkt, Gerätetyp, ob eine Anfrage gesendet wurde), die keine Wiedererkennung über Cookies erlauben und die Google nur zusammengefasst zur Modellierung von Conversions verwendet.
 
 ## 5. Kontaktaufnahme
 
-**Anfrageformular.** Wenn Sie uns über das Formular eine Anfrage senden, verarbeiten wir die Angaben aus dem Formular: Unternehmen und E-Mail-Adresse (Pflichtfelder), optional Name, Telefonnummer und Ihr Vorhaben. Wir verwenden die Daten, um Ihre Anfrage zu beantworten und Anschlussfragen zu klären.
+**Anfrageformular.** Wenn Sie uns über das Formular eine Anfrage senden, verarbeiten wir die Angaben aus dem Formular: Unternehmen und E-Mail-Adresse (Pflichtfelder), optional Name, Telefonnummer, Ihr Vorhaben und eine Nachricht, dazu die Seite, von der Sie die Anfrage senden, und gegebenenfalls die Kampagnenparameter (siehe Abschnitt 4). Wir verwenden die Daten, um Ihre Anfrage zu beantworten und Anschlussfragen zu klären. Zum Schutz vor automatisierten Anfragen prüfen wir ein verstecktes Feld und die Zeit bis zum Absenden und begrenzen die Zahl der Anfragen je IP-Adresse für zehn Minuten; die IP-Adresse wird dafür nur als Prüfsumme (Hash) für zehn Minuten gespeichert.
 
 Die Angaben werden per E-Mail an uns gesendet und zusätzlich automatisch (Webhook) in eine Tabelle in Google Workspace übertragen, in der wir Anfragen bearbeiten. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Mit Google besteht ein Vertrag zur Auftragsverarbeitung.
 
@@ -62,7 +64,7 @@ Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf einen Ve
 
 ## 6. Terminbuchung mit Calendly
 
-Für Erstgespräche nutzen wir Calendly (Calendly, LLC, 115 E Main St., Ste A1B, Buford, Georgia 30518, USA). Der Kalender wird erst geladen, wenn Sie ihn per Klick aktivieren; vorher besteht keine Verbindung zu Calendly. Bei der Buchung geben Sie Name, E-Mail-Adresse und Wunschtermin ein; diese Daten werden auf den Servern von Calendly gespeichert und zur Planung, Durchführung und Nachbereitung des Termins verwendet.
+Für Erstgespräche nutzen wir Calendly (Calendly, LLC, 115 E Main St., Ste A1B, Buford, Georgia 30518, USA). Der Kalender wird erst geladen, wenn Sie ihn per Klick aktivieren oder im Einwilligungsbanner „Alle akzeptieren“ gewählt haben; vorher besteht keine Verbindung zu Calendly. Kommen Sie nach dem Absenden des Formulars auf unsere Danke-Seite, übergeben wir Name und E-Mail-Adresse an den Kalender, damit Sie sie nicht erneut eingeben müssen. Wird ein Termin gebucht, erfahren wir das über eine Nachricht des Kalenders an unsere Seite und zählen es – nur mit Ihrer Einwilligung – als Conversion. Bei der Buchung geben Sie Name, E-Mail-Adresse und Wunschtermin ein; diese Daten werden auf den Servern von Calendly gespeichert und zur Planung, Durchführung und Nachbereitung des Termins verwendet.
 
 Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Buchung der Vorbereitung eines Vertrags dient, im Übrigen Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), mit der der Kalender geladen wird. Calendly ist nach dem EU-US Data Privacy Framework zertifiziert; die Übermittlung in die USA stützt sich darauf. Weitere Informationen: [calendly.com/legal/privacy-notice](https://calendly.com/legal/privacy-notice)
 
@@ -72,7 +74,7 @@ Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit die Buchung der Vorbereit
 
 **Google Ads und Conversion-Tracking.** Wir schalten Anzeigen über Google Ads. Mit dem Conversion-Tracking erfahren wir, ob jemand nach einem Klick auf eine Anzeige eine Anfrage gesendet hat. Dazu wird nach Ihrer Einwilligung ein Cookie gesetzt. Wir erfahren nur die Gesamtzahl der Nutzer, nicht Ihre Identität.
 
-**Erweiterte Conversions.** Senden Sie nach Einwilligung das Anfrageformular ab, werden Ihre E-Mail-Adresse und gegebenenfalls Telefonnummer in Ihrem Browser verschlüsselt (gehasht, SHA-256) und an Google übermittelt. Google gleicht diese Werte mit angemeldeten Google-Konten ab, um Conversions genauer zuzuordnen; die Klardaten erhält Google nicht.
+**Erweiterte Conversions.** Senden Sie nach Einwilligung das Anfrageformular ab, wird Ihre E-Mail-Adresse auf unserem Server unumkehrbar verschlüsselt (gehasht, SHA-256) und auf der Danke-Seite an Google übermittelt. Ohne Einwilligung findet diese Übermittlung nicht statt. Den Hashwert halten wir dafür höchstens 30 Minuten vor. Google gleicht diese Werte mit angemeldeten Google-Konten ab, um Conversions genauer zuzuordnen; die Klardaten erhält Google nicht.
 
 **Google Analytics 4.** Nach Ihrer Einwilligung analysieren wir mit Google Analytics 4, wie unsere Website genutzt wird, etwa wie weit Seiten gelesen werden und wie lange Besucher bleiben. Google Analytics wird über den Google Tag Manager geladen. IP-Adressen werden in GA4 nicht gespeichert.
 

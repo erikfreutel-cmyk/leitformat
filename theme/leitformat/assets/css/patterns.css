@@ -562,3 +562,35 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-video--link { color: var(--lf-white); text-decoration: none; }
 .lf-video--link:hover { color: var(--lf-white); }
 .lf-video--link:hover .lf-video__play { transform: scale(1.06); }
+
+/* ---------- Formular: Fehler, Honeypot, Nachricht ---------- */
+
+.lf-form__hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.lf-form textarea {
+	box-sizing: border-box; width: 100%; padding: 12px 14px; border: 1px solid var(--lf-grey-2);
+	border-radius: var(--wp--custom--radius--button); background: var(--lf-white); color: var(--lf-ink);
+	font: inherit; font-size: 16px; font-weight: 400; resize: vertical;
+}
+.lf-form [aria-invalid="true"] { border-color: var(--lf-signal); border-width: 2px; }
+.lf-form__fehler { font-size: 14px; font-weight: 500; color: #B81F18; }
+.lf-form__summary { padding: 14px 16px; border-left: 3px solid var(--lf-signal); background: var(--lf-white); font-size: 15px; }
+
+/* ---------- Consent-Banner, Calendly ---------- */
+
+.lf-consent {
+	position: fixed; z-index: 200; left: 12px; right: 12px; bottom: 12px;
+	display: grid; gap: 12px; max-width: 560px; margin-left: auto; padding: 20px;
+	border: 1px solid var(--lf-line); border-radius: var(--wp--custom--radius--card-l);
+	background: var(--lf-white); box-shadow: 0 8px 32px rgba(21, 23, 28, .18);
+}
+.lf-consent[hidden] { display: none; }
+.lf-consent p { margin: 0; max-width: none; font-size: 15px; }
+.lf-consent__text { color: var(--lf-text-2); }
+.lf-consent__buttons { display: grid; gap: 8px; grid-template-columns: 1fr 1fr; }
+.lf-consent__buttons .lf-btn { width: 100%; padding: 0 12px; box-sizing: border-box; }
+body.lf-consent-offen .lf-sticky-cta { display: none; }
+.lf-termin__frame { width: 100%; height: 700px; border: 0; border-radius: 10px; }
+.lf-termin__embed { flex-direction: column; gap: 10px; padding: 16px; }
+.lf-termin__embed .lf-video__consent { position: static; text-align: center; color: var(--lf-grey); }
+.lf-termin__embed:has(iframe) { padding: 0; border: 0; min-height: 700px; }
+.lf-termin__embed--ohne p { margin: 0; color: var(--lf-text-2); }

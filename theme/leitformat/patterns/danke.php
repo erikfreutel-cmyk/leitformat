@@ -17,7 +17,7 @@ echo lf_section( 'lf-anfrage lf-danke',
 		lf_group( 'lf-card lf-termin',
 			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
 			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
-			. "<!-- wp:html -->\n<div class=\"lf-termin__embed\" id=\"termin\">[Calendly-Kalender eingebettet – AUFTRAG-04]</div>\n<!-- /wp:html -->"
+			. lf_termin_embed()
 		)
 	)
 ) . "\n\n" . lf_section( 'lf-section--white lf-teaser',

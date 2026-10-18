@@ -53,7 +53,6 @@ Lies dazu einmal die drei Seiten, die schon stehen (noindex, nur per Link erreic
 | D5 | Zitat Kolbow mit „damals“ – ist die Person nicht mehr beim Kunden, und ist das Zitat so freigegeben? | Referenzen | mit „damals“ | |
 | D6 | Video „Wer wir sind“ (Vimeo 1127602118, 3:42, alter Name): darf das irgendwo auf leitformat.de laufen, oder drehen wir das mit dem Hero-Video neu? | derzeit nirgends | nicht eingebunden | |
 | D7 | Hauptstadt-Podcast: Link zu Spotify/Apple/YouTube. Hinweis: Unter „Hauptstadt Podcast“ findet man bei Spotify zuerst „Hauptstadt – Das Briefing“ von The Pioneer – deshalb brauchen wir deinen Link. | /ueber-uns/, /interview-podcast/ | ohne Link | |
-| D8 | Porsche-Story (Vimeo 1169274184): In Vimeo unter Privatsphäre → Einbetten die Domains leitformat.de und www.leitformat.de freigeben – machst du das, oder Erik? | /interview-podcast/ | Standbild | |
 | D9 | Mobilnummer +49 160 78 49 590 steht auf /kontakt/ – willst du sie dort (Anrufe aus Google Ads, auch abends), oder nur die Festnetznummer? | /kontakt/ | drin | |
 
 ## E. Was danach passiert
