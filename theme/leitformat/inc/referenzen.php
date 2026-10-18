@@ -43,7 +43,7 @@ function lf_ref_cover( WP_Post $post, string $class = 'lf-ref__cover', bool $eag
 	if ( has_post_thumbnail( $post ) ) {
 		return get_the_post_thumbnail( $post, 'lf-kachel', array( 'class' => $class, 'loading' => $eager ? 'eager' : 'lazy', 'sizes' => '(min-width: 900px) 25vw, 50vw' ) );
 	}
-	return '<span class="' . esc_attr( $class ) . ' lf-ref__cover--leer" aria-hidden="true"></span>';
+	return ''; // Kein Platzhalter – ohne Cover nur Titel und Kunde.
 }
 
 /** Player mit Klick-Einwilligung aus dem embed-Feld. */
@@ -76,7 +76,7 @@ function lf_ref_kachel( WP_Post $post, array $d ): string {
 	return '<a class="lf-ref lf-ref--bild" href="' . esc_url( get_permalink( $post ) ) . '" data-kat="' . esc_attr( $kat ) . '">'
 		. lf_ref_cover( $post )
 		. '<span class="lf-ref__text"><span class="lf-ref__name">' . esc_html( $d['podcast_name'] ?? $post->post_title ) . '</span>'
-		. '<span class="lf-ref__sub">' . esc_html( trim( ( $d['kunde'] ?? '' ) . ' · ' . ( $d['format'] ?? '' ), ' ·' ) ) . '</span>'
+		. '<span class="lf-ref__sub">' . esc_html( $d['kunde'] ?? '' ) . '</span>'
 		. ( ! empty( $d['kurz'] ) ? '<span class="lf-ref__kurz">' . esc_html( $d['kurz'] ) . '</span>' : '' )
 		. '</span></a>';
 }

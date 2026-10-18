@@ -10,12 +10,12 @@ $lf_amplify = lf_quelle( 'Podcast Amplify 2026', 'https://www.columbiagorgenews.
 
 echo lf_section( 'lf-hero',
 	lf_group( 'lf-hero__text',
-		lf_p( 'Corporate-Podcast-Agentur für Konzerne', 'lf-eyebrow' ) . "\n"
+		''
 		. lf_h( 1, 'Corporate Podcasts, die Ihre Zielkunden erreichen – nicht nur Ihre Mitarbeiter.' ) . "\n"
 		. lf_p( 'Video-Podcasts für Unternehmenskommunikation, Corporate Brand und Public Affairs. Gäste aus Ihren Zielkunden, Freigaben nach Ihrem Prozess, Reporting bis zur Anfrage.', 'lf-lead' ) . "\n"
 		. lf_buttons( 'lf-hero__cta', lf_button( 'Gespräch mit Wolfgang', '#anfrage' ), lf_button( 'Preise ansehen', '/preise/', 'lf-secondary' ) )
 	) . "\n"
-	. lf_group( 'lf-hero__media', lf_video( 'Tom Kalányos, damals Marketingleiter Gegenbauer · 0:26', 'Kundenstimme Gegenbauer abspielen', '1052003179' ) )
+	. lf_group( 'lf-hero__media', lf_video( 'Tom Kalányos, damals Marketingleiter Gegenbauer, 26 Sekunden', 'Kundenstimme Gegenbauer abspielen', '1052003179', '', '', '', 0, 'kalanyos-gegenbauer.webp' ) )
 )
 . "\n\n" . lf_section( 'lf-logos', lf_p( 'Wir produzieren für', 'lf-logos__label' ) . "\n" . lf_list( array_map( 'lf_e', lf_logos( true ) ), 'lf-logos__list' ) )
 . "\n\n" . lf_section( 'lf-section--white lf-versprechen',

@@ -27,7 +27,7 @@ $lf_team = array(
 );
 $lf_karten = '';
 foreach ( $lf_team as $t ) {
-	$lf_karten .= lf_group( 'lf-person', "<!-- wp:html -->\n<div class=\"lf-person__bild\" aria-hidden=\"true\">" . lf_e( mb_substr( $t[0], 0, 1 ) ) . "</div>\n<!-- /wp:html -->\n" . lf_p( '<strong>' . lf_e( $t[0] ) . '</strong>' ) . "\n" . lf_p( lf_e( $t[1] ), 'lf-muted' ) ) . "\n";
+	$lf_karten .= lf_group( 'lf-person', lf_p( '<strong>' . lf_e( $t[0] ) . '</strong>' ) . "\n" . lf_p( lf_e( $t[1] ), 'lf-muted' ) ) . "\n";
 }
 
 $lf_presse = lf_list( array(
@@ -37,7 +37,7 @@ $lf_presse = lf_list( array(
 ), 'lf-presse' );
 
 echo lf_section( 'lf-intro lf-ueber',
-	lf_p( 'Über uns', 'lf-eyebrow' ) . "\n"
+	''
 	. lf_h( 1, 'Fünf Leute, ein Studio in Berlin.' ) . "\n"
 	. lf_p( 'Ein festes Team aus Strategie, Redaktion, Produktion und Technik. Keine wechselnden Freelancer, jedes Projekt hat feste Ansprechpartner.', 'lf-lead' )
 )
@@ -45,9 +45,8 @@ echo lf_section( 'lf-intro lf-ueber',
 	lf_h( 2, 'Von einem Blog zur Video-Podcast-Agentur.' ) . "\n" . lf_group( 'lf-steps', $lf_steps )
 )
 . "\n\n" . lf_section( 'lf-section--ink lf-wolfgang',
-	lf_group( 'lf-wolfgang__bild', lf_image( 'placeholder-portrait.svg', 'Platzhalter: Porträt von Wolfgang Patz', 'lf-portrait' ) ) . "\n"
-	. lf_group( 'lf-wolfgang__text',
-		lf_p( 'Wolfgang Patz, Gründer und Geschäftsführer', 'lf-eyebrow lf-eyebrow--plain lf-eyebrow--dark' ) . "\n"
+	lf_group( 'lf-wolfgang__text',
+		lf_p( 'Wolfgang Patz, Gründer und Geschäftsführer', 'lf-rolle' ) . "\n"
 		. lf_h( 2, '„Ein Podcast ist die authentischste Content-Quelle eines Unternehmens.“' ) . "\n"
 		. lf_p( 'Gelernter Fleischer, danach Jahre in leitender Verantwortung. 2017 der Neustart als Praktikant in einer Berliner Werbeagentur, um zu verstehen, wie Konzerne kommunizieren, dann ein Jahr in einer PR-Agentur. 2018 gründete er mit Erik Freutel die NextGen Media GmbH. Seit 2020 moderiert er den Hauptstadt-Podcast – Gespräche mit Politikern, Spitzensportlern, Schauspielern und CEOs.' ) . "\n"
 		. lf_p( '<a href="https://www.linkedin.com/in/wolfgang-patz/" rel="noopener">Wolfgang auf LinkedIn</a>', 'lf-link' )
@@ -73,7 +72,7 @@ echo lf_section( 'lf-intro lf-ueber',
 			lf_h( 2, 'Ehemals NextGen Podcast.' ) . "\n"
 			. lf_p( 'Bis 2026 hießen wir NextGen Podcast. Der neue Name steht für das, was wir heute liefern: Video als Standard und Formate mit Laufzeit statt einzelner Folgen. Die Menschen, das Studio und die Kunden sind dieselben.' )
 		) . "\n"
-		. lf_group( 'lf-card lf-bewertung',
+		. lf_group( 'lf-bewertung',
 			lf_p( '33', 'lf-price lf-price--xl' ) . "\n"
 			. lf_p( 'Bewertungen auf Google, gesammelt als NextGen Podcast.', 'lf-muted' ) . "\n"
 			. lf_p( '<a href="' . esc_url( LF_GOOGLE_PROFIL ) . '" rel="noopener">Bewertungen lesen</a>', 'lf-link' )

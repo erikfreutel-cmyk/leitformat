@@ -25,8 +25,13 @@
 				},
 				{
 					"slug": "lf-paper",
-					"name": "Papier",
-					"color": "#F6F3EE"
+					"name": "Seite (Weiß)",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "lf-hell",
+					"name": "Studiopanel (Hellgrau)",
+					"color": "#F2F3F5"
 				},
 				{
 					"slug": "lf-white",
@@ -61,7 +66,7 @@
 				{
 					"slug": "lf-line",
 					"name": "Linie",
-					"color": "#DAD6CE"
+					"color": "#D9DCE1"
 				},
 				{
 					"slug": "lf-logo-grey",
@@ -182,10 +187,10 @@
 				{
 					"slug": "headline-1",
 					"name": "H1",
-					"size": "64px",
+					"size": "72px",
 					"fluid": {
 						"min": "40px",
-						"max": "64px"
+						"max": "72px"
 					}
 				}
 			]
@@ -296,7 +301,8 @@
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--headline-1)",
-					"fontWeight": "800"
+					"fontWeight": "800",
+					"lineHeight": "0.95"
 				}
 			},
 			"h2": {

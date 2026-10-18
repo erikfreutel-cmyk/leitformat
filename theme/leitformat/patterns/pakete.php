@@ -6,9 +6,9 @@
  * Description: Pilotfolge als dunkle Karte, drei Formate, Vergleichssatz. Preise stehen nur hier und in inc/content.php.
  */
 
-$lf_pilot = lf_group( 'lf-pilot',
+$lf_pilot = lf_group( 'lf-pilot lf-pilot--bild',
 	lf_group( 'lf-pilot__text',
-		lf_p( 'Einstieg', 'lf-eyebrow lf-eyebrow--dark' ) . "\n"
+		''
 		. lf_h( 3, 'Die Pilotfolge: eine komplette Video-Folge in 14 Tagen.', 'lf-pilot__title' ) . "\n"
 		. lf_p( 'Formatgespräch, Aufnahme im Studio Berlin oder remote, Schnitt in Video und Audio, 6 Clips im Hochformat, Thumbnail, Shownotes. Die Pilotfolge wird vollständig auf das Setup angerechnet.' )
 	) . "\n"
@@ -19,7 +19,7 @@ $lf_pilot = lf_group( 'lf-pilot',
 	)
 );
 // Anker #pilotfolge für den Hero-Button.
-$lf_pilot = str_replace( '<div class="wp-block-group lf-pilot">', '<div class="wp-block-group lf-pilot" id="pilotfolge">', $lf_pilot );
+$lf_pilot = str_replace( '<div class="wp-block-group lf-pilot lf-pilot--bild">', '<div class="wp-block-group lf-pilot lf-pilot--bild" id="pilotfolge">', $lf_pilot );
 echo lf_section( 'lf-pakete',
 	lf_head( 'Pakete und Preise.', 'Alle Preise netto. Der Einstieg ist eine Folge zum Festpreis, ohne Jahresvertrag.' ) . "\n"
 	. $lf_pilot . "\n"

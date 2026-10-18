@@ -22,14 +22,15 @@ Repo für leitformat.de (WordPress-Block-Theme `leitformat` + Aufträge + Doku).
 | Token | Wert | Verwendung |
 | --- | --- | --- |
 | `--lf-ink` | `#15171C` | Text, dunkle Flächen |
-| `--lf-paper` | `#F6F3EE` | Seitenhintergrund |
+| `--lf-paper` | `#FFFFFF` | Seitenhintergrund (seit DESIGN-01 Weiß statt Creme) |
+| `--lf-hell` | `#F2F3F5` | Flächen, „Studiopanel“ (DESIGN-01) |
 | `--lf-white` | `#FFFFFF` | Karten, helle Abschnitte |
-| `--lf-signal` | `#D7261E` | Logo-Punkt, Primärbutton, Markierungen. Nie als Fläche. |
+| `--lf-signal` | `#D7261E` | REC-Signal: Logo-Punkt, Primärbutton, aktiver Filter, laufendes Video, „+ 48 Stunden“. Nie als Fläche, nie als Eyebrow oder Spaltenfarbe (DESIGN-01). |
 | `--lf-panel` | `#1C1F26` | Video-Platzhalter, dunkle Kacheln |
 | `--lf-text-2` | `#3A3D44` | Fließtext auf hell |
 | `--lf-grey` | `#5E626A` | Nebentext, Labels |
 | `--lf-grey-2` | `#B8BBC0` | Nebentext auf dunkel, Rahmen Inputs |
-| `--lf-line` | `#DAD6CE` | Linien, Kartenrahmen |
+| `--lf-line` | `#D9DCE1` | Linien, Rahmen der Paketkarten |
 | `--lf-logo-grey` | `#8A8E96` | Kundenlogos in Grau |
 
 Schriften (lokal gehostet, woff2, `font-display: swap`): **Bricolage Grotesque** 500/700/800 für Headlines, Zahlen, Preise · **Instrument Sans** 400/500/600 für Text. Headlines `letter-spacing: -0.02em`, `line-height: 1.05`. Body 17 px mobil / 18 px Desktop, Zeilenlänge max. 65 Zeichen. Container 1200 px, Seitenrand 20/32 px, Section-Padding 56/72 px. Radius 8 px Buttons, 12–14 px Karten. Buttons min. 48 px hoch, auf Mobil volle Breite.

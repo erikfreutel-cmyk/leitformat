@@ -24,13 +24,13 @@ $lf_rechner = '<!-- wp:html -->
 
 echo lf_section( 'lf-hero',
 	lf_group( 'lf-hero__text',
-		lf_p( 'Interview-Podcast für Unternehmen', 'lf-eyebrow' ) . "\n"
+		''
 		. lf_h( 1, 'Der Interview-Podcast, in dem Ihre Wunschkunden die Gäste sind.' ) . "\n"
 		. lf_p( 'Mehr Kunden, ein größeres Netzwerk und mehr Reichweite aus einem Format: Ihrem eigenen Interview-Podcast. Produziert in Berlin, Clips in 48 Stunden.', 'lf-lead' ) . "\n"
 		. lf_buttons( 'lf-hero__cta', lf_button( 'Erstgespräch buchen', '#anfrage' ), lf_button( 'Wert berechnen', '#rechner', 'lf-secondary' ) )
 	) . "\n"
-	. lf_group( 'lf-card lf-beleg',
-		lf_p( 'Selbst ausprobiert', 'lf-eyebrow' ) . "\n"
+	. lf_group( 'lf-beleg',
+		''
 		. lf_p( '<strong>Wolfgang Patz moderiert seit 2020 den Hauptstadt-Podcast – Interview-Folgen im eigenen Format.</strong>' ) . "\n"
 		. lf_p( 'Er hat das Format gestartet, um sein Netzwerk zu erweitern: Politiker, Olympiasieger, Unternehmer, Konzern-CEOs. Aus einem dieser Gäste wurde der erste Konzernkunde.', 'lf-muted' )
 	)
@@ -48,7 +48,7 @@ echo lf_section( 'lf-hero',
 	lf_group( 'lf-testimonial',
 		lf_group( 'lf-testimonial__media', lf_video_link( 'Simon Mader, CEO Adbaker', 'https://vimeo.com/1169274184' ) ) . "\n"
 		. lf_group( 'lf-testimonial__text',
-			lf_p( 'Fallgeschichte', 'lf-eyebrow lf-eyebrow--plain' ) . "\n"
+			''
 			. lf_h( 2, 'Nach einem Podcast-Auftritt rief Porsche an.' ) . "\n"
 			. lf_p( 'Simon Mader ist als Gast in Podcasts gegangen, statt kalt zu akquirieren. Nach seinem Auftritt im Hauptstadt-Podcast von Wolfgang Patz kam der Anruf:' ) . "\n"
 			. '<!-- wp:quote {"className":"lf-bigquote"} -->' . "\n" . '<blockquote class="wp-block-quote lf-bigquote">' . lf_p( '„Hey Simon, hier hat grad jemand von Porsche angerufen und der will dich sprechen.“' ) . '</blockquote>' . "\n" . '<!-- /wp:quote -->'

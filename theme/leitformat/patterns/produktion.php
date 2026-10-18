@@ -9,7 +9,7 @@
 
 echo lf_section( 'lf-hero',
 	lf_group( 'lf-hero__text',
-		lf_p( 'Podcast-Produktion für Unternehmen', 'lf-eyebrow' ) . "\n"
+		''
 		. lf_h( 1, 'Podcast-Produktion, die bei Folge 9 noch läuft.' ) . "\n"
 		. lf_p( 'Audio und Video, von der Konzeption bis zur veröffentlichten Folge. Fertig in 5 Werktagen, Clips in 48 Stunden, zwei Korrekturrunden inklusive.', 'lf-lead' ) . "\n"
 		. lf_buttons( 'lf-hero__cta', lf_button( 'Pilotfolge anfragen – 2.900 €', '#anfrage' ), lf_button( 'Preise ansehen', '/preise/', 'lf-secondary' ) )

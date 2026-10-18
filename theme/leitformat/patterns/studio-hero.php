@@ -5,9 +5,9 @@
  * Categories: leitformat
  */
 
-echo lf_section( 'lf-hero lf-hero--bild',
+echo lf_section( 'lf-hero lf-hero--bild lf-hero--rand',
 	lf_group( 'lf-hero__text',
-		lf_p( 'Podcast-Studio, Berlin-Lichtenberg', 'lf-eyebrow' ) . "\n"
+		''
 		. lf_h( 1, 'Podcast-Studio in Berlin: drei Kameras, ein Ansprechpartner, ab 200 €.' ) . "\n"
 		. lf_p( '4 × 5 m in Berlin-Lichtenberg, drei Sony-4K-Kameras, drei Shure SM7B, Platz für vier Personen. Immer ein Techniker im Raum, Rohdaten am selben Tag.', 'lf-lead' ) . "\n"
 		. lf_buttons( 'lf-hero__cta', lf_button( 'Studio anfragen', '#anfrage' ), lf_button( 'Preise ansehen', '#preise', 'lf-secondary' ) )

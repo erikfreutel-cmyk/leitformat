@@ -16,7 +16,7 @@ $lf_d = lf_ref( $lf_post );
 if ( 'sammlung' === ( $lf_d['typ'] ?? '' ) ) {
 	$lf_html = '';
 	foreach ( $lf_d['projekte'] ?? array() as $lf_pr ) {
-		$lf_cover = ! empty( $lf_pr['cover_id'] ) ? wp_get_attachment_image( (int) $lf_pr['cover_id'], 'lf-kachel', false, array( 'class' => 'lf-projekt__cover', 'loading' => 'lazy', 'sizes' => '(min-width: 900px) 240px, 40vw' ) ) : '<span class="lf-projekt__cover lf-ref__cover--leer" aria-hidden="true"></span>';
+		$lf_cover = ! empty( $lf_pr['cover_id'] ) ? wp_get_attachment_image( (int) $lf_pr['cover_id'], 'lf-kachel', false, array( 'class' => 'lf-projekt__cover', 'loading' => 'lazy', 'sizes' => '(min-width: 900px) 240px, 40vw' ) ) : '';
 		$lf_text  = array_filter( array( $lf_pr['ausgangslage'] ?? '', $lf_pr['format_text'] ?? '', $lf_pr['ergebnis'] ?? '' ) );
 		$lf_zitat = '';
 		if ( ! empty( $lf_pr['zitat']['text'] ) ) {
@@ -30,7 +30,7 @@ if ( 'sammlung' === ( $lf_d['typ'] ?? '' ) ) {
 			. "<!-- wp:html -->\n" . $lf_cover . "\n<!-- /wp:html -->\n"
 			. lf_group( 'lf-projekt__text',
 				lf_h( 2, esc_html( $lf_pr['podcast_name'] ?? '' ), 'lf-projekt__titel' ) . "\n"
-				. lf_p( esc_html( trim( ( $lf_pr['kunde'] ?? '' ) . ' · ' . ( $lf_pr['format'] ?? '' ), ' ·' ) ), 'lf-eyebrow lf-eyebrow--plain' ) . "\n"
+				. lf_p( esc_html( $lf_pr['kunde'] ?? '' ) . '<br>' . esc_html( $lf_pr['format'] ?? '' ), 'lf-muted' ) . "\n"
 				. lf_p( esc_html( implode( ' ', array_slice( $lf_text, 0, 3 ) ) ) ) . "\n"
 				. $lf_zitat . "\n"
 				. ( ! empty( $lf_pr['embed'] ) ? lf_ref_player( $lf_pr['embed'], $lf_pr['podcast_name'] ?? '' ) : '' )
@@ -39,7 +39,7 @@ if ( 'sammlung' === ( $lf_d['typ'] ?? '' ) ) {
 	}
 	echo do_blocks(
 		lf_section( 'lf-intro lf-ref-kopf',
-			lf_p( '<a href="/referenzen/">Referenzen</a>', 'lf-eyebrow lf-eyebrow--plain lf-crumb' ) . "\n"
+			lf_p( '<a href="/referenzen/">Alle Referenzen</a>', 'lf-crumb' ) . "\n"
 			. lf_h( 1, esc_html( $lf_d['titel'] ?? get_the_title( $lf_post ) ) ) . "\n"
 			. lf_p( esc_html( $lf_d['intro'] ?? '' ), 'lf-lead' )
 		)
@@ -72,12 +72,12 @@ $lf_zitat = '';
 if ( ! empty( $lf_d['zitat']['text'] ) ) {
 	$lf_zitat = lf_stimme( $lf_d['zitat']['text'], $lf_d['zitat']['name'] ?? '', $lf_d['zitat']['rolle'] ?? '', str_contains( $lf_d['zitat']['text'], 'NextGen' ) );
 }
-$lf_player = ! empty( $lf_d['embed'] ) ? lf_ref_player( $lf_d['embed'], ( $lf_d['podcast_name'] ?? '' ) . ' · ' . ( $lf_d['kunde'] ?? '' ) ) : '';
+$lf_player = ! empty( $lf_d['embed'] ) ? lf_ref_player( $lf_d['embed'], ( $lf_d['podcast_name'] ?? '' ) . ', ' . ( $lf_d['kunde'] ?? '' ) ) : '';
 
 echo do_blocks(
 	lf_section( 'lf-hero lf-ref-kopf',
 		lf_group( 'lf-hero__text',
-			lf_p( '<a href="/referenzen/">Referenzen</a> · ' . esc_html( trim( ( $lf_d['branche'] ?? '' ) . ' · ' . ( $lf_d['format'] ?? '' ), ' ·' ) ), 'lf-eyebrow lf-eyebrow--plain lf-crumb' ) . "\n"
+			lf_p( '<a href="/referenzen/">Alle Referenzen</a>', 'lf-crumb' ) . "\n"
 			. lf_h( 1, esc_html( ( $lf_d['podcast_name'] ?? get_the_title( $lf_post ) ) . ' – ' . ( $lf_d['kunde'] ?? '' ) ) ) . "\n"
 			. ( ! empty( $lf_d['kurz'] ) ? lf_p( esc_html( $lf_d['kurz'] ), 'lf-lead' ) : '' )
 			. ( $lf_f ? "\n<!-- wp:html -->\n<dl class=\"lf-fakten-zeile\">" . $lf_f . "</dl>\n<!-- /wp:html -->" : '' )

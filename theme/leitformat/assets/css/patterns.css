@@ -594,3 +594,129 @@ body.lf-consent-offen .lf-sticky-cta { display: none; }
 .lf-termin__embed .lf-video__consent { position: static; text-align: center; color: var(--lf-grey); }
 .lf-termin__embed:has(iframe) { padding: 0; border: 0; min-height: 700px; }
 .lf-termin__embed--ohne p { margin: 0; color: var(--lf-text-2); }
+
+/* ==========================================================================
+   DESIGN-01 P1 – „Regieraum“: Weiß und Studiopanel statt Creme, Rot nur als
+   REC-Signal, Karten nur für Pakete, keine Platzhalterflächen.
+   (Überschreibt die Regeln oben; beim Aufräumen in P3 zusammenführen.)
+   ========================================================================== */
+
+.lf-section--white { background: var(--lf-hell); border-block: 0; }
+.lf-hero h1 { line-height: .95; letter-spacing: -0.02em; }
+
+/* Hero: Studio-Foto, auf Desktop randlos bis zum rechten Seitenrand */
+.lf-hero__bild { margin: 0; }
+.lf-hero__bild img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--wp--custom--radius--card); }
+@media (min-width: 900px) {
+	.lf-hero--rand .lf-hero__media { margin-right: calc((100vw - min(100vw - 2 * var(--wp--preset--spacing--gutter), 1200px)) / -2); }
+	.lf-hero--rand .lf-hero__bild img { border-radius: var(--wp--custom--radius--card) 0 0 var(--wp--custom--radius--card); }
+}
+
+/* Kennzahlen: vier Paare in einer Zeile, mobil 2 × 2 mit gleicher Größe */
+.lf-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 24px; }
+.lf-stat { gap: 2px; }
+.lf-stat__value { font-size: 32px; font-weight: 800; line-height: 1; }
+.lf-stat__label { font-size: 14px; line-height: 1.3; }
+@media (min-width: 1100px) {
+	.lf-stats { display: flex; flex-wrap: nowrap; gap: 40px; }
+	.lf-stat { flex-direction: row; align-items: baseline; gap: 8px; white-space: nowrap; }
+}
+
+/* Logostreifen: eine Zeile, mobil horizontal scrollbar */
+.lf-logos .lf-container { flex-wrap: nowrap; overflow-x: auto; gap: 32px; scrollbar-width: none; }
+.lf-logos .lf-container::-webkit-scrollbar { display: none; }
+.lf-logos__label, .lf-logos__list li { flex: none; white-space: nowrap; }
+.lf-logos__list li { font-size: 18px; }
+
+/* Ausspielungen: nur Titel und Satz, keine Bildflächen bis AUFTRAG-05 */
+.lf-ausspielung { gap: 6px; }
+
+/* Pakete: die einzigen Karten der Seite */
+.lf-paket { border: 1px solid var(--lf-line); border-radius: var(--wp--custom--radius--card); background: var(--lf-white); }
+.lf-paket--top { border: 2px solid var(--lf-ink); }
+.lf-paket__titel { font-size: 20px !important; font-weight: 700; }
+.lf-paket__meta { line-height: 1.5; }
+.lf-pilot { border-radius: var(--wp--custom--radius--card); }
+.lf-pilot--bild {
+	background: linear-gradient(90deg, rgba(21, 23, 28, .94) 0%, rgba(21, 23, 28, .82) 55%, rgba(21, 23, 28, .6) 100%), url(../img/studio/studio-totale-1200.webp) center / cover no-repeat;
+}
+
+/* Ablauf: Tag-Marker schwarz, nur das 48-Stunden-Versprechen rot */
+.lf-step__when { color: var(--lf-ink); }
+.lf-step__when--rec { color: var(--lf-signal); }
+.lf-section--ink .lf-step__when { color: var(--lf-white); }
+
+/* Referenzen: Cover tragen die Farbe, Titel und Kunde darunter */
+.lf-ref--bild, .lf-ref--bild:hover { background: transparent; color: var(--lf-ink); }
+.lf-ref--bild .lf-ref__cover { border-radius: var(--wp--custom--radius--card); background: var(--lf-hell); }
+.lf-ref--bild .lf-ref__text { padding: 12px 0 0; }
+.lf-ref--bild .lf-ref__sub, .lf-ref--bild .lf-ref__kurz { color: var(--lf-grey); }
+.lf-ref--bild:hover .lf-ref__name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.lf-ref-grid .lf-ref:not(.lf-ref--bild) { aspect-ratio: auto; }
+
+/* Kundenstimme und Zitate */
+.lf-bigquote p { font-size: clamp(22px, 2.4vw, 28px); }
+.lf-stimme { display: flex; flex-direction: column; gap: 12px; }
+.lf-stimmen { gap: 40px; }
+
+/* Wolfgang: Zitat links, Text rechts, keine Bildfläche */
+@media (min-width: 900px) { .lf-wolfgang .lf-container { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 64px; align-items: start; } }
+.lf-wolfgang .lf-sidequote p { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.25; }
+.lf-rolle { font-size: 15px; color: var(--lf-grey-2); }
+
+/* Vergleich: Leitformat-Spalte schwarz und fett, nicht rot */
+.lf-table--vergleich thead th:nth-child(2) { color: var(--lf-ink); }
+
+/* Kartenraster ohne Kästen: Abstand statt Rahmen */
+.lf-karten { gap: 32px 40px; }
+.lf-karte-item { display: flex; flex-direction: column; gap: 8px; }
+.lf-karte__nr { color: var(--lf-grey); }
+.lf-karten--dunkel .lf-karte__nr { color: var(--lf-grey-2); }
+.lf-karten--dunkel .lf-karte-item { color: var(--lf-white); }
+.lf-karten--dunkel .lf-muted { color: var(--lf-grey-2); }
+
+/* Anfrage: Formular auf Weiß, Calendly daneben, eine Linie darüber */
+.lf-anfrage { border-top: 1px solid var(--lf-line); }
+.lf-section + .lf-anfrage { padding-top: var(--wp--preset--spacing--section); }
+.lf-termin { display: flex; flex-direction: column; gap: 8px; }
+.lf-termin__embed { min-height: 0; border: 0; background: transparent; align-items: flex-start; text-align: left; padding: 8px 0 0; }
+.lf-termin__embed .lf-video__consent { text-align: left; }
+.lf-rechner { background: var(--lf-hell); border: 0; }
+
+/* Studio */
+@media (min-width: 900px) { .lf-galerie__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.lf-fakten__titel, .lf-audit__titel { font-size: 20px !important; font-weight: 700; }
+.lf-audit__karte { display: flex; flex-direction: column; gap: 10px; }
+.lf-fakten-zeile dt { text-transform: none; letter-spacing: 0; font-size: 14px; }
+
+/* Über uns: Team als Liste, keine Kacheln */
+.lf-person { gap: 2px; padding-top: 12px; border-top: 1px solid var(--lf-line); }
+.lf-bewertung { display: flex; flex-direction: column; gap: 8px; }
+
+/* Video: Caption unter der Fläche, kein roter Punkt (Rot nur, wenn etwas läuft) */
+.lf-video-box { margin: 0; display: flex; flex-direction: column; gap: 10px; color: inherit; text-decoration: none; }
+.lf-video-box .lf-video__caption { position: static; display: block; font-size: 14px; color: var(--lf-grey); }
+.lf-section--ink .lf-video-box .lf-video__caption { color: var(--lf-grey-2); }
+.lf-video__caption::before { display: none; }
+.lf-video.is-playing::after { content: ""; position: absolute; top: 14px; left: 14px; z-index: 2; width: 10px; height: 10px; border-radius: 50%; background: var(--lf-signal); pointer-events: none; }
+button.lf-video__play:hover, .lf-video-box--link:hover .lf-video__play { transform: none; }
+.lf-video-box--link:hover .lf-video__caption { text-decoration: underline; }
+
+/* Filter: aktiver Filter ist das REC-Signal */
+.lf-filter button[aria-pressed="true"] { background: var(--lf-signal); border-color: var(--lf-signal); color: var(--lf-white); }
+
+/* Footer: Spaltentitel als Satz, keine Versalien */
+.lf-footer__title { text-transform: none; letter-spacing: 0; font-size: 15px; color: var(--lf-ink); }
+.lf-footer__links { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14px; }
+
+/* Bewegung nur als Antwort auf Klick */
+.lf-ref, .lf-btn, .wp-block-button__link { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+.lf-section + .lf-section.lf-anfrage { padding-top: var(--wp--preset--spacing--section); }
+.lf-video__poster { opacity: .9; }
+.lf-ref--bild .lf-ref__cover { outline: 1px solid var(--lf-line); outline-offset: -1px; }
+.lf-section--white + .lf-section:not(.lf-section--white, .lf-section--ink),
+.lf-section--ink + .lf-section:not(.lf-section--white, .lf-section--ink) { padding-top: var(--wp--preset--spacing--section); }

@@ -14,7 +14,7 @@ $lf_karten = array(
 );
 $lf_html = '';
 foreach ( $lf_karten as $k ) {
-	$lf_html .= lf_group( 'lf-ausspielung', lf_image( $k[0], $k[1], 'lf-ausspielung__bild' ) . "\n" . lf_p( '<strong>' . lf_e( $k[2] ) . '</strong>' ) . "\n" . lf_p( lf_e( $k[3] ), 'lf-muted' ) ) . "\n";
+	$lf_html .= lf_group( 'lf-ausspielung', lf_p( '<strong>' . lf_e( $k[2] ) . '</strong>' ) . "\n" . lf_p( lf_e( $k[3] ), 'lf-muted' ) ) . "\n";
 }
 echo lf_section( 'lf-section--white lf-ausspielungen',
 	lf_head( 'Ein Dreh, fünf Ausspielungen.', 'Aus einer Aufnahme am Dienstag entsteht der Content für den ganzen Monat. Clips sind am Donnerstag auf LinkedIn.' ) . "\n"

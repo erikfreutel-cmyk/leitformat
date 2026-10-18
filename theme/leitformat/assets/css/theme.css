@@ -2,14 +2,15 @@
 
 :root {
 	--lf-ink: #15171C;
-	--lf-paper: #F6F3EE;
+	--lf-paper: #FFFFFF;
+	--lf-hell: #F2F3F5;
 	--lf-white: #FFFFFF;
 	--lf-signal: #D7261E;
 	--lf-panel: #1C1F26;
 	--lf-text-2: #3A3D44;
 	--lf-grey: #5E626A;
 	--lf-grey-2: #B8BBC0;
-	--lf-line: #DAD6CE;
+	--lf-line: #D9DCE1;
 	--lf-logo-grey: #8A8E96;
 }
 
@@ -178,7 +179,7 @@ p, li { max-width: var(--wp--custom--measure); }
 		z-index: 90;
 		display: block;
 		padding: 12px var(--wp--preset--spacing--gutter) calc(12px + env(safe-area-inset-bottom));
-		background: rgba(246, 243, 238, .96);
+		background: rgba(255, 255, 255, .96);
 		border-top: 1px solid var(--lf-line);
 	}
 	.lf-sticky-cta .lf-btn { width: 100%; }

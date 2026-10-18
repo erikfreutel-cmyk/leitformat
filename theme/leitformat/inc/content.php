@@ -94,20 +94,20 @@ function lf_faq( string $set ): array {
 
 /** Kundennamen für die Logoleiste (Reihenfolge aus daten/medien-alte-seite.md, erste zehn). */
 function lf_logos( bool $alle = false ): array {
-	$logos = array( 'DKB', 'Weleda', 'Müller', 'thyssenkrupp', 'Techniker Krankenkasse', 'Johanniter', 'Konrad-Adenauer-Stiftung', 'Wikimedia', 'NH Hotels', 'Globus', 'hy Consulting', 'Gegenbauer', 'Myra Security', 'Rheinische Notarkammer', 'Abgeordnetenhaus Berlin' );
-	return $alle ? $logos : array_slice( $logos, 0, 10 );
+	$logos = array( 'DKB', 'thyssenkrupp', 'Weleda', 'Müller', 'Techniker Krankenkasse', 'Johanniter', 'Konrad-Adenauer-Stiftung', 'Wikimedia', 'NH Hotels', 'Globus', 'hy Consulting', 'Gegenbauer', 'Myra Security', 'Rheinische Notarkammer', 'Abgeordnetenhaus Berlin' );
+	return $alle ? $logos : array_slice( $logos, 0, 5 );
 }
 
 /** Acht Referenzen der Startseite: slug => [Name, Unterzeile]. */
 function lf_referenzen(): array {
 	return array(
-		'wikimove'                => array( 'WIKIMOVE', 'Wikimedia Deutschland · Audio' ),
-		'thyssenkrupp'            => array( 'thyssenkrupp', 'Interner Podcast' ),
-		'return-on-innovation'    => array( 'Return on Innovation', 'Video-Podcast' ),
-		'myra-minds'              => array( 'Myra Minds', 'Myra Security · Video-Podcast' ),
-		'mueller-gruppe'          => array( 'Müller', 'Unternehmensgruppe Theo Müller · Video-Podcast' ),
+		'wikimove'                => array( 'WIKIMOVE', 'Wikimedia Deutschland' ),
+		'thyssenkrupp'            => array( 'Interner Podcast', 'thyssenkrupp' ),
+		'return-on-innovation'    => array( 'Return on Innovation', 'hy Consulting' ),
+		'myra-minds'              => array( 'Myra Minds', 'Myra Security' ),
+		'mueller-gruppe'          => array( 'Müller', 'Unternehmensgruppe Theo Müller' ),
 		'klimabauern'             => array( '#KlimaBauern', 'Landesbauernverband Brandenburg' ),
-		'gegenbauer'              => array( 'Gegenbauer Podcast', 'Konzeption, Moderation, Produktion' ),
+		'gegenbauer'              => array( 'Gegenbauer Podcast', 'Gegenbauer' ),
 		'abgeordnetenhaus-berlin' => array( 'Von Stadt zu Stadt', 'Abgeordnetenhaus von Berlin' ),
 	);
 }
@@ -140,7 +140,7 @@ function lf_video( string $caption, string $label, string $vimeo = '', string $s
 		: '<span class="lf-video__play" aria-hidden="true">' . $icon . '</span>';
 	$note   = $vimeo ? '<p class="lf-video__consent">Beim Abspielen lädt das Video von Vimeo.</p>' : ( $youtube ? '<p class="lf-video__consent">Beim Abspielen lädt das Video von YouTube.</p>' : '' );
 	$img    = $bild ? '<img class="lf-video__poster" src="' . lf_img( $bild ) . '" alt="" loading="lazy" decoding="async">' : '';
-	return "<!-- wp:html -->\n<div class=\"lf-video\"{$attrs}>{$img}{$play}<p class=\"lf-video__caption\">" . lf_e( $caption ) . "</p>{$note}</div>\n<!-- /wp:html -->";
+	return "<!-- wp:html -->\n<figure class=\"lf-video-box\"><div class=\"lf-video\"{$attrs}>{$img}{$play}{$note}</div><figcaption class=\"lf-video__caption\">" . lf_e( $caption ) . "</figcaption></figure>\n<!-- /wp:html -->";
 }
 
 /** FAQ als <details>-Blöcke. */
@@ -173,7 +173,7 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 		array(
 			'name'   => 'Format Experte',
 			'preis'  => 'ab 2.400 €',
-			'meta'   => 'Setup 2.900 € = Pilotfolge · Laufzeit 6 Monate',
+			'meta'   => 'Setup 2.900 €, das ist die Pilotfolge.<br>Laufzeit 6 Monate.',
 			'fuer'   => 'Für Kanzleien, Berater, Praxen und Makler mit eigenem Gesicht.',
 			'punkte' => array( '2 Video-Folgen, remote oder Studio', 'Audio-Folge und Hosting', '3 Clips je Folge, Thumbnails, Shownotes' ),
 			'button' => array( 'Erstgespräch buchen', '#anfrage', 'lf-secondary' ),
@@ -182,7 +182,7 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 		array(
 			'name'   => 'Format Unternehmen',
 			'preis'  => 'ab 4.400 €',
-			'meta'   => 'Setup 4.900 € inkl. Workshop und Pilotfolge · 12 Monate',
+			'meta'   => 'Setup 4.900 € mit Workshop und Pilotfolge.<br>Laufzeit 12 Monate.',
 			'fuer'   => 'Für Marketing, HR und Vertrieb im Mittelstand.',
 			'punkte' => array( '2 Studio-Folgen mit 3 Kameras', '5 Clips je Folge, LinkedIn-Textvorlagen', 'Gäste-Management und Monatsreport' ),
 			'button' => array( 'Erstgespräch buchen', '#anfrage', 'lf-dark' ),
@@ -191,7 +191,7 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 		array(
 			'name'   => 'Format Konzern',
 			'preis'  => 'ab 8.500 €',
-			'meta'   => 'Setup ab 12.000 € · 12 Monate',
+			'meta'   => 'Setup ab 12.000 €.<br>Laufzeit 12 Monate.',
 			'fuer'   => 'Für Unternehmenskommunikation und Corporate Brand.',
 			'punkte' => array( 'Account-Based: Gäste aus Ihren Zielkunden', 'Video, Audio, Newsletter, Event-Schnitt, Clips nach Vereinbarung', 'Freigabeprozess und Pipeline-Reporting' ),
 			'button' => array( 'Gespräch mit Wolfgang', '#anfrage', 'lf-secondary' ),
@@ -211,9 +211,9 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 			$list .= "<!-- wp:list-item -->\n<li>" . lf_e( $pt ) . "</li>\n<!-- /wp:list-item -->\n";
 		}
 		$out .= "\n" . '<!-- wp:group {"className":"' . $cls . '","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group ' . $cls . '">'
-			. lf_p( lf_e( $p['name'] ), 'lf-eyebrow' ) . "\n"
+			. lf_h( 3, lf_e( $p['name'] ), 'lf-paket__titel' ) . "\n"
 			. lf_p( lf_e( $p['preis'] ) . '<span> / Monat</span>', 'lf-price' ) . "\n"
-			. lf_p( lf_e( $p['meta'] ), 'lf-paket__meta' ) . "\n"
+			. lf_p( $p['meta'], 'lf-paket__meta' ) . "\n"
 			. lf_p( lf_e( $p['fuer'] ) ) . "\n"
 			. '<!-- wp:list {"className":"lf-paket__list"} -->' . "\n" . '<ul class="wp-block-list lf-paket__list">' . $list . '</ul>' . "\n" . '<!-- /wp:list -->' . "\n"
 			. '<!-- wp:buttons {"className":"lf-paket__cta"} -->' . "\n" . '<div class="wp-block-buttons lf-paket__cta">' . lf_button( $p['button'][0], $p['button'][1], $p['button'][2] ) . '</div>' . "\n" . '<!-- /wp:buttons -->'
@@ -231,10 +231,10 @@ function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string
 function lf_testimonial_gegenbauer(): string {
 	return '<!-- wp:group {"className":"lf-testimonial","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group lf-testimonial">'
 		. '<!-- wp:group {"className":"lf-testimonial__media","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group lf-testimonial__media">'
-		. lf_video( 'Tom Kalányos, Gegenbauer · 0:26', 'Kundenstimme abspielen', '1052003179' )
+		. lf_video( 'Tom Kalányos, Gegenbauer, 26 Sekunden', 'Kundenstimme abspielen', '1052003179', '', '', '', 0, 'kalanyos-gegenbauer.webp' )
 		. '</div>' . "\n" . '<!-- /wp:group -->' . "\n"
 		. '<!-- wp:group {"className":"lf-testimonial__text","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group lf-testimonial__text">'
-		. lf_p( 'Kundenstimme', 'lf-eyebrow lf-eyebrow--plain' ) . "\n"
+		. ''
 		. '<!-- wp:quote {"className":"lf-bigquote"} -->' . "\n" . '<blockquote class="wp-block-quote lf-bigquote">'
 		. lf_p( '„Das Kosten-Nutzen-Verhältnis im Vergleich zu anderen Agenturen ist bei NextGen Podcast unangefochten Spitze.“' )
 		. '</blockquote>' . "\n" . '<!-- /wp:quote -->' . "\n"
@@ -368,9 +368,9 @@ function lf_table( array $head, array $rows, string $class = '' ): string {
 
 /** Kundenstimmen-Karte; $nextgen = Zitat nennt den alten Namen. */
 function lf_stimme( string $zitat, string $name, string $meta, bool $nextgen ): string {
-	return lf_group( 'lf-card lf-stimme',
+	return lf_group( 'lf-stimme',
 		lf_p( lf_e( $zitat ), 'lf-stimme__text' ) . "\n"
-		. lf_p( '<strong>' . lf_e( $name ) . '</strong><br>' . lf_e( $meta ), 'lf-stimme__name' )
+		. lf_p( '<strong>' . lf_e( $name ) . '</strong><br>' . implode( '<br>', array_map( 'lf_e', explode( ' · ', $meta ) ) ), 'lf-stimme__name' )
 		. ( $nextgen ? "\n" . lf_p( LF_NEXTGEN_HINWEIS, 'lf-stimme__hinweis' ) : '' )
 	);
 }
@@ -383,7 +383,7 @@ function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $c
 		return lf_section( 'lf-anfrage lf-anfrage--solo', $links, 'anfrage' );
 	}
 	$rechts = lf_group( 'lf-anfrage__side',
-		lf_group( 'lf-card lf-termin',
+		lf_group( 'lf-termin',
 			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
 			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
 			. lf_termin_embed()
@@ -399,7 +399,7 @@ function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $c
 function lf_ablauf( string $h2, array $schritte ): string {
 	$s = '';
 	foreach ( $schritte as $x ) {
-		$s .= lf_group( 'lf-step', lf_p( lf_e( $x[0] ), 'lf-step__when' ) . "\n" . lf_p( '<strong>' . lf_e( $x[1] ) . '</strong>' ) . "\n" . lf_p( lf_e( $x[2] ), 'lf-muted' ) ) . "\n";
+		$s .= lf_group( 'lf-step', lf_p( lf_e( $x[0] ), 'lf-step__when' . ( str_contains( $x[0], '48' ) ? ' lf-step__when--rec' : '' ) ) . "\n" . lf_p( '<strong>' . lf_e( $x[1] ) . '</strong>' ) . "\n" . lf_p( lf_e( $x[2] ), 'lf-muted' ) ) . "\n";
 	}
 	return lf_section( 'lf-section--white lf-ablauf', lf_h( 2, $h2 ) . "\n" . lf_group( 'lf-steps', $s ) );
 }
@@ -414,7 +414,7 @@ const LF_ROUTE = 'https://www.google.com/maps/dir/?api=1&destination=Franz-Jacob
 function lf_karte(): string {
 	return lf_group( 'lf-karte',
 		lf_image( 'karte-studio-berlin.webp', 'Kartenausschnitt Berlin-Lichtenberg: Studio in der Franz-Jacob-Straße 2c, nahe S-Bahnhof Storkower Straße', 'lf-karte__bild' ) . "\n"
-		. lf_p( '<a href="' . esc_url( LF_ROUTE ) . '" rel="noopener">Route in Google Maps planen</a> · Karte © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap-Mitwirkende</a>', 'lf-karte__links' )
+		. lf_p( '<a href="' . esc_url( LF_ROUTE ) . '" rel="noopener">Route in Google Maps planen</a><br>Karte © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap-Mitwirkende</a>', 'lf-karte__links' )
 	);
 }
 
@@ -433,7 +433,7 @@ function lf_karten( array $items, string $class = '', bool $nummern = false ): s
 	$html = '';
 	foreach ( $items as $i => $k ) {
 		$kopf  = $nummern ? lf_p( sprintf( '%02d', $i + 1 ), 'lf-karte__nr' ) . "\n" : '';
-		$html .= lf_group( 'lf-card lf-karte-item', $kopf . lf_p( '<strong>' . $k[0] . '</strong>' ) . "\n" . lf_p( $k[1], 'lf-muted' ) ) . "\n";
+		$html .= lf_group( 'lf-karte-item', $kopf . lf_p( '<strong>' . $k[0] . '</strong>' ) . "\n" . lf_p( $k[1], 'lf-muted' ) ) . "\n";
 	}
 	return lf_group( 'lf-karten ' . $class, $html );
 }
@@ -449,5 +449,6 @@ function lf_testimonial_gegenbauer_section(): string {
 
 /** Video-Fläche ohne Player: Standbild mit Link (Video noch nicht für leitformat.de freigegeben). */
 function lf_video_link( string $caption, string $url, string $bild = 'studio/studio-totale-600.webp' ): string {
-	return "<!-- wp:html -->\n<a class=\"lf-video lf-video--link\" href=\"" . esc_url( $url ) . "\" rel=\"noopener\"><img class=\"lf-video__poster\" src=\"" . lf_img( $bild ) . "\" alt=\"\" loading=\"lazy\" decoding=\"async\"><span class=\"lf-video__play\" aria-hidden=\"true\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M8 5v14l12-7z\"/></svg></span><span class=\"lf-video__caption\">" . lf_e( $caption ) . " · auf Vimeo ansehen</span></a>\n<!-- /wp:html -->";
+	$icon = '<svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l12-7z"/></svg>';
+	return "<!-- wp:html -->\n<a class=\"lf-video-box lf-video-box--link\" href=\"" . esc_url( $url ) . "\" rel=\"noopener\"><span class=\"lf-video\"><img class=\"lf-video__poster\" src=\"" . lf_img( $bild ) . "\" alt=\"\" loading=\"lazy\" decoding=\"async\"><span class=\"lf-video__play\" aria-hidden=\"true\">{$icon}</span></span><span class=\"lf-video__caption\">" . lf_e( $caption ) . ". Auf Vimeo ansehen.</span></a>\n<!-- /wp:html -->";
 }

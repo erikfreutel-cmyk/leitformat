@@ -3,7 +3,9 @@
 	const bar = document.querySelector('.lf-sticky-cta');
 	if (!bar || !document.getElementById('anfrage')) return;
 	bar.hidden = false;
-	const update = () => bar.classList.toggle('is-visible', window.scrollY > 600);
+	const mobil = matchMedia('(max-width: 767px)');
+	const update = () => bar.classList.toggle('is-visible', mobil.matches && window.scrollY > 600);
+	mobil.addEventListener('change', update);
 	addEventListener('scroll', update, { passive: true });
 	update();
 })();

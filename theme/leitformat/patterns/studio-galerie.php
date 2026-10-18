@@ -3,14 +3,13 @@
  * Title: Studio: Galerie
  * Slug: lf/studio-galerie
  * Categories: leitformat
- * Description: Drei Kamera-Ansichten und Regie, 2 × 2. Regie-Foto fehlt noch (AUFTRAG-05).
+ * Description: Drei Kamera-Ansichten. Regie-Foto kommt mit AUFTRAG-05 (dann 2 × 2).
  */
 
 $lf_bilder = array(
-	array( 'studio/studio-kamera-1-1200.webp', 'Kamera 1, Nahaufnahme: Gesprächspartner am Mikrofon im Studio', '<strong>Kamera 1</strong> · Nahaufnahme · Sony 4K' ),
-	array( 'studio/studio-totale-1200.webp', 'Kamera 2, Totale: alle Personen und das ganze Set', '<strong>Kamera 2</strong> · Totale · Sony 4K' ),
-	array( 'studio/studio-kamera-3-1200.webp', 'Kamera 3, Nahaufnahme: zweite Person am Mikrofon', '<strong>Kamera 3</strong> · Nahaufnahme · Sony 4K' ),
-	array( 'placeholder-regie.svg', 'Platzhalter: Regieplatz im Studio', '<strong>Regie</strong> · im Studio, ein Techniker die ganze Aufnahme' ),
+	array( 'studio/studio-kamera-1-1200.webp', 'Kamera 1, Nahaufnahme: Gesprächspartner am Mikrofon im Studio', '<strong>Kamera 1:</strong> Nahaufnahme, Sony 4K' ),
+	array( 'studio/studio-totale-1200.webp', 'Kamera 2, Totale: alle Personen und das ganze Set', '<strong>Kamera 2:</strong> Totale, Sony 4K' ),
+	array( 'studio/studio-kamera-3-1200.webp', 'Kamera 3, Nahaufnahme: zweite Person am Mikrofon', '<strong>Kamera 3:</strong> Nahaufnahme, Sony 4K' ),
 );
 $lf_html = '';
 foreach ( $lf_bilder as $b ) {
