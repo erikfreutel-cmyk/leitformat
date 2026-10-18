@@ -40,6 +40,7 @@ Lies dazu einmal die drei Seiten, die schon stehen (noindex, nur per Link erreic
 | C2 | Erstes Kundenprojekt (Gegenbauer): welches Jahr? Die alte Seite sagt nur „2020 Hauptstadt-Podcast“ und danach „Gegenbauer war der Startpunkt“. | „Podcasts seit 2020“ im Footer und auf /ueber-uns/, H1 Referenzen „85 Podcast-Projekte seit …“ | |
 | C3 | 85+ Projekte und 1.250+ Episoden: Stand von wann, und zählen wir intern weiter? | Hero-Zahlen | |
 | C4 | Studio: 4×5 m, bis 4 Personen, 3× Sony 4K, 3× Shure SM7B, 2× Amaran, Mo–Fr 8–18 Uhr, Franz-Jacob-Straße 2c – alles noch aktuell? | Studio-LP | |
+| C6 | Techniker Krankenkasse: ist die TK ein Kunde, den wir mit Logo nennen dürfen? (Auf der alten Seite nur als Logo auf der Corporate-Seite, kein Projekt in den Referenzen.) | Logostreifen | ohne TK | |
 | C5 | Team: Lenny (Aufnahme, Produktion), Andreas (Schnitt, Sounddesign), Clemens (Veröffentlichung, Distribution) – Rollen richtig? Sophia: bleibt sie, mit welcher Zeile? | /ueber-uns/ | |
 
 ## D. Nachtrag 18.10. – aus dem Bau der weiteren Seiten
@@ -53,6 +54,7 @@ Lies dazu einmal die drei Seiten, die schon stehen (noindex, nur per Link erreic
 | D5 | Zitat Kolbow mit „damals“ – ist die Person nicht mehr beim Kunden, und ist das Zitat so freigegeben? | Referenzen | mit „damals“ | |
 | D6 | Video „Wer wir sind“ (Vimeo 1127602118, 3:42, alter Name): darf das irgendwo auf leitformat.de laufen, oder drehen wir das mit dem Hero-Video neu? | derzeit nirgends | nicht eingebunden | |
 | D7 | Hauptstadt-Podcast: Link zu Spotify/Apple/YouTube. Hinweis: Unter „Hauptstadt Podcast“ findet man bei Spotify zuerst „Hauptstadt – Das Briefing“ von The Pioneer – deshalb brauchen wir deinen Link. | /ueber-uns/, /interview-podcast/ | ohne Link | |
+| D10 | thyssenkrupp und Müller haben kein Podcast-Cover, nur Logo-Kacheln. Gibt es je ein Standbild oder Cover aus dem Projekt, das der Kunde freigibt? | Referenzen, Startseite | Logo-Kachel | |
 | D9 | Mobilnummer +49 160 78 49 590 steht auf /kontakt/ – willst du sie dort (Anrufe aus Google Ads, auch abends), oder nur die Festnetznummer? | /kontakt/ | drin | |
 
 ## E. Was danach passiert
