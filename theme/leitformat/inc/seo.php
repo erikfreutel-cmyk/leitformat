@@ -35,6 +35,12 @@ function lf_seo(): array {
 			'desc'  => 'Podcast-Studio in Berlin-Lichtenberg: 3 Sony-4K-Kameras, 3 Shure SM7B, bis 4 Personen, Techniker im Raum, Rohdaten am selben Tag. Ab 200 € je Stunde.',
 			'faq'   => 'studio',
 		),
+		'ueber-uns'   => array(
+			'title' => 'Über uns: Team und Studio in Berlin – Leitformat',
+			'desc'  => 'Wolfgang Patz, Erik Freutel und Team: Video-Podcasts aus dem eigenen Studio in Berlin. Ehemals NextGen Podcast, 33 Google-Bewertungen.',
+		),
+		'danke'       => array( 'title' => 'Anfrage gesendet – Leitformat', 'desc' => 'Ihre Anfrage ist angekommen. Wählen Sie jetzt einen Termin für das Erstgespräch.' ),
+		'wiki'        => array( 'title' => 'Podcast-Wiki – Leitformat', 'desc' => 'Begriffe, Technik und Abläufe rund um Unternehmens-Podcasts, kurz erklärt.' ),
 		'kontakt'     => array(
 			'title' => 'Kontakt und Erstgespräch – Leitformat',
 			'desc'  => 'Anfrage senden oder Erstgespräch mit Wolfgang Patz buchen: 30 Minuten, Video-Call, kostenlos. Antwort am selben Werktag. Studio in Berlin-Lichtenberg.',
@@ -70,7 +76,7 @@ function lf_meta_description(): string {
 
 // Dauerhaft noindex, follow: /pilotfolge/ (Ads-Landingpage) und die Rechtsseiten – auch nach Go-Live.
 add_filter( 'wp_robots', function ( array $robots ) {
-	if ( is_page( array( 'pilotfolge', 'impressum', 'datenschutz', 'agb' ) ) ) {
+	if ( is_page( array( 'pilotfolge', 'impressum', 'datenschutz', 'agb', 'danke', 'wiki' ) ) ) {
 		$robots['noindex'] = true;
 		$robots['follow']  = true;
 		unset( $robots['nofollow'] );
