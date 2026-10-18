@@ -1,5 +1,14 @@
 # AUFTRAG-03 – Studio-Landingpage und alle weiteren Seiten
 
+## Nachtrag 18.10.2026 (gilt vor allem Folgenden)
+
+1. **Reihenfolge:** Zuerst /kontakt/ (mit `#termin`, Calendly-Platzhalter aus 02), /impressum/, /datenschutz/, /agb/ – damit Header-CTA und Footer-Links nicht mehr auf 404 laufen. Bis /kontakt/ steht, zeigt der Header-Button auf `#anfrage` (ohne `#anfrage` auf der Seite: `/#anfrage`). Danach die Studio-Landingpage, dann der Rest wie unten.
+2. **Rechtsseiten:** Impressum mit den Angaben der NextGen Media GmbH von der alten Seite plus „Leitformat ist eine Marke der NextGen Media GmbH". Datenschutz: alte Erklärung als Basis, ergänzt um Google Tag Manager, Google Ads (Conversion-Tracking, erweiterte Conversions), Consent Mode v2, Calendly, Vimeo (dnt), Kontaktformular mit Webhook, Hosting All-Inkl; kein Google-Fonts-Abschnitt (Schriften lokal). AGB von der alten Seite übernehmen, Firmierung prüfen. Alle drei `noindex, follow`.
+3. **Jahreszahlen:** „gegründet 2018" nur für die GmbH, „Podcasts seit 2020" für die Agentur. H1 Referenzen: „85 Podcast-Projekte." (ohne Jahr), H1 Über uns: „Sechs Leute, ein Studio in Berlin." Zeitstrahl: 2015 Blog → 2018 NextGen Media GmbH → 2020 Hauptstadt-Podcast → Gegenbauer als Startpunkt der Podcast-Agentur (Jahr nach WOLFGANG-03) → 2026 Leitformat.
+4. **Hauptstadt-Podcast:** „seit 2020", ohne Folgenzahl – „200+ Folgen" an allen Stellen streichen, bis Wolfgang die Zahl aus dem Feed bestätigt (WOLFGANG-03, C1).
+5. **Preise auf allen Seiten:** Unternehmen ab 4.400 €, Experte Setup 2.900 €, Clips je Paket (Pilot 6, Experte 3 je Folge, Unternehmen 5 je Folge), Rabatt nur bei Vorauszahlung (10 %). Stand in `README.md` und `daten/preislogik-alte-seite.md`. Studio-LP Satz unter der Preistabelle bleibt: „ab 450 € je Video-Folge".
+6. **Zusagen:** Bis Wolfgang WOLFGANG-03 beantwortet hat, die vorsichtigen Fassungen aus RUECKFRAGEN (18.10., „Zusagen prüfen") verwenden – auch auf den neuen Seiten.
+
 Ziel: Alle Seiten der Sitemap stehen. Priorität 1 ist die Studio-Landingpage – sie bekommt eine eigene Anzeigengruppe und ist die beste Seite der alten Website. Texte der alten Seite dürfen als Rohstoff dienen (URLs in `daten/alte-urls.txt`), werden aber durchgängig auf Sie umgeschrieben und nach den Tonregeln in `CLAUDE.md` gekürzt. Jede Seite nutzt die Pattern aus AUFTRAG-02 plus die hier genannten neuen.
 
 ## 1. /podcast-studio-berlin/ – Priorität

@@ -21,14 +21,14 @@ Erik will, dass du vor dem Bau alles prüfst und eine eigene Meinung hast. Konkr
 
 - Name Leitformat, Logo Variante A (Kleinbuchstaben, roter i-Punkt), Farben und Schriften aus `CLAUDE.md`.
 - Durchgängig **Sie**. Keine Agentur-Adjektive, kein KI-Vokabular (Regeln in `CLAUDE.md`).
-- Preise sichtbar: Pilotfolge 2.900 €, Experte ab 2.400 €/Monat, Unternehmen ab 3.900 €/Monat, Konzern ab 8.500 €/Monat, Studio 200/300/400/600 €, Audit 199/499/ab 1.200 €. Alles netto.
+- Preise sichtbar (Stand 18.10.): Pilotfolge 2.900 €, Experte ab 2.400 €/Monat (Setup 2.900 € = Pilotfolge, 6 Monate), Unternehmen ab 4.400 €/Monat (Setup 4.900 € inkl. Workshop und Pilotfolge, 12 Monate), Konzern ab 8.500 €/Monat (Setup ab 12.000 €), Studio 200/300/400/600 €, Audit 199/499/ab 1.200 €. Alles netto. Clips je Paket: Pilotfolge 6, Experte 3 je Folge, Unternehmen 5 je Folge. Rabatt nur bei Vorauszahlung der Laufzeit: 10 % auf die Monatsraten. Von Erik am 18.10. freigegeben, Begründung in `auftraege/RUECKFRAGEN.md`.
 - Kein Kostenrechner (der alte war nie fertig und bleibt weg).
 - DKB darf gezeigt werden. Die fünf noindex-Referenzen der alten Seite (thyssenkrupp, Müller, Gegenbauer, Myra, KlimaBauern) waren ein Versehen und werden indexiert.
 - Kundenzitate, die „NextGen Podcast" sagen, bleiben wörtlich; darunter ein Satz: „Aufgenommen, als wir noch NextGen Podcast hießen."
 - Gegenbauer wurde verkauft: Tom Kalányos wird als „damals Marketingleiter Gegenbauer" geführt.
 - Google-Bewertungen: 33 (nicht 30+, nicht 125+). Keine Views/Downloads-Kennzahl (unbekannt).
-- „Seit 2018" (GmbH-Gründung). Nicht 2015, nicht 2019.
-- Footer: „Leitformat ist eine Marke der NextGen Media GmbH, Berlin – seit 2018 Corporate Podcasts für DKB, thyssenkrupp und Weleda (ehemals NextGen Podcast)."
+- Jahreszahlen: „gegründet 2018" nur für die NextGen Media GmbH, „Podcasts seit 2020" für die Agentur (alte /ueber-uns/: 2018 GmbH, 2020 Hauptstadt-Podcast, danach Gegenbauer als Startpunkt). Nie „Podcasts seit 2018". Nicht 2015, nicht 2019.
+- Footer: „Leitformat ist eine Marke der NextGen Media GmbH, Berlin (gegründet 2018). Podcasts für DKB, thyssenkrupp und Weleda produzieren wir seit 2020 – bisher als NextGen Podcast."
 
 ## Wo gebaut wird
 
@@ -49,7 +49,9 @@ Direkt auf All-Inkl (leitformat.de, noindex), kein lokales WordPress. Begründun
 | AUFTRAG-04 | Formular, Calendly, Danke-Seite, GTM, Conversions, Consent Mode | Woche 3 |
 | AUFTRAG-05 | Medien von der alten Seite, Inhalte, QA, Go-Live, Ads-Experiment | Woche 4 |
 | AUFTRAG-06 | Umzug nextgen-podcast.de → leitformat.de (nur nach gewonnenem Test) | später |
-| WOLFGANG-01/02 | Hero-Video und Cases – Aufträge an Wolfgang, nicht an dich | parallel |
+| WOLFGANG-01/02/03 | Hero-Video, Cases, Freigabe der Zusagen und Zahlen – Aufträge an Wolfgang, nicht an dich | parallel |
+
+Nachträge vom 18.10. zu AUFTRAG-03 (Rechtsseiten und /kontakt/ zuerst, Jahreszahlen, Hauptstadt-Podcast ohne Folgenzahl) stehen oben in `auftraege/AUFTRAG-03.md`.
 
 Jeder Auftrag endet mit einer Abnahme-Liste. Erledigtes in `auftraege/STATUS.md` eintragen, Rückfragen in `auftraege/RUECKFRAGEN.md`.
 

@@ -22,13 +22,15 @@ Studio Berlin (netto, zzgl. USt.): Einzelstunde 200 €, Session bis 120 Min 300
 Podcast-Audit (Stufen, jede enthält die vorige): Sichtbarkeits-Check ab 199 €, Erlebnis-Check ab 499 €, Podcast Audit ab 1.200 €. Lieferung 48–72 h bzw. 5 Werktage.
 AGB: Zahlungsziel 14 Tage, Kündigung 4 Wochen zum Laufzeitende, automatische Verlängerung, nur B2B.
 
-## Pakete Leitformat (entschieden 17.10., vorläufig)
+## Pakete Leitformat (entschieden 18.10. nach Prüfung durch Claude Code, von Erik freigegeben – Begründung in RUECKFRAGEN)
 
 | Paket | Preis | Umfang je Monat | Setup | Laufzeit | Gegenrechnung |
 | --- | --- | --- | --- | --- | --- |
-| Pilotfolge | 2.900 € einmalig | 1 Video-Folge (Studio oder remote), Audio, 6 Clips, Thumbnail, Shownotes, Formatgespräch; wird auf Setup angerechnet | – | 14 Tage | Kalkulation 2.700–5.300 €, bewusst unteres Ende |
-| Experte | ab 2.400 €/Monat | 2 Video-Folgen remote oder Studio, Audio, 6 Clips, Hosting, Shownotes, Thumbnails | 2.400 € | 6 Monate | Kalkulation 2.000–3.400 € (war 1.790, angehoben) |
-| Unternehmen | ab 3.900 €/Monat | 2 Studio-Folgen mit 3 Kameras, 10 Clips, Gäste-Management, LinkedIn-Textvorlagen, Monatsreport | 4.900 € inkl. Workshop und Pilotfolge | 12 Monate | Kalkulation 3.800–5.850 €, unteres Ende; evtl. 4.400 € |
-| Konzern | ab 8.500 €/Monat | Account-Based: Zielkontenliste, Gäste aus Zielkunden, Video, Audio, Clips, Newsletter, Event-Schnitt, Freigabeprozess, Pipeline-Reporting | ab 12.000 € | 12 Monate | nicht im Rechner abbildbar |
+| Pilotfolge | 2.900 € einmalig | 1 Video-Folge (Studio oder remote), Audio, 6 Clips, Thumbnail, Shownotes, Formatgespräch; wird vollständig auf das Setup angerechnet | – | 14 Tage | Kalkulation 2.700–5.300 €, bewusst unteres Ende |
+| Experte | ab 2.400 €/Monat | 2 Video-Folgen remote oder Studio, Audio, 3 Clips je Folge (6 im Monat), Hosting, Shownotes, Thumbnails | 2.900 € (= Pilotfolge; wer sie hat, zahlt kein Setup) | 6 Monate | Kalkulation 2.000–3.400 € (war 1.790, angehoben) |
+| Unternehmen | ab 4.400 €/Monat | 2 Studio-Folgen mit 3 Kameras, 5 Clips je Folge (10 im Monat), Gäste-Management, LinkedIn-Textvorlagen, Monatsreport | 4.900 € inkl. Workshop und Pilotfolge (Rest-Setup 2.000 € nach Pilotfolge) | 12 Monate | Kalkulation 3.075–4.860 € ohne Gäste-Management/LinkedIn-Texte – 3.900 € lag darunter, deshalb 4.400 € |
+| Konzern | ab 8.500 €/Monat | Account-Based: Zielkontenliste, Gäste aus Zielkunden, Video, Audio, Clips, Newsletter, Event-Schnitt, Freigabeprozess, Pipeline-Reporting | ab 12.000 € (Rest-Setup = Setup − 2.900 € nach Pilotfolge) | 12 Monate | nicht im Rechner abbildbar |
 
-Zusatzmodule (als Liste, ohne Preis): Moderation durch Wolfgang Patz, Dreh vor Ort / Messe / Event, Paid Amplification LinkedIn und YouTube (NextGen Media), Untertitel und Fremdsprachen, Newsletter-Aufbau. 12-Folgen-Staffel statt Monatsrechnung: 15 % günstiger.
+Zusatzmodule (als Liste, ohne Preis): Moderation durch Wolfgang Patz, Dreh vor Ort / Messe / Event, Paid Amplification LinkedIn und YouTube (NextGen Media), Untertitel und Fremdsprachen, Newsletter-Aufbau. Rabatt: 10 % auf die Monatsraten bei Vorauszahlung der gesamten Laufzeit, nicht auf das Setup. (Die 12-Folgen-Staffel −15 % ist gestrichen – sie war bei Experte dieselbe Leistung wie die Mindestlaufzeit, nur billiger.)
+
+Je Folge ohne Setup: Experte 1.200 €, Unternehmen 2.200 €. Mit Setup über die Mindestlaufzeit: Experte (2.900 + 6 × 2.400) / 12 = 1.442 €, Unternehmen (4.900 + 12 × 4.400) / 24 = 2.404 €. Marktvergleich bleibt wahr: Podcastmania ab 2.300 € je Folge (Audio).

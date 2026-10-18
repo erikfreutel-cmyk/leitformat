@@ -42,7 +42,8 @@ Logo: Variante A aus `design/Logo.dc.html` – „leitformat" in Kleinbuchstaben
 - Jede Headline nennt ein Ergebnis oder eine Frist, nie ein Gefühl.
 - Verboten: kreativ, leidenschaftlich, maßgeschneidert, ganzheitlich, innovativ, Full Service, 360°, „Stimme" als Metapher.
 - Kein KI-Vokabular (KI, AI, smart, automatisiert). Was KI im Prozess leistet, steht als Frist: „Clips in 48 Stunden".
-- Keine Zahl ohne Quelle oder Herkunft. Erlaubte Zahlen: 85+ Projekte, 1.250+ Episoden, 33 Google-Bewertungen, seit 2018, Studio 4×5 m / 3 Kameras / bis 4 Personen, Lieferzeiten (14 Tage Pilotfolge, 48 h Clips, 5 Werktage Folge), Marktzahlen nur mit Quelle aus docs/strategie.md Abschnitt 2.
+- Keine Zahl ohne Quelle oder Herkunft. Erlaubte Zahlen: 85+ Projekte, 1.250+ Episoden, 33 Google-Bewertungen, GmbH gegründet 2018, Podcasts seit 2020, Hauptstadt-Podcast seit 2020 (ohne Folgenzahl, bis Wolfgang sie bestätigt), Studio 4×5 m / 3 Kameras / bis 4 Personen, Lieferzeiten (14 Tage Pilotfolge, 48 h Clips, 5 Werktage Folge), Marktzahlen nur mit Quelle aus docs/strategie.md Abschnitt 2. Clips je Paket: Pilotfolge 6, Experte 3 je Folge, Unternehmen 5 je Folge – nie „6–10 Clips" ohne Paketbezug.
+- Seiten, die aus `wp:pattern`-Verweisen bestehen, nie im WordPress-Editor speichern – Texte ändern sich nur im Theme, über Aufträge.
 - Kundenzitate wörtlich aus `daten/kundenstimmen.md`, nie umformulieren.
 - Kurze Sätze. Keine Floskeln („Wir freuen uns", „gerne", „einfach").
 
