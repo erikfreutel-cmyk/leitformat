@@ -452,3 +452,19 @@ function lf_video_link( string $caption, string $url, string $bild = 'studio/stu
 	$icon = '<svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l12-7z"/></svg>';
 	return "<!-- wp:html -->\n<a class=\"lf-video-box lf-video-box--link\" href=\"" . esc_url( $url ) . "\" rel=\"noopener\"><span class=\"lf-video\"><img class=\"lf-video__poster\" src=\"" . lf_img( $bild ) . "\" alt=\"\" loading=\"lazy\" decoding=\"async\"><span class=\"lf-video__play\" aria-hidden=\"true\">{$icon}</span></span><span class=\"lf-video__caption\">" . lf_e( $caption ) . ". Auf Vimeo ansehen.</span></a>\n<!-- /wp:html -->";
 }
+
+/** Pilotfolge-Karte: Text und Preis links, Studio-Foto rechts (DESIGN-01). */
+function lf_pilotkarte( string $titel, string $text, string $hinweis, int $h = 3, string $klasse = '' ): string {
+	return lf_group( trim( 'lf-pilot lf-pilot--foto ' . $klasse ),
+		lf_group( 'lf-pilot__inhalt',
+			lf_h( $h, $titel, 'lf-pilot__title' ) . "\n"
+			. $text . "\n"
+			. lf_group( 'lf-pilot__preis',
+				lf_p( '2.900 €', 'lf-price lf-price--xl' ) . "\n"
+				. lf_p( $hinweis, 'lf-pilot__hinweis' ) . "\n"
+				. lf_buttons( 'lf-pilot__cta', lf_button( 'Pilotfolge anfragen', '#anfrage' ) )
+			)
+		) . "\n"
+		. lf_group( 'lf-pilot__foto', lf_image( 'studio/studio-totale-1200.webp', 'Aufnahme einer Pilotfolge im Studio Berlin: drei Personen am Tisch, drei Kameras', 'lf-pilot__bild' ) )
+	);
+}
