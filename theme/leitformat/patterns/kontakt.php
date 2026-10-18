@@ -14,11 +14,7 @@ echo lf_section( 'lf-anfrage lf-kontakt',
 		. lf_kontaktdaten()
 	) . "\n"
 	. lf_group( 'lf-anfrage__side',
-		lf_group( 'lf-termin',
-			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
-			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
-			. lf_termin_embed()
-		) . "\n"
+		lf_termin_block( 2 ) . "\n"
 		. lf_karte()
 	),
 	'anfrage'

@@ -327,11 +327,11 @@ function lf_list( array $items, string $class = '' ): string {
 	return "<!-- wp:list{$json} -->\n<ul class=\"wp-block-list" . ( $class ? " {$class}" : '' ) . "\">{$li}</ul>\n<!-- /wp:list -->";
 }
 
-function lf_image( string $file, string $alt, string $class = '', bool $eager = false, string $caption = '' ): string {
+function lf_image( string $file, string $alt, string $class = '', bool $eager = false, string $caption = '', string $sizes = LF_SIZES ): string {
 	$json = $class ? ',"className":"' . $class . '"' : '';
 	// Studiofotos liegen in zwei Breiten (…-600.webp, …-1200.webp).
 	if ( str_ends_with( $file, '-1200.webp' ) ) {
-		$extra = ' srcset="' . lf_srcset( $file ) . '" sizes="' . LF_SIZES . '" width="1200" height="672"';
+		$extra = ' srcset="' . lf_srcset( $file ) . '" sizes="' . esc_attr( $sizes ) . '" width="1200" height="672"';
 	} else {
 		$extra = '';
 	}
@@ -366,12 +366,22 @@ function lf_table( array $head, array $rows, string $class = '' ): string {
 }
 
 /** Kundenstimmen-Karte; $nextgen = Zitat nennt den alten Namen. */
-function lf_stimme( string $zitat, string $name, string $meta, bool $nextgen ): string {
+function lf_stimme( string $zitat, string $name, string $meta, bool $nextgen = false ): string {
+	// $nextgen bleibt für die Aufrufer; der Hinweis steht seit DESIGN-01b einmal unter der Sektion (lf_stimmen_hinweis).
+	unset( $nextgen );
 	return lf_group( 'lf-stimme',
 		lf_p( lf_e( $zitat ), 'lf-stimme__text' ) . "\n"
 		. lf_p( '<strong>' . lf_e( $name ) . '</strong><br>' . implode( '<br>', array_map( 'lf_e', explode( ' · ', $meta ) ) ), 'lf-stimme__name' )
-		. ( $nextgen ? "\n" . lf_p( LF_NEXTGEN_HINWEIS, 'lf-stimme__hinweis' ) : '' )
 	);
+}
+
+/** Hinweis auf den alten Namen, einmal unter einer Gruppe von Kundenstimmen. */
+function lf_stimmen_hinweis( int $anzahl, bool $google = false ): string {
+	$satz = 1 === $anzahl ? 'Aufgenommen, als wir noch NextGen Podcast hießen.' : ( 2 === $anzahl ? 'Beide Stimmen stammen aus der Zeit, als wir noch NextGen Podcast hießen.' : 'Alle drei Stimmen aus der Zeit, als wir noch NextGen Podcast hießen.' );
+	if ( $google ) {
+		$satz .= ' Die Menschen dahinter sind dieselben: <a href="' . esc_url( LF_GOOGLE_PROFIL ) . '" rel="noopener">33 Bewertungen auf Google</a>.';
+	}
+	return lf_p( $satz, 'lf-note lf-stimmen__hinweis' );
 }
 
 /** Anfrage-Abschnitt; $calendly = false für /pilotfolge/. */
@@ -381,13 +391,7 @@ function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $c
 	if ( ! $calendly ) {
 		return lf_section( 'lf-anfrage lf-anfrage--solo', $links, 'anfrage' );
 	}
-	$rechts = lf_group( 'lf-anfrage__side',
-		lf_group( 'lf-termin',
-			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
-			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
-			. lf_termin_embed()
-		) . "\n" . $telefon
-	);
+	$rechts = lf_group( 'lf-anfrage__side', lf_termin_block() );
 	if ( $calendly_zuerst ) {
 		return lf_section( 'lf-anfrage lf-anfrage--termin-zuerst', $links . "\n" . $rechts, 'anfrage' );
 	}
@@ -471,31 +475,30 @@ function lf_pilotkarte( string $titel, string $text, string $hinweis, int $h = 3
 /**
  * Kundenlogos als Grafik (von der alten Seite, freigestellt, einfarbig; Grau per CSS).
  * Fehlen bewusst: Techniker Krankenkasse (kein Logo vorhanden – „TK.png“ der alten Seite ist thyssenkrupp),
- * Wikimedia (vorhandenes Logo ist die Wikimedia Foundation, Kunde ist Wikimedia Deutschland).
+ * Wikimedia (vorhandenes Logo ist die Wikimedia Foundation, Kunde ist Wikimedia Deutschland), Gegenbauer (verkauft, steht als Kundenstimme).
  * Höhe in px je Logo, damit die optische Größe gleich wirkt.
  */
 function lf_logo_daten(): array {
 	return array(
-		'dkb'                      => array( 'DKB', 36 ),
-		'thyssenkrupp'             => array( 'thyssenkrupp', 26 ),
-		'weleda'                   => array( 'Weleda', 22 ),
-		'mueller'                  => array( 'Müller', 34 ),
-		'johanniter'               => array( 'Johanniter', 26 ),
-		'gegenbauer'               => array( 'Gegenbauer', 18 ),
-		'konrad-adenauer-stiftung' => array( 'Konrad-Adenauer-Stiftung', 28 ),
-		'globus'                   => array( 'Globus', 30 ),
+		'dkb'                      => array( 'DKB', 30 ),
+		'thyssenkrupp'             => array( 'thyssenkrupp', 24 ),
+		'weleda'                   => array( 'Weleda', 20 ),
+		'mueller'                  => array( 'Müller', 30 ),
+		'johanniter'               => array( 'Johanniter', 24 ),
+		'konrad-adenauer-stiftung' => array( 'Konrad-Adenauer-Stiftung', 32 ),
 		'nh-hotels'                => array( 'NH Hotels', 32 ),
-		'hy'                       => array( 'hy – The Axel Springer Consulting Group', 26 ),
-		'myra'                     => array( 'Myra Security', 20 ),
+		'globus'                   => array( 'Globus', 30 ),
+		'hy'                       => array( 'hy Consulting', 30 ),
+		'myra'                     => array( 'Myra Security', 22 ),
 		'rheinische-notarkammer'   => array( 'Rheinische Notarkammer', 34 ),
-		'abgeordnetenhaus-berlin'  => array( 'Abgeordnetenhaus Berlin', 24 ),
+		'abgeordnetenhaus-berlin'  => array( 'Abgeordnetenhaus Berlin', 26 ),
 	);
 }
 
 /** Logostreifen: Startseite fünf Logos, mit $alle sämtliche. */
 function lf_logo_streifen( bool $alle = false ): string {
 	$daten = lf_logo_daten();
-	$wahl  = $alle ? array_keys( $daten ) : array( 'dkb', 'thyssenkrupp', 'weleda', 'mueller', 'johanniter' );
+	$wahl  = $alle ? array_keys( $daten ) : array( 'dkb', 'thyssenkrupp', 'weleda', 'mueller', 'johanniter', 'konrad-adenauer-stiftung', 'nh-hotels', 'globus', 'hy' );
 	$li    = '';
 	foreach ( $wahl as $k ) {
 		[ $name, $h ] = $daten[ $k ];
@@ -507,7 +510,8 @@ function lf_logo_streifen( bool $alle = false ): string {
 	);
 }
 
-const LF_SIZES = '(min-width: 1200px) 600px, (min-width: 900px) 50vw, calc(100vw - 40px)';
+const LF_SIZES      = '(min-width: 1200px) 600px, (min-width: 900px) 50vw, calc(100vw - 40px)';
+const LF_SIZES_VOLL = '(min-width: 1264px) 1200px, calc(100vw - 40px)';
 
 /** srcset aus den vorhandenen Breiten (…-600/-800/-1200.webp). */
 function lf_srcset( string $file ): string {
@@ -519,4 +523,23 @@ function lf_srcset( string $file ): string {
 		}
 	}
 	return implode( ', ', $teile );
+}
+
+const LF_CALENDLY_ALT = 'https://calendly.com/nextgen-media-gmbh/ngp-erstgespraech'; // bis AUFTRAG-04 das Embed mit Einwilligung bringt
+
+/** Rechter Block der Anfrage: Wolfgang, was im Erstgespräch passiert, Termin, Telefon (DESIGN-01b). */
+function lf_termin_block( int $h = 3 ): string {
+	$termin = lf_cfg( 'LF_CALENDLY_URL' )
+		? lf_termin_embed()
+		: lf_buttons( 'lf-termin__cta', '<!-- wp:button {"className":"is-style-lf-dark"} -->' . "\n" . '<div class="wp-block-button is-style-lf-dark"><a class="wp-block-button__link wp-element-button" href="' . esc_url( LF_CALENDLY_ALT ) . '" target="_blank" rel="noopener">Termin wählen</a></div>' . "\n" . '<!-- /wp:button -->' );
+	return '<!-- wp:group {"anchor":"termin","className":"lf-termin-block","layout":{"type":"default"}} -->' . "\n"
+		. '<div id="termin" class="wp-block-group lf-termin-block">'
+		. lf_group( 'lf-termin-block__kopf',
+			"<!-- wp:html -->\n<img class=\"lf-termin-block__foto\" src=\"" . lf_img( 'team/wolfgang-patz-rund.webp' ) . "\" alt=\"Wolfgang Patz\" width=\"64\" height=\"64\" loading=\"lazy\" decoding=\"async\">\n<!-- /wp:html -->\n"
+			. lf_group( 'lf-termin-block__titel', lf_h( $h, 'Erstgespräch mit Wolfgang Patz' ) . "\n" . lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) )
+		) . "\n"
+		. lf_list( array( 'Ziel und Zielgruppe', 'Passendes Format und Paket', 'Termin für die Pilotfolge' ), 'lf-termin-block__liste' ) . "\n"
+		. $termin . "\n"
+		. lf_p( 'Lieber telefonieren? <a href="' . LF_TELEFON_LINK . '"><strong>' . LF_TELEFON . '</strong></a>, Montag bis Freitag 9 bis 18 Uhr.', 'lf-anfrage__tel' )
+		. '</div>' . "\n" . '<!-- /wp:group -->';
 }

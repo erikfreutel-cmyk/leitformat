@@ -757,3 +757,80 @@ button.lf-video__play:hover, .lf-video-box--link:hover .lf-video__play { transfo
 .lf-person__foto img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; background: var(--lf-ink); }
 .lf-person { border-top: 0; padding-top: 0; }
 @media (max-width: 899px) { .lf-wolfgang__bild { max-width: 280px; } }
+
+/* ==========================================================================
+   DESIGN-01b – Korrekturen nach Eriks Durchsicht (Abstandsskala 8/16/24/40/64/96)
+   ========================================================================== */
+
+/* 1. Logostreifen: mobil eine scrollbare Zeile, ab 768 px umbrechend (zwei Zeilen) */
+.lf-logos__bilder { gap: 48px; }
+@media (min-width: 768px) {
+	.lf-logos--bild .lf-container { flex-wrap: wrap; overflow: visible; gap: 24px 48px; }
+	.lf-logos--bild .lf-logos__label { flex-basis: 100%; }
+	.lf-logos__bilder { flex-wrap: wrap; gap: 24px 48px; }
+}
+
+/* 2. Ausspielungen: Strich-Icon über dem Titel */
+.lf-icon { display: block; margin-bottom: 8px; color: var(--lf-ink); }
+.lf-ausspielung { gap: 8px; }
+
+/* 4. Referenzen: mehr Luft */
+.lf-ref-grid { gap: 24px; }
+.lf-ref--bild .lf-ref__text { padding-top: 16px; gap: 4px; }
+.lf-ref--bild .lf-ref__name { font-size: 20px; }
+.lf-ref--bild .lf-ref__sub { font-size: 15px; }
+.lf-referenzen .lf-testimonial { padding-top: 64px; }
+
+/* 5. Kundenstimmen: gleiche Höhe, Namen auf einer Linie, graue Linie links */
+.lf-stimmen { align-items: stretch; gap: 40px; }
+.lf-stimme { display: flex; flex-direction: column; gap: 24px; height: 100%; padding-left: 24px; border-left: 2px solid var(--lf-line); }
+.lf-stimme__text { font-family: var(--wp--preset--font-family--lf-display); font-size: 21px; line-height: 1.35; letter-spacing: -.005em; }
+.lf-stimme__name { margin-top: auto !important; line-height: 1.5; }
+.lf-stimmen__hinweis { margin-top: 24px !important; }
+
+/* 6. Anfrage: Formular 7/12, Block 5/12 */
+@media (min-width: 900px) { .lf-anfrage:not(.lf-anfrage--solo) .lf-container { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 64px; } }
+.lf-termin-block { display: flex; flex-direction: column; gap: 24px; padding: 32px; border-radius: 12px; background: var(--lf-hell); scroll-margin-top: 96px; }
+.lf-termin-block__kopf { display: flex; align-items: center; gap: 16px; }
+.lf-termin-block__foto { display: block; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: none; }
+.lf-termin-block__titel { display: flex; flex-direction: column; gap: 4px; }
+.lf-termin-block__titel h3 { font-size: 20px; }
+.lf-termin-block__liste { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.lf-termin-block__liste li { padding-top: 8px; border-top: 1px solid #D0D3D9; }
+.lf-termin-block .lf-termin__embed { padding: 0; }
+.lf-termin__cta .wp-block-button__link { min-height: 48px; }
+
+/* 7. /pilotfolge/: Bild oben, Text darunter */
+.lf-hero--oben .lf-container { display: flex; flex-direction: column; gap: 40px; align-items: stretch; }
+.lf-hero--oben .lf-hero__bild img { max-height: 520px; border-radius: 12px; }
+.lf-hero--oben h1 { font-size: clamp(36px, 5vw, 56px); }
+.lf-hero__preis { font-family: var(--wp--preset--font-family--lf-display); font-size: clamp(22px, 2.6vw, 28px); font-weight: 600; line-height: 1.2; }
+.lf-hero--oben .lf-hero__text { gap: 16px; }
+.lf-hero--oben .lf-hero__cta { margin-top: 8px !important; }
+
+/* 8. Header: auf allen Seiten, sticky, beim Scrollen kompakter */
+.wp-site-blocks > header {
+	position: sticky; top: 0; z-index: 60;
+	background: rgba(255, 255, 255, .94);
+	-webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+	border-bottom: 1px solid var(--lf-line);
+}
+.lf-header-wrap { padding-block: 14px; transition: padding-block .15s; }
+.wp-site-blocks > header.is-gescrollt .lf-header-wrap { padding-block: 10px; }
+/* backdrop-filter würde das feste Mobilmenü auf den Header begrenzen – beim offenen Menü abschalten */
+body.lf-menu-open .wp-site-blocks > header { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--lf-white); }
+[id] { scroll-margin-top: 88px; }
+@media (min-width: 1024px) { .lf-nav { gap: 24px; } .lf-nav ul { gap: 24px; } }
+.lf-nav .lf-header__tel { font-size: 15px; }
+@media (prefers-reduced-motion: reduce) { .lf-header-wrap { transition: none; } }
+
+/* Kundenstimmen: Namen auf gleicher Höhe (Subgrid: Zitat-Zeile und Namens-Zeile teilen sich die Spalten) */
+@media (min-width: 900px) {
+	.lf-stimmen:not(.lf-stimmen--eins) { grid-template-rows: auto auto; row-gap: 0; }
+	.lf-stimmen:not(.lf-stimmen--eins) > .lf-stimme { display: grid; grid-row: span 2; grid-template-rows: subgrid; row-gap: 24px; }
+	.lf-stimmen:not(.lf-stimmen--eins) .lf-stimme__name { margin-top: 0 !important; align-self: start; }
+}
+a[href^="tel:"] { white-space: nowrap; }
+.lf-termin-block__titel h2 { font-size: 20px; }
+/* „+ 48 Stunden“ auf Grau: dunkleres Signalrot für 4,5:1 Kontrast */
+.lf-section--white .lf-step__when--rec { color: #B81F18; }

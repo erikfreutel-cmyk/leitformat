@@ -70,7 +70,7 @@ foreach ( array( 'ausgangslage' => 'Ausgangslage', 'format_text' => 'Format', 'e
 }
 $lf_zitat = '';
 if ( ! empty( $lf_d['zitat']['text'] ) ) {
-	$lf_zitat = lf_stimme( $lf_d['zitat']['text'], $lf_d['zitat']['name'] ?? '', $lf_d['zitat']['rolle'] ?? '', str_contains( $lf_d['zitat']['text'], 'NextGen' ) );
+	$lf_zitat = lf_stimme( $lf_d['zitat']['text'], $lf_d['zitat']['name'] ?? '', $lf_d['zitat']['rolle'] ?? '' ) . ( str_contains( $lf_d['zitat']['text'], 'NextGen' ) ? "\n" . lf_stimmen_hinweis( 1 ) : '' );
 }
 $lf_player = ! empty( $lf_d['embed'] ) ? lf_ref_player( $lf_d['embed'], ( $lf_d['podcast_name'] ?? '' ) . ', ' . ( $lf_d['kunde'] ?? '' ) ) : '';
 

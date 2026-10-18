@@ -72,7 +72,7 @@ echo lf_section( 'lf-hero',
 . "\n\n" . lf_section( 'lf-kundenstimmen',
 	lf_group( 'lf-stimmen lf-stimmen--eins',
 		lf_stimme( '„Durch die Zusammenarbeit mit NextGen Podcast konnten wir die Qualität unseres Podcasts weiterentwickeln. Der gesamte Produktionsprozess läuft für uns wesentlich entspannter ab, da sich die Korrekturschleifen reduziert haben und die Umsetzung schnell erfolgt.“', 'Johanna Boccarius', 'hy Consulting · Return on Innovation, 35 Folgen in Audio und Video', true )
-	)
+	) . "\n" . lf_stimmen_hinweis( 1 )
 )
 . "\n\n" . lf_faq_section( 'Was Sie vor dem Start wissen wollen.', 'interview' )
 . "\n\n" . lf_anfrage( 'Sagen Sie uns, wen Sie an Ihrem Tisch haben wollen.', 'Antwort am selben Werktag. Oder buchen Sie direkt ein Erstgespräch mit Wolfgang.', 'Ein Format für unser Unternehmen' );

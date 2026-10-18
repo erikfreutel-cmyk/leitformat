@@ -88,7 +88,7 @@ add_filter( 'styles_inline_size_limit', fn() => 120000 ); // theme.css + pattern
 // Hero-Bild (Studio-Totale) auf Seiten, die es über dem Falz zeigen, vorladen.
 add_action( 'wp_head', function () {
 	if ( is_front_page() || is_page( array( 'pilotfolge', 'podcast-studio-berlin', 'podcast-produktion' ) ) ) {
-		printf( '<link rel="preload" as="image" href="%s" imagesrcset="%s" imagesizes="%s" fetchpriority="high">' . "\n", esc_url( get_theme_file_uri( 'assets/img/studio/studio-totale-800.webp' ) ), esc_attr( lf_srcset( 'studio/studio-totale-1200.webp' ) ), esc_attr( LF_SIZES ) );
+		printf( '<link rel="preload" as="image" href="%s" imagesrcset="%s" imagesizes="%s" fetchpriority="high">' . "\n", esc_url( get_theme_file_uri( 'assets/img/studio/studio-totale-800.webp' ) ), esc_attr( lf_srcset( 'studio/studio-totale-1200.webp' ) ), esc_attr( is_page( 'pilotfolge' ) ? LF_SIZES_VOLL : LF_SIZES ) );
 	}
 }, 1 );
 

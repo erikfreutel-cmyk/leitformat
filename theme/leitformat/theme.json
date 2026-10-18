@@ -31,7 +31,7 @@
 				{
 					"slug": "lf-hell",
 					"name": "Studiopanel (Hellgrau)",
-					"color": "#F2F3F5"
+					"color": "#E8EAEE"
 				},
 				{
 					"slug": "lf-white",
@@ -227,6 +227,11 @@
 					"size": "40px"
 				},
 				{
+					"slug": "xl",
+					"name": "XL",
+					"size": "64px"
+				},
+				{
 					"slug": "gutter",
 					"name": "Seitenrand",
 					"size": "clamp(20px, 4vw, 32px)"
@@ -234,7 +239,7 @@
 				{
 					"slug": "section",
 					"name": "Abschnitt",
-					"size": "clamp(56px, 7vw, 72px)"
+					"size": "clamp(64px, 8vw, 96px)"
 				}
 			]
 		},

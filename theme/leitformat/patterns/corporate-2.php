@@ -9,7 +9,7 @@ echo lf_section( 'lf-kundenstimmen',
 	lf_group( 'lf-stimmen lf-stimmen--zwei',
 		lf_stimme( '„Ich bin mit der Zusammenarbeit mit NextGen Podcast sehr zufrieden. Die Leistungen wurden zuverlässig und termingerecht erbracht. Hervorzuheben sind die hohe Flexibilität, die ausgeprägte Serviceorientierung sowie der stets professionelle Umgang.“', 'Alexander Hub', 'Kommunikation, thyssenkrupp · Interner Podcast, Schnitt und Weiterentwicklung', true ) . "\n"
 		. lf_stimme( '„NextGen Podcast hat uns dabei geholfen, das Tool Podcast technisch und redaktionell aufs nächste Level zu heben. Wir schätzen die professionelle und pragmatische Zusammenarbeit sehr.“', 'Carolin Kossin', 'Corporate Communications Manager, Unternehmensgruppe Theo Müller · Video-Podcast in Deutsch, Englisch und Polnisch', true )
-	)
+	) . "\n" . lf_stimmen_hinweis( 2 )
 )
 . "\n\n" . lf_ablauf( 'Vom Kennenlernen zum Staffelplan in sechs Wochen.', array(
 	array( 'Tag 0', 'Kennenlernen', 'Ziele, Zielgruppen, Freigabeprozess. Angebot innerhalb von zwei Werktagen.' ),

@@ -3,7 +3,7 @@
 :root {
 	--lf-ink: #15171C;
 	--lf-paper: #FFFFFF;
-	--lf-hell: #F2F3F5;
+	--lf-hell: #E8EAEE;
 	--lf-white: #FFFFFF;
 	--lf-signal: #D7261E;
 	--lf-panel: #1C1F26;
@@ -90,7 +90,7 @@ p, li { max-width: var(--wp--custom--measure); }
 .lf-nav .lf-btn { min-height: 44px; padding: 0 20px; font-size: 16px; }
 .lf-burger { display: none; }
 
-@media (max-width: 899px) {
+@media (max-width: 1023px) {
 	.lf-burger {
 		position: relative;
 		z-index: 101;

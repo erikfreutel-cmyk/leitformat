@@ -25,6 +25,9 @@ $lf_nav = array(
 			<li><a href="<?php echo esc_url( home_url( $lf_url ) ); ?>"><?php echo esc_html( $lf_label ); ?></a></li>
 			<?php endforeach; ?>
 		</ul>
+		<?php if ( is_page( 'pilotfolge' ) ) : ?>
+		<a class="lf-header__tel" href="<?php echo esc_attr( LF_TELEFON_LINK ); ?>"><?php echo esc_html( LF_TELEFON ); ?></a>
+		<?php endif; ?>
 		<a class="lf-btn lf-btn--dark" href="<?php echo esc_url( home_url( get_page_by_path( 'kontakt' ) ? '/kontakt/#termin' : '/#anfrage' ) ); ?>" data-lf-cta>Erstgespräch buchen</a>
 	</nav>
 </div>

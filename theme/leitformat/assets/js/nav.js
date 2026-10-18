@@ -23,5 +23,14 @@
 		if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
 		else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
 	});
-	matchMedia('(min-width: 900px)').addEventListener('change', (m) => m.matches && nav.classList.contains('is-open') && toggle(false));
+	matchMedia('(min-width: 1024px)').addEventListener('change', (m) => m.matches && nav.classList.contains('is-open') && toggle(false));
+})();
+
+// Header beim Scrollen kompakter (nur Padding, 150 ms).
+(() => {
+	const kopf = document.querySelector('.wp-site-blocks > header');
+	if (!kopf) return;
+	const pruefen = () => kopf.classList.toggle('is-gescrollt', window.scrollY > 8);
+	addEventListener('scroll', pruefen, { passive: true });
+	pruefen();
 })();

@@ -46,7 +46,7 @@ echo lf_section( 'lf-section--white lf-zahlen',
 	lf_group( 'lf-stimmen lf-stimmen--zwei',
 		lf_stimme( '„NextGen Podcast hat uns dabei geholfen, das Tool Podcast technisch und redaktionell aufs nächste Level zu heben. Wir schätzen die professionelle und pragmatische Zusammenarbeit sehr.“', 'Carolin Kossin', 'Unternehmensgruppe Theo Müller · Produktion und Übersetzung des Video-Podcasts', true ) . "\n"
 		. lf_stimme( '„Wir haben mit NextGen Podcast von der ersten Idee bis zur Produktion und Moderation unseres Podcasts zusammengearbeitet. Sie haben uns im gesamten Prozess hervorragend unterstützt. Die Zusammenarbeit mit NextGen Podcast ist sehr unkompliziert und zielorientiert.“', 'Johanna Vogel', 'Rheinische Notarkammer · Konzeption, Moderation und Produktion des Video-Podcasts', true )
-	)
+	) . "\n" . lf_stimmen_hinweis( 2 )
 )
 . "\n\n" . lf_section( 'lf-section--white lf-ratgeber', lf_group( 'lf-prose lf-prose--section', $lf_ratgeber ) )
 . "\n\n" . lf_faq_section( 'Fragen zur Video-Produktion.', 'video' )

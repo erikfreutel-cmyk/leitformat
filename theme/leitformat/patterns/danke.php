@@ -11,14 +11,9 @@ echo lf_section( 'lf-anfrage lf-danke',
 		''
 		. lf_h( 1, 'Ihre Anfrage ist angekommen.' ) . "\n"
 		. lf_p( 'Wolfgang Patz antwortet Ihnen am selben Werktag. Wählen Sie jetzt einen Termin, dann geht es schneller.', 'lf-lead' ) . "\n"
-		. lf_p( 'Lieber telefonieren? <a href="' . LF_TELEFON_LINK . '"><strong>' . LF_TELEFON . '</strong></a>, Montag bis Freitag 9 bis 18 Uhr.', 'lf-anfrage__tel' )
 	) . "\n"
 	. lf_group( 'lf-anfrage__side',
-		lf_group( 'lf-termin',
-			lf_p( '<strong>Erstgespräch mit Wolfgang Patz</strong>' ) . "\n"
-			. lf_p( '30 Minuten, Video-Call, kostenlos.', 'lf-muted' ) . "\n"
-			. lf_termin_embed()
-		)
+		lf_termin_block( 2 )
 	)
 ) . "\n\n" . lf_section( 'lf-section--white lf-teaser',
 	lf_h( 2, 'Bis zum Gespräch: zwei kurze Videos.' ) . "\n"

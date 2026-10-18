@@ -42,7 +42,7 @@ add_action( 'wp_footer', function () {
 function lf_termin_embed( string $seite = '' ): string {
 	$url = lf_cfg( 'LF_CALENDLY_URL' );
 	if ( ! $url ) {
-		return "<!-- wp:html -->\n<div class=\"lf-termin__embed lf-termin__embed--ohne\" id=\"termin\"><p>Schreiben Sie uns Ihren Wunschtermin über das Formular – oder rufen Sie an: <a href=\"" . esc_attr( LF_TELEFON_LINK ) . '"><strong>' . esc_html( LF_TELEFON ) . "</strong></a>.</p></div>\n<!-- /wp:html -->";
+		return "<!-- wp:html -->\n<div class=\"lf-termin__embed lf-termin__embed--ohne\"><p>Schreiben Sie uns Ihren Wunschtermin über das Formular – oder rufen Sie an: <a href=\"" . esc_attr( LF_TELEFON_LINK ) . '"><strong>' . esc_html( LF_TELEFON ) . "</strong></a>.</p></div>\n<!-- /wp:html -->";
 	}
 	$seite = $seite ?: ( is_front_page() ? 'startseite' : (string) get_post_field( 'post_name', get_queried_object_id() ) );
 	$args  = array(
@@ -61,5 +61,5 @@ function lf_termin_embed( string $seite = '' ): string {
 		}
 	}
 	$src = add_query_arg( array_map( 'rawurlencode', array_filter( $args ) ), $url );
-	return "<!-- wp:html -->\n<div class=\"lf-termin__embed\" id=\"termin\" data-lf-calendly=\"" . esc_url( $src ) . '"><button type="button" class="lf-btn lf-btn--primary" data-lf-calendly-laden>Termin wählen</button><p class="lf-video__consent">Beim Laden zeigt Calendly den Kalender an; dabei werden Daten an Calendly übertragen.</p></div>' . "\n<!-- /wp:html -->";
+	return "<!-- wp:html -->\n<div class=\"lf-termin__embed\" data-lf-calendly=\"" . esc_url( $src ) . '"><button type="button" class="lf-btn lf-btn--primary" data-lf-calendly-laden>Termin wählen</button><p class="lf-video__consent">Beim Laden zeigt Calendly den Kalender an; dabei werden Daten an Calendly übertragen.</p></div>' . "\n<!-- /wp:html -->";
 }
