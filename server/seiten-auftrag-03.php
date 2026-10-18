@@ -7,6 +7,7 @@
 $dir   = __DIR__ . '/inhalte/';
 $pages = array(
 	'kontakt'     => array( 'Kontakt', 'patterns', array( 'kontakt' ) ),
+	'podcast-studio-berlin' => array( 'Podcast-Studio Berlin', 'patterns', array( 'studio-hero', 'studio-galerie', 'fakten', 'preistabelle', 'ablauf-studio', 'studio-case', 'anfahrt', 'faq-studio', 'anfrage-studio' ) ),
 	'impressum'   => array( 'Impressum', 'datei', 'impressum.html' ),
 	'datenschutz' => array( 'Datenschutz', 'datei', 'datenschutz.html' ),
 	'agb'         => array( 'AGB', 'datei', 'agb.html' ),

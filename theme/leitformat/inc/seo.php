@@ -30,6 +30,11 @@ function lf_seo(): array {
 			'desc'  => 'Pilotfolge 2.900 €, Formate ab 2.400 € im Monat, Studio Berlin ab 200 € je Stunde. Alle Preise netto, mit Vergleich zu Marktpreisen.',
 			'faq'   => 'preise',
 		),
+		'podcast-studio-berlin' => array(
+			'title' => 'Podcast-Studio Berlin mieten – Video & Audio, ab 200 € – Leitformat',
+			'desc'  => 'Podcast-Studio in Berlin-Lichtenberg: 3 Sony-4K-Kameras, 3 Shure SM7B, bis 4 Personen, Techniker im Raum, Rohdaten am selben Tag. Ab 200 € je Stunde.',
+			'faq'   => 'studio',
+		),
 		'kontakt'     => array(
 			'title' => 'Kontakt und Erstgespräch – Leitformat',
 			'desc'  => 'Anfrage senden oder Erstgespräch mit Wolfgang Patz buchen: 30 Minuten, Video-Call, kostenlos. Antwort am selben Werktag. Studio in Berlin-Lichtenberg.',
@@ -91,5 +96,39 @@ add_action( 'wp_head', function () {
 		);
 	}
 	$schema = array( '@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => $items );
+	echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "</script>\n";
+} );
+
+// LocalBusiness-Schema für das Studio.
+add_action( 'wp_head', function () {
+	if ( ! is_page( 'podcast-studio-berlin' ) ) {
+		return;
+	}
+	$schema = array(
+		'@context'                  => 'https://schema.org',
+		'@type'                     => 'LocalBusiness',
+		'@id'                       => home_url( '/podcast-studio-berlin/#studio' ),
+		'name'                      => 'Leitformat Podcast-Studio Berlin',
+		'url'                       => home_url( '/podcast-studio-berlin/' ),
+		'image'                     => get_theme_file_uri( 'assets/img/studio/studio-totale-1200.webp' ),
+		'telephone'                 => '+49 30 20634903',
+		'email'                     => 'kontakt@leitformat.de',
+		'priceRange'                => '200–600 €',
+		'address'                   => array(
+			'@type'           => 'PostalAddress',
+			'streetAddress'   => 'Franz-Jacob-Straße 2c',
+			'postalCode'      => '10369',
+			'addressLocality' => 'Berlin',
+			'addressCountry'  => 'DE',
+		),
+		'geo'                       => array( '@type' => 'GeoCoordinates', 'latitude' => 52.5251581, 'longitude' => 13.4660294 ),
+		'openingHoursSpecification' => array(
+			'@type'     => 'OpeningHoursSpecification',
+			'dayOfWeek' => array( 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday' ),
+			'opens'     => '08:00',
+			'closes'    => '18:00',
+		),
+		'parentOrganization'        => array( '@id' => home_url( '/#organization' ) ),
+	);
 	echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "</script>\n";
 } );

@@ -132,7 +132,9 @@
 	background: var(--lf-panel);
 	color: var(--lf-white);
 }
+.lf-video__poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .55; }
 .lf-video__play {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -414,3 +416,22 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-prose p, .lf-prose ul { margin: 0 0 14px !important; color: var(--lf-text-2); }
 .lf-prose ul { padding-left: 22px; }
 .lf-prose a { overflow-wrap: anywhere; }
+
+/* ---------- Studio ---------- */
+
+.lf-hero__bild img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--wp--custom--radius--card); }
+.lf-galerie__grid { display: grid; gap: 20px; }
+@media (min-width: 600px) { .lf-galerie__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-galerie__bild { margin: 0; }
+.lf-galerie__bild img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--wp--custom--radius--card); }
+.lf-galerie__bild figcaption { margin-top: 10px; font-size: 14px; color: var(--lf-grey); text-align: left; }
+.lf-galerie__bild figcaption strong { color: var(--lf-ink); }
+.lf-fakten__grid { display: grid; gap: 32px 48px; }
+@media (min-width: 900px) { .lf-fakten__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-fakten__spalte { display: flex; flex-direction: column; gap: 16px; }
+.lf-studio-case .lf-testimonial { padding-top: 0; }
+.lf-studio-case h2 { font-size: var(--wp--preset--font-size--headline-3); }
+.lf-stimmen.lf-stimmen--eins { max-width: 720px; grid-template-columns: minmax(0, 1fr); }
+.lf-anfahrt .lf-container { display: grid; gap: 32px; align-items: center; }
+@media (min-width: 900px) { .lf-anfahrt .lf-container { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 48px; } }
+.lf-anfahrt__text { display: flex; flex-direction: column; gap: 16px; }

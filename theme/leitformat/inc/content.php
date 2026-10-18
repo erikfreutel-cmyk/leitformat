@@ -37,6 +37,17 @@ function lf_faq( string $set ): array {
 			array( 'Was, wenn uns das Ergebnis nicht gefällt?', 'Zwei Korrekturrunden sind inklusive. Passt es danach nicht, sprechen wir darüber, bevor Sie etwas weiter buchen.' ),
 			array( 'Was passiert nach der Pilotfolge?', 'Die Pilotfolge wird vollständig auf das Setup angerechnet. Beim Format Experte ist die Pilotfolge das Setup – danach zahlen Sie nur die Monatsrate.' ),
 		),
+		'studio' => array(
+			array( 'Kann ich das Studio ohne Agentur mieten?', 'Ja. Sie mieten Raum, Technik und Techniker. Schnitt, Clips und Veröffentlichung buchen Sie nur, wenn Sie wollen.' ),
+			array( 'Wie viele Personen passen ins Studio?', 'Bis zu vier Personen vor der Kamera.' ),
+			array( 'Können Gäste remote dazukommen?', 'Ja. Wir schalten Remote-Gäste in Studioqualität zu.' ),
+			array( 'Bringe ich eigene Technik mit?', 'Nicht nötig. Drei Kameras, drei Mikrofone und Licht stehen bereit und sind eingerichtet, bevor Sie ankommen.' ),
+			array( 'Wer bedient die Kameras?', 'Wir. Bei jeder Aufnahme ist ein Techniker im Raum und achtet auf Licht, Ton und Bild. Sie konzentrieren sich auf das Gespräch.' ),
+			array( 'Bekomme ich die Rohdaten?', 'Ja, am selben Tag online. Jede Person auf einer eigenen Tonspur, jede Kamera als eigene Datei. Sie können selbst schneiden.' ),
+			array( 'Wie buche ich?', 'Über das Formular unten mit Wunschtermin und Format. Die Bestätigung kommt innerhalb eines Werktags. Für regelmäßige Aufnahmen halten wir feste Termine frei.' ),
+			array( 'Wo parke ich?', 'Kostenfrei an der Franz-Jacob-Straße und der Storkower Straße. Oder in der Tiefgarage hinter dem Edeka an der Franz-Jacob-Straße 2c – die Kosten übernehmen wir, bringen Sie das Ticket mit.' ),
+			array( 'Was kostet der Schnitt dazu?', 'Ab 450 € je Video-Folge, auf Wunsch mit Clips und Veröffentlichung. Laufende Formate gibt es als Paket ab 2.400 € im Monat.' ),
+		),
 		'preise' => array(
 			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
 			array( 'Gibt es Rabatt bei Jahresbuchung?', 'Wer die gesamte Laufzeit im Voraus zahlt, bekommt 10 % auf die Monatsraten. Auf das Setup gibt es keinen Rabatt.' ),
@@ -84,17 +95,19 @@ function lf_img( string $name ): string {
  * Video-Fläche 16:9. Mit $vimeo lädt der Klick den Vimeo-Player (Klick = Einwilligung),
  * mit $src ein selbst gehostetes MP4. Ohne Quelle nur Platzhalter ohne Bedienelement.
  */
-function lf_video( string $caption, string $label, string $vimeo = '', string $src = '', string $poster = '' ): string {
-	$has    = $vimeo || $src;
+function lf_video( string $caption, string $label, string $vimeo = '', string $src = '', string $poster = '', string $youtube = '', int $start = 0, string $bild = '' ): string {
+	$has    = $vimeo || $src || $youtube;
 	$attrs  = $vimeo ? ' data-vimeo="' . esc_attr( $vimeo ) . '"' : '';
+	$attrs .= $youtube ? ' data-youtube="' . esc_attr( $youtube ) . '"' . ( $start ? ' data-start="' . $start . '"' : '' ) : '';
 	$attrs .= $src ? ' data-src="' . esc_url( $src ) . '"' : '';
 	$attrs .= $poster ? ' data-poster="' . esc_url( $poster ) . '"' : '';
 	$icon   = '<svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l12-7z"/></svg>';
 	$play   = $has
 		? '<button class="lf-video__play" type="button" aria-label="' . esc_attr( $label ) . '">' . $icon . '</button>'
 		: '<span class="lf-video__play" aria-hidden="true">' . $icon . '</span>';
-	$note   = $vimeo ? '<p class="lf-video__consent">Beim Abspielen lädt das Video von Vimeo.</p>' : '';
-	return "<!-- wp:html -->\n<div class=\"lf-video\"{$attrs}>{$play}<p class=\"lf-video__caption\">" . lf_e( $caption ) . "</p>{$note}</div>\n<!-- /wp:html -->";
+	$note   = $vimeo ? '<p class="lf-video__consent">Beim Abspielen lädt das Video von Vimeo.</p>' : ( $youtube ? '<p class="lf-video__consent">Beim Abspielen lädt das Video von YouTube.</p>' : '' );
+	$img    = $bild ? '<img class="lf-video__poster" src="' . lf_img( $bild ) . '" alt="" loading="lazy" decoding="async">' : '';
+	return "<!-- wp:html -->\n<div class=\"lf-video\"{$attrs}>{$img}{$play}<p class=\"lf-video__caption\">" . lf_e( $caption ) . "</p>{$note}</div>\n<!-- /wp:html -->";
 }
 
 /** FAQ als <details>-Blöcke. */
@@ -257,10 +270,19 @@ function lf_list( array $items, string $class = '' ): string {
 	return "<!-- wp:list{$json} -->\n<ul class=\"wp-block-list" . ( $class ? " {$class}" : '' ) . "\">{$li}</ul>\n<!-- /wp:list -->";
 }
 
-function lf_image( string $file, string $alt, string $class = '' ): string {
+function lf_image( string $file, string $alt, string $class = '', bool $eager = false, string $caption = '' ): string {
 	$json = $class ? ',"className":"' . $class . '"' : '';
+	// Studiofotos liegen in zwei Breiten (…-600.webp, …-1200.webp).
+	if ( str_ends_with( $file, '-1200.webp' ) ) {
+		$small  = str_replace( '-1200.webp', '-600.webp', $file );
+		$extra  = ' srcset="' . lf_img( $small ) . ' 600w, ' . lf_img( $file ) . ' 1200w" sizes="(min-width: 1200px) 600px, (min-width: 900px) 50vw, 100vw" width="1200" height="672"';
+	} else {
+		$extra = '';
+	}
+	$load = $eager ? ' fetchpriority="high" decoding="async"' : ' loading="lazy" decoding="async"';
+	$cap  = $caption ? '<figcaption class="wp-element-caption">' . $caption . '</figcaption>' : '';
 	return '<!-- wp:image {"sizeSlug":"full","linkDestination":"none"' . $json . '} -->' . "\n"
-		. '<figure class="wp-block-image size-full' . ( $class ? " {$class}" : '' ) . '"><img src="' . lf_img( $file ) . '" alt="' . esc_attr( $alt ) . '" loading="lazy" decoding="async"/></figure>' . "\n"
+		. '<figure class="wp-block-image size-full' . ( $class ? " {$class}" : '' ) . '"><img src="' . lf_img( $file ) . '" alt="' . esc_attr( $alt ) . '"' . $extra . $load . '/>' . $cap . '</figure>' . "\n"
 		. '<!-- /wp:image -->';
 }
 

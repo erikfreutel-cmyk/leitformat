@@ -222,7 +222,11 @@ add_action( 'wp_footer', function () {
 	if ( is_page( array( 'kontakt', 'danke' ) ) || is_404() ) {
 		return;
 	}
-	echo do_blocks( '<!-- wp:pattern {"slug":"lf/sticky-cta"} /-->' );
+	$html = do_blocks( '<!-- wp:pattern {"slug":"lf/sticky-cta"} /-->' );
+	if ( is_page( 'podcast-studio-berlin' ) ) {
+		$html = str_replace( '>Anfragen<', '>Studio anfragen<', $html );
+	}
+	echo $html; // phpcs:ignore WordPress.Security.EscapeOutput -- Pattern-Markup aus dem Theme.
 } );
 
 /* --------------------------------------------------------------------------
