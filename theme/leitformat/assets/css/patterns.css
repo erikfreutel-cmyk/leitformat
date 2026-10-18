@@ -395,3 +395,22 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-header__tel { font-weight: 600; text-decoration: none; white-space: nowrap; }
 .lf-footer--minimal { padding-block: 32px; border-top: 1px solid var(--lf-line); }
 .lf-footer__legal { max-width: none; font-size: 14px; color: var(--lf-grey); }
+
+/* ---------- Kontakt, Karte, Rechtliches ---------- */
+
+.lf-kontakt { padding-top: 32px; }
+.lf-kontakt h1 { font-size: var(--wp--preset--font-size--headline-2); }
+.lf-kontaktdaten { margin: 8px 0 0; padding: 20px 0 0; list-style: none; border-top: 1px solid var(--lf-line); display: flex; flex-direction: column; gap: 6px; font-size: 16px; color: var(--lf-text-2); }
+.lf-kontaktdaten a { font-weight: 600; }
+.lf-karte { display: flex; flex-direction: column; gap: 10px; }
+.lf-karte__bild img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border: 1px solid var(--lf-line); border-radius: var(--wp--custom--radius--card); }
+.lf-karte__links { font-size: 13px; color: var(--lf-grey); }
+.lf-karte__links a:first-child { font-size: 15px; font-weight: 600; }
+
+.lf-legal { padding-top: 40px; }
+.lf-prose { max-width: 720px; margin-inline: auto; gap: 0; }
+.lf-prose h1 { font-size: var(--wp--preset--font-size--headline-2); margin-bottom: 24px !important; }
+.lf-prose h2 { font-size: var(--wp--preset--font-size--headline-3); margin: 40px 0 12px !important; }
+.lf-prose p, .lf-prose ul { margin: 0 0 14px !important; color: var(--lf-text-2); }
+.lf-prose ul { padding-left: 22px; }
+.lf-prose a { overflow-wrap: anywhere; }

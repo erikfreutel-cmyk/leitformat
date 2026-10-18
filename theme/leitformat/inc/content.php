@@ -196,7 +196,7 @@ function lf_testimonial_gegenbauer(): string {
  * Formular (Funktion in AUFTRAG-04).
  */
 function lf_formular( string $vorauswahl = '' ): string {
-	$optionen = array( 'Pilotfolge', 'Ein Format für unser Unternehmen', 'Konzernprojekt', 'Noch unklar' );
+	$optionen = array( 'Pilotfolge', 'Ein Format für unser Unternehmen', 'Konzernprojekt', 'Studio buchen', 'Noch unklar' );
 	$opts     = '';
 	foreach ( $optionen as $o ) {
 		$opts .= '<option' . ( $o === $vorauswahl ? ' selected' : '' ) . '>' . lf_e( $o ) . '</option>';
@@ -324,4 +324,24 @@ function lf_ablauf( string $h2, array $schritte ): string {
 
 function lf_faq_section( string $h2, string $set ): string {
 	return lf_section( 'lf-section--white lf-faq', lf_h( 2, $h2 ) . "\n" . lf_group( 'lf-faq__list', lf_faq_blocks( $set ) ) );
+}
+
+const LF_ROUTE = 'https://www.google.com/maps/dir/?api=1&destination=Franz-Jacob-Stra%C3%9Fe+2c%2C+10369+Berlin';
+
+/** Statischer Kartenausschnitt (eigenes Bild, kein Embed) mit Routen-Link. */
+function lf_karte(): string {
+	return lf_group( 'lf-karte',
+		lf_image( 'karte-studio-berlin.webp', 'Kartenausschnitt Berlin-Lichtenberg: Studio in der Franz-Jacob-Straße 2c, nahe S-Bahnhof Storkower Straße', 'lf-karte__bild' ) . "\n"
+		. lf_p( '<a href="' . esc_url( LF_ROUTE ) . '" rel="noopener">Route in Google Maps planen</a> · Karte © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap-Mitwirkende</a>', 'lf-karte__links' )
+	);
+}
+
+/** Kontaktdaten als Liste. */
+function lf_kontaktdaten(): string {
+	return lf_list( array(
+		'Telefon <a href="' . LF_TELEFON_LINK . '">' . LF_TELEFON . '</a>, Montag bis Freitag 9 bis 18 Uhr',
+		'Mobil <a href="tel:+491607849590">+49 160 78 49 590</a>',
+		'E-Mail <a href="mailto:kontakt@leitformat.de">kontakt@leitformat.de</a>',
+		'Studio: Franz-Jacob-Straße 2c, 10369 Berlin',
+	), 'lf-kontaktdaten' );
 }

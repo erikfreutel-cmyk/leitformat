@@ -30,6 +30,13 @@ function lf_seo(): array {
 			'desc'  => 'Pilotfolge 2.900 €, Formate ab 2.400 € im Monat, Studio Berlin ab 200 € je Stunde. Alle Preise netto, mit Vergleich zu Marktpreisen.',
 			'faq'   => 'preise',
 		),
+		'kontakt'     => array(
+			'title' => 'Kontakt und Erstgespräch – Leitformat',
+			'desc'  => 'Anfrage senden oder Erstgespräch mit Wolfgang Patz buchen: 30 Minuten, Video-Call, kostenlos. Antwort am selben Werktag. Studio in Berlin-Lichtenberg.',
+		),
+		'impressum'   => array( 'title' => 'Impressum – Leitformat', 'desc' => 'Impressum der NextGen Media GmbH, Berlin. Leitformat ist eine Marke der NextGen Media GmbH.' ),
+		'datenschutz' => array( 'title' => 'Datenschutz – Leitformat', 'desc' => 'Datenschutzerklärung von leitformat.de: Hosting, Einwilligung, Formular, Calendly, Google Ads, Vimeo.' ),
+		'agb'         => array( 'title' => 'AGB – Leitformat', 'desc' => 'Allgemeine Geschäftsbedingungen der NextGen Media GmbH für Podcast-Produktion, Formate und Studio.' ),
 	);
 
 	if ( is_front_page() ) {
@@ -56,9 +63,9 @@ function lf_meta_description(): string {
 	return (string) get_bloginfo( 'description' );
 }
 
-// /pilotfolge/ bleibt dauerhaft noindex, follow (Ads-Landingpage, auch nach Go-Live).
+// Dauerhaft noindex, follow: /pilotfolge/ (Ads-Landingpage) und die Rechtsseiten – auch nach Go-Live.
 add_filter( 'wp_robots', function ( array $robots ) {
-	if ( is_page( 'pilotfolge' ) ) {
+	if ( is_page( array( 'pilotfolge', 'impressum', 'datenschutz', 'agb' ) ) ) {
 		$robots['noindex'] = true;
 		$robots['follow']  = true;
 		unset( $robots['nofollow'] );
