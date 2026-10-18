@@ -48,6 +48,38 @@ function lf_faq( string $set ): array {
 			array( 'Wo parke ich?', 'Kostenfrei an der Franz-Jacob-Straße und der Storkower Straße. Oder in der Tiefgarage hinter dem Edeka an der Franz-Jacob-Straße 2c – die Kosten übernehmen wir, bringen Sie das Ticket mit.' ),
 			array( 'Was kostet der Schnitt dazu?', 'Ab 450 € je Video-Folge, auf Wunsch mit Clips und Veröffentlichung. Laufende Formate gibt es als Paket ab 2.400 € im Monat.' ),
 		),
+		'corporate' => array(
+			array( 'Wie laufen Freigaben?', 'Jede Folge und jeder Clip wird per Link freigegeben, mit Kommentaren an der Stelle. Wir richten den Ablauf nach Ihrem Freigabeprozess – auch mit Rechtsabteilung und Vorstandsbüro.' ),
+			array( 'Wie gehen Sie mit Datenschutz um?', 'Für Gäste- und Mitarbeiterdaten schließen wir einen Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Die Einwilligungen der Personen vor der Kamera stimmen wir vor der Aufnahme mit Ihnen ab.' ),
+			array( 'Geht das mehrsprachig?', 'Ja. Für die Unternehmensgruppe Theo Müller produzieren wir einen Video-Podcast in Deutsch, Englisch und Polnisch. Untertitel und Sprachfassungen sind als Zusatzmodul buchbar.' ),
+			array( 'Wem gehören die Rechte?', 'Rohmaterial, Schnitt und Clips gehören Ihnen. Musik lizenzieren wir für Ihre Nutzung, zeitlich unbegrenzt.' ),
+			array( 'Was passiert mit vertraulichen Inhalten?', 'Beide Seiten verpflichten sich zur Vertraulichkeit. Interne Folgen veröffentlichen wir nur in den Kanälen, die Sie freigeben – etwa im Intranet oder in einem geschützten Feed.' ),
+			array( 'Wie sieht das Reporting aus?', 'Monatlich, als Gespräch: Abrufe je Kanal, Reichweite bei Zielkunden auf LinkedIn, und im Konzern-Format, welche Gäste und Zuschauer später angefragt haben.' ),
+		),
+		'interview' => array(
+			array( 'Wir haben noch keinen Podcast. Passt das trotzdem?', 'Gerade dann. Wer das Format von Anfang an auf Gäste und Kontakte ausrichtet, spart sich Jahre des Ausprobierens.' ),
+			array( 'Wie viel Zeit müssen wir selbst investieren?', 'Weniger als gedacht. Sie bringen sich und Ihre Gäste mit, Aufnahme, Schnitt und Veröffentlichung übernehmen wir.' ),
+			array( 'Brauchen wir ein Studio oder Technik?', 'Nein. Sie nehmen in unserem Studio in Berlin auf, wir kommen mit Technik zu Ihnen, oder wir nehmen remote auf.' ),
+			array( 'Für wen ist das nichts?', 'Für alle, die schnelle Reichweite suchen oder nicht regelmäßig vor das Mikrofon wollen. Es lohnt sich dort, wo ein einziger neuer Kunde viel zählt.' ),
+			array( 'Wie schnell entstehen Kontakte oder Aufträge?', 'Ein Podcast ist kein Anzeigenknopf. Jede Folge baut eine Beziehung auf, und aus Beziehungen wird mit der Zeit Geschäft.' ),
+			array( 'Was kostet das?', 'Das Format Experte beginnt bei 2.400 € im Monat für zwei Video-Folgen, das Format Unternehmen bei 4.400 €. Der Einstieg ist eine Pilotfolge für 2.900 €.' ),
+		),
+		'video' => array(
+			array( 'Wie viele Clips bekommen wir je Folge?', 'Je nach Paket: 6 bei der Pilotfolge, 3 je Folge im Format Experte, 5 je Folge im Format Unternehmen. Im Konzern-Format nach Vereinbarung.' ),
+			array( 'Für welche Plattformen?', 'YouTube und Spotify für die Video-Folge, alle Podcast-Apps für die Audio-Folge, LinkedIn, Instagram, TikTok und YouTube Shorts für die Clips.' ),
+			array( 'Wann sind Clips und Folge fertig?', 'Clips 48 Stunden nach der Aufnahme, die fertige Folge in 5 Werktagen.' ),
+			array( 'Bekommen wir auch eine Audio-Fassung?', 'Ja. Aus jeder Video-Folge entsteht eine Audio-Folge für alle Podcast-Apps, mit Hosting.' ),
+			array( 'Sind die Clips untertitelt?', 'Ja. Jeder Clip ist im Hochformat und untertitelt, damit er auch ohne Ton funktioniert. Fremdsprachige Untertitel sind ein Zusatzmodul.' ),
+			array( 'Geht Video auch ohne Studio?', 'Ja. Remote nehmen wir mit Ihrer Technik auf – wir sagen Ihnen vorher genau, was Sie brauchen. Oder wir kommen mit Kameras zu Ihnen.' ),
+		),
+		'produktion' => array(
+			array( 'Können wir eine einzelne Folge produzieren lassen?', 'Ja, als Pilotfolge zum Festpreis von 2.900 €, ohne Vertragsbindung. Laufende Produktion gibt es als Format ab 2.400 € im Monat.' ),
+			array( 'Wie läuft die Aufnahme ab?', 'Im Studio in Berlin, remote mit unserer Begleitung oder mit unserer Technik bei Ihnen vor Ort. Wir richten uns nach Ihrem Setup.' ),
+			array( 'Wie lange dauert es bis zur fertigen Folge?', 'Nach vollständigem Material in 5 Werktagen. Clips liegen 48 Stunden nach der Aufnahme vor.' ),
+			array( 'Wie viele Korrekturrunden sind enthalten?', 'Zwei. Sie bekommen Schnitt und Transkript und tragen Anmerkungen direkt im Dokument ein.' ),
+			array( 'Helfen Sie auch bei Themen und Gästen?', 'Ja. Reine Postproduktion ist genauso buchbar wie Themenplanung, Fragengerüste und Gästemanagement.' ),
+			array( 'Übernehmen Sie bestehende Podcasts?', 'Ja. Viele Projekte starten mit einem laufenden Format. Wir übernehmen die Produktion, ordnen die Abläufe und entwickeln das Format weiter.' ),
+		),
 		'preise' => array(
 			array( 'Was kostet eine Folge?', 'Im Format Experte rund 1.200 €, im Format Unternehmen rund 2.200 € inklusive Video und Clips, jeweils ohne Setup gerechnet. Die Pilotfolge kostet 2.900 € als Einzelstück.' ),
 			array( 'Gibt es Rabatt bei Jahresbuchung?', 'Wer die gesamte Laufzeit im Voraus zahlt, bekommt 10 % auf die Monatsraten. Auf das Setup gibt es keinen Rabatt.' ),
@@ -61,8 +93,9 @@ function lf_faq( string $set ): array {
 }
 
 /** Kundennamen für die Logoleiste (Reihenfolge aus daten/medien-alte-seite.md, erste zehn). */
-function lf_logos(): array {
-	return array( 'DKB', 'Weleda', 'Müller', 'thyssenkrupp', 'Techniker Krankenkasse', 'Johanniter', 'Konrad-Adenauer-Stiftung', 'Wikimedia', 'NH Hotels', 'Globus' );
+function lf_logos( bool $alle = false ): array {
+	$logos = array( 'DKB', 'Weleda', 'Müller', 'thyssenkrupp', 'Techniker Krankenkasse', 'Johanniter', 'Konrad-Adenauer-Stiftung', 'Wikimedia', 'NH Hotels', 'Globus', 'hy Consulting', 'Gegenbauer', 'Myra Security', 'Rheinische Notarkammer', 'Abgeordnetenhaus Berlin' );
+	return $alle ? $logos : array_slice( $logos, 0, 10 );
 }
 
 /** Acht Referenzen der Startseite: slug => [Name, Unterzeile]. */
@@ -135,7 +168,7 @@ function lf_p( string $html, string $class = '' ): string {
 }
 
 /** Drei Paketkarten (Experte, Unternehmen, Konzern). */
-function lf_paket_karten(): string {
+function lf_paket_karten( array $nur = array(), bool $vergleich = true ): string {
 	$pakete = array(
 		array(
 			'name'   => 'Format Experte',
@@ -166,7 +199,11 @@ function lf_paket_karten(): string {
 		),
 	);
 
-	$out = '<!-- wp:group {"className":"lf-pakete__grid","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group lf-pakete__grid">';
+	if ( $nur ) {
+		$pakete = array_values( array_filter( $pakete, fn( $p ) => in_array( substr( $p['name'], 7 ), $nur, true ) ) );
+	}
+	$grid = 'lf-pakete__grid' . ( count( $pakete ) < 3 ? ' lf-pakete__grid--' . count( $pakete ) : '' );
+	$out  = '<!-- wp:group {"className":"' . $grid . '","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group ' . $grid . '">';
 	foreach ( $pakete as $p ) {
 		$cls  = 'lf-paket' . ( $p['top'] ? ' lf-paket--top' : '' );
 		$list = '';
@@ -183,6 +220,9 @@ function lf_paket_karten(): string {
 			. '</div>' . "\n" . '<!-- /wp:group -->';
 	}
 	$out .= "</div>\n<!-- /wp:group -->\n\n";
+	if ( ! $vergleich ) {
+		return $out;
+	}
 	$out .= lf_p( 'Zum Vergleich: Audio-Produktion ohne Video kostet in Berlin ab 2.300 € je Folge (<a href="https://podcastmania.de/" rel="noopener">Podcastmania</a>, Stand Oktober 2026). Wir liefern Video und Clips darunter.', 'lf-note' );
 	return $out;
 }
@@ -319,7 +359,7 @@ function lf_stimme( string $zitat, string $name, string $meta, bool $nextgen ): 
 }
 
 /** Anfrage-Abschnitt; $calendly = false für /pilotfolge/. */
-function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $calendly = true ): string {
+function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $calendly = true, bool $calendly_zuerst = false ): string {
 	$telefon = lf_p( 'Lieber telefonieren? <a href="' . LF_TELEFON_LINK . '"><strong>' . LF_TELEFON . '</strong></a>, Montag bis Freitag 9 bis 18 Uhr.', 'lf-anfrage__tel' );
 	$links   = lf_group( 'lf-anfrage__form', lf_h( 2, $h2 ) . "\n" . lf_p( $intro ) . "\n" . lf_formular( $vorauswahl ) . ( $calendly ? '' : "\n" . $telefon ) );
 	if ( ! $calendly ) {
@@ -332,6 +372,9 @@ function lf_anfrage( string $h2, string $intro, string $vorauswahl = '', bool $c
 			. "<!-- wp:html -->\n<div class=\"lf-termin__embed\" id=\"termin\">[Calendly-Kalender eingebettet – AUFTRAG-04]</div>\n<!-- /wp:html -->"
 		) . "\n" . $telefon
 	);
+	if ( $calendly_zuerst ) {
+		return lf_section( 'lf-anfrage lf-anfrage--termin-zuerst', $links . "\n" . $rechts, 'anfrage' );
+	}
 	return lf_section( 'lf-anfrage', $links . "\n" . $rechts, 'anfrage' );
 }
 
@@ -366,4 +409,19 @@ function lf_kontaktdaten(): string {
 		'E-Mail <a href="mailto:kontakt@leitformat.de">kontakt@leitformat.de</a>',
 		'Studio: Franz-Jacob-Straße 2c, 10369 Berlin',
 	), 'lf-kontaktdaten' );
+}
+
+/** Karten-Raster: [[Titel, Text], …]. */
+function lf_karten( array $items, string $class = '', bool $nummern = false ): string {
+	$html = '';
+	foreach ( $items as $i => $k ) {
+		$kopf  = $nummern ? lf_p( sprintf( '%02d', $i + 1 ), 'lf-karte__nr' ) . "\n" : '';
+		$html .= lf_group( 'lf-card lf-karte-item', $kopf . lf_p( '<strong>' . $k[0] . '</strong>' ) . "\n" . lf_p( $k[1], 'lf-muted' ) ) . "\n";
+	}
+	return lf_group( 'lf-karten ' . $class, $html );
+}
+
+/** Quelle als kleine Fußnote. */
+function lf_quelle( string $text, string $url ): string {
+	return '<a href="' . esc_url( $url ) . '" rel="noopener">' . $text . '</a>';
 }

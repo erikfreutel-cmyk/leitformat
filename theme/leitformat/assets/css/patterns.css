@@ -468,3 +468,53 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-ehemals__grid { display: grid; gap: 32px; align-items: center; }
 @media (min-width: 900px) { .lf-ehemals__grid { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 48px; } }
 .lf-ehemals__text { display: flex; flex-direction: column; gap: 16px; }
+
+/* ---------- Leistungsseiten ---------- */
+
+.lf-karten { display: grid; gap: 20px; }
+@media (min-width: 600px) { .lf-karten--3, .lf-karten--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .lf-karten--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .lf-karten--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.lf-karte-item { gap: 10px; padding: 24px; }
+.lf-karte__nr { font-family: var(--wp--preset--font-family--lf-display); font-size: 14px; font-weight: 700; color: var(--lf-signal); }
+.lf-karten--dunkel .lf-card { background: var(--lf-panel); border-color: #2A2E37; color: var(--lf-white); }
+.lf-karten--dunkel .lf-muted { color: var(--lf-grey-2); }
+.lf-section--ink .lf-head p { color: #D5D7DB; }
+.lf-section--ink .lf-head a { color: var(--lf-white); }
+
+.lf-pakete__grid--2 { max-width: 820px; }
+@media (min-width: 900px) { .lf-pakete__grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-stimmen.lf-stimmen--zwei { max-width: 1000px; }
+@media (min-width: 900px) { .lf-stimmen.lf-stimmen--zwei { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (min-width: 900px) {
+	.lf-anfrage--termin-zuerst .lf-container { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); }
+	.lf-anfrage--termin-zuerst .lf-anfrage__side { order: -1; }
+}
+
+.lf-beleg { align-self: center; max-width: 480px; }
+
+.lf-rechner { display: grid; gap: 24px; padding: 28px; background: var(--lf-paper); border: 1px solid var(--lf-line); border-radius: var(--wp--custom--radius--card-l); }
+@media (min-width: 900px) { .lf-rechner { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: center; padding: 40px; } }
+.lf-rechner__felder { display: grid; gap: 16px; }
+@media (min-width: 600px) { .lf-rechner__felder { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-rechner label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600; }
+.lf-rechner input {
+	box-sizing: border-box; width: 100%; min-height: 48px; padding: 0 14px;
+	border: 1px solid var(--lf-grey-2); border-radius: var(--wp--custom--radius--button);
+	background: var(--lf-white); font: inherit; font-size: 16px; font-weight: 400;
+}
+.lf-rechner__ergebnis { display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: var(--wp--custom--radius--card); background: var(--lf-ink); color: var(--lf-white); }
+.lf-rechner__ergebnis p { margin: 0; color: var(--lf-grey-2); }
+.lf-rechner__zahl { display: block; font-family: var(--wp--preset--font-family--lf-display); font-size: 40px; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; color: var(--lf-white); }
+.lf-rechner .lf-form__hint { grid-column: 1 / -1; margin: 0; }
+
+.lf-zahlen__grid { display: grid; gap: 28px; }
+@media (min-width: 900px) { .lf-zahlen__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.lf-stat--gross { gap: 8px; padding-top: 16px; border-top: 2px solid var(--lf-ink); }
+.lf-stat--gross .lf-stat__value { font-size: clamp(40px, 5vw, 56px); font-weight: 800; color: var(--lf-signal); }
+.lf-stat__quelle { font-size: 13px; color: var(--lf-grey); }
+
+.lf-prose--section h2 { margin-top: 0 !important; font-size: var(--wp--preset--font-size--headline-2); }
+.lf-prose--section h3 { margin: 32px 0 12px !important; font-size: var(--wp--preset--font-size--headline-3); }
+.lf-prose--section ul { display: flex; flex-direction: column; gap: 10px; }

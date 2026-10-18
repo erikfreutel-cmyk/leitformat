@@ -35,6 +35,26 @@ function lf_seo(): array {
 			'desc'  => 'Podcast-Studio in Berlin-Lichtenberg: 3 Sony-4K-Kameras, 3 Shure SM7B, bis 4 Personen, Techniker im Raum, Rohdaten am selben Tag. Ab 200 € je Stunde.',
 			'faq'   => 'studio',
 		),
+		'corporate-podcast-agentur' => array(
+			'title' => 'Corporate-Podcast-Agentur für Konzerne – Leitformat',
+			'desc'  => 'Corporate Podcasts für Konzerne: Gäste aus Ihren Zielkunden, Freigaben nach Ihrem Prozess, Reporting bis zur Anfrage. Für DKB, thyssenkrupp, Müller.',
+			'faq'   => 'corporate',
+		),
+		'interview-podcast' => array(
+			'title' => 'Interview-Podcast als Vertriebssystem – Leitformat',
+			'desc'  => 'Der Interview-Podcast, in dem Ihre Wunschkunden die Gäste sind. Mit Wert-Rechner, Porsche-Fallgeschichte und Paketen ab 2.400 € im Monat.',
+			'faq'   => 'interview',
+		),
+		'video-podcast' => array(
+			'title' => 'Video-Podcast produzieren lassen: Folge, Clips, LinkedIn – Leitformat',
+			'desc'  => 'Ein Dreh, fünf Ausspielungen: Video-Folge, Audio-Folge, Clips, Zitatkarten, Newsletter. Clips in 48 Stunden, Folge in 5 Werktagen.',
+			'faq'   => 'video',
+		),
+		'podcast-produktion' => array(
+			'title' => 'Podcast-Produktion für Unternehmen: Audio und Video – Leitformat',
+			'desc'  => 'Podcast produzieren lassen: Konzeption, Aufnahme, Schnitt, Clips, Veröffentlichung. Fertig in 5 Werktagen, Pilotfolge zum Festpreis von 2.900 €.',
+			'faq'   => 'produktion',
+		),
 		'ueber-uns'   => array(
 			'title' => 'Über uns: Team und Studio in Berlin – Leitformat',
 			'desc'  => 'Wolfgang Patz, Erik Freutel und Team: Video-Podcasts aus dem eigenen Studio in Berlin. Ehemals NextGen Podcast, 33 Google-Bewertungen.',

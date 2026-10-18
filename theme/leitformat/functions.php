@@ -65,6 +65,9 @@ add_action( 'wp_enqueue_scripts', function () {
 
 	wp_enqueue_script( 'lf-nav', get_theme_file_uri( 'assets/js/nav.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 	wp_enqueue_script( 'lf-video', get_theme_file_uri( 'assets/js/video.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	if ( is_page( 'interview-podcast' ) ) {
+		wp_enqueue_script( 'lf-rechner', get_theme_file_uri( 'assets/js/rechner.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	}
 	wp_enqueue_script( 'lf-sticky-cta', get_theme_file_uri( 'assets/js/sticky-cta.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 
 	// Nicht genutzte Core-Styles.
