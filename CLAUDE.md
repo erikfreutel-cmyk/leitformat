@@ -23,7 +23,7 @@ Repo für leitformat.de (WordPress-Block-Theme `leitformat` + Aufträge + Doku).
 | --- | --- | --- |
 | `--lf-ink` | `#15171C` | Text, dunkle Flächen |
 | `--lf-paper` | `#FFFFFF` | Seitenhintergrund (seit DESIGN-01 Weiß statt Creme) |
-| `--lf-hell` | `#F2F3F5` | Flächen, „Studiopanel“ (DESIGN-01) |
+| `--lf-hell` | `#F2F2F2` | Flächen, „Studiopanel“ (DESIGN-01) |
 | `--lf-white` | `#FFFFFF` | Karten, helle Abschnitte |
 | `--lf-signal` | `#D7261E` | REC-Signal: Logo-Punkt, Primärbutton, aktiver Filter, laufendes Video, „+ 48 Stunden“. Nie als Fläche, nie als Eyebrow oder Spaltenfarbe (DESIGN-01). |
 | `--lf-panel` | `#1C1F26` | Video-Platzhalter, dunkle Kacheln |
