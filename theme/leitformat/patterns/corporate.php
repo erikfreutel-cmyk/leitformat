@@ -17,7 +17,7 @@ echo lf_section( 'lf-hero',
 	) . "\n"
 	. lf_group( 'lf-hero__media', lf_video( 'Tom Kalányos, damals Marketingleiter Gegenbauer, 26 Sekunden', 'Kundenstimme Gegenbauer abspielen', '1052003179', '', '', '', 0, 'kalanyos-gegenbauer.webp' ) )
 )
-. "\n\n" . lf_section( 'lf-logos', lf_p( 'Wir produzieren für', 'lf-logos__label' ) . "\n" . lf_list( array_map( 'lf_e', lf_logos( true ) ), 'lf-logos__list' ) )
+. "\n\n" . lf_logo_streifen( true )
 . "\n\n" . lf_section( 'lf-section--white lf-versprechen',
 	lf_h( 2, 'Drei Zusagen für zwölf Monate.' ) . "\n"
 	. lf_karten( array(

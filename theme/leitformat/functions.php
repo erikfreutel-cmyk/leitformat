@@ -83,7 +83,14 @@ add_action( 'wp_enqueue_scripts', function () {
 
 // Block-CSS nur für Blöcke, die auf der Seite vorkommen.
 add_filter( 'should_load_separate_core_block_assets', '__return_true' );
-add_filter( 'styles_inline_size_limit', fn() => 60000 );
+add_filter( 'styles_inline_size_limit', fn() => 120000 ); // theme.css + patterns.css inline: kein render-blockierender Request
+
+// Hero-Bild (Studio-Totale) auf Seiten, die es über dem Falz zeigen, vorladen.
+add_action( 'wp_head', function () {
+	if ( is_front_page() || is_page( array( 'pilotfolge', 'podcast-studio-berlin', 'podcast-produktion' ) ) ) {
+		printf( '<link rel="preload" as="image" href="%s" imagesrcset="%s" imagesizes="%s" fetchpriority="high">' . "\n", esc_url( get_theme_file_uri( 'assets/img/studio/studio-totale-800.webp' ) ), esc_attr( lf_srcset( 'studio/studio-totale-1200.webp' ) ), esc_attr( LF_SIZES ) );
+	}
+}, 1 );
 
 // Schriften vorladen, die über dem Falz gebraucht werden.
 add_action( 'wp_head', function () {

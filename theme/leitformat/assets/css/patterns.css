@@ -737,3 +737,23 @@ button.lf-video__play:hover, .lf-video-box--link:hover .lf-video__play { transfo
 /* Häkchen: kein Rot (Rot nur als REC-Signal) */
 .lf-checks li::before { border-color: var(--lf-ink); }
 .lf-pilot .lf-checks li::before, .lf-section--ink .lf-checks li::before { border-color: var(--lf-white); }
+
+/* ---------- AUFTRAG-05 Medien: Logos, Porträt, Team ---------- */
+
+.lf-logos__bilder { display: flex; align-items: center; gap: 40px; margin: 0; padding: 0; list-style: none; }
+.lf-logos__bilder li { flex: none; max-width: none; line-height: 0; }
+.lf-logos__bilder img { display: block; width: auto; opacity: .62; }
+.lf-logos--bild .lf-container { align-items: center; }
+
+.lf-wolfgang--bild { padding-bottom: 0; }
+.lf-wolfgang--bild .lf-container { align-items: end; }
+@media (min-width: 900px) { .lf-wolfgang--bild .lf-container { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); } }
+.lf-wolfgang--bild .lf-wolfgang__text { align-self: center; padding-bottom: var(--wp--preset--spacing--section); }
+.lf-wolfgang__bild { max-width: 420px; margin-inline: auto; }
+.lf-wolfgang__foto { margin: 0; }
+.lf-wolfgang__foto img { display: block; width: 100%; height: auto; background: radial-gradient(closest-side, #3A3F4A 0%, rgba(58, 63, 74, 0) 100%); }
+
+.lf-person__foto { margin: 0 0 8px; max-width: 160px; }
+.lf-person__foto img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; background: var(--lf-ink); }
+.lf-person { border-top: 0; padding-top: 0; }
+@media (max-width: 899px) { .lf-wolfgang__bild { max-width: 280px; } }

@@ -331,8 +331,7 @@ function lf_image( string $file, string $alt, string $class = '', bool $eager = 
 	$json = $class ? ',"className":"' . $class . '"' : '';
 	// Studiofotos liegen in zwei Breiten (…-600.webp, …-1200.webp).
 	if ( str_ends_with( $file, '-1200.webp' ) ) {
-		$small  = str_replace( '-1200.webp', '-600.webp', $file );
-		$extra  = ' srcset="' . lf_img( $small ) . ' 600w, ' . lf_img( $file ) . ' 1200w" sizes="(min-width: 1200px) 600px, (min-width: 900px) 50vw, 100vw" width="1200" height="672"';
+		$extra = ' srcset="' . lf_srcset( $file ) . '" sizes="' . LF_SIZES . '" width="1200" height="672"';
 	} else {
 		$extra = '';
 	}
@@ -467,4 +466,57 @@ function lf_pilotkarte( string $titel, string $text, string $hinweis, int $h = 3
 		) . "\n"
 		. lf_group( 'lf-pilot__foto', lf_image( 'studio/studio-totale-1200.webp', 'Aufnahme einer Pilotfolge im Studio Berlin: drei Personen am Tisch, drei Kameras', 'lf-pilot__bild' ) )
 	);
+}
+
+/**
+ * Kundenlogos als Grafik (von der alten Seite, freigestellt, einfarbig; Grau per CSS).
+ * Fehlen bewusst: Techniker Krankenkasse (kein Logo vorhanden – „TK.png“ der alten Seite ist thyssenkrupp),
+ * Wikimedia (vorhandenes Logo ist die Wikimedia Foundation, Kunde ist Wikimedia Deutschland).
+ * Höhe in px je Logo, damit die optische Größe gleich wirkt.
+ */
+function lf_logo_daten(): array {
+	return array(
+		'dkb'                      => array( 'DKB', 36 ),
+		'thyssenkrupp'             => array( 'thyssenkrupp', 26 ),
+		'weleda'                   => array( 'Weleda', 22 ),
+		'mueller'                  => array( 'Müller', 34 ),
+		'johanniter'               => array( 'Johanniter', 26 ),
+		'gegenbauer'               => array( 'Gegenbauer', 18 ),
+		'konrad-adenauer-stiftung' => array( 'Konrad-Adenauer-Stiftung', 28 ),
+		'globus'                   => array( 'Globus', 30 ),
+		'nh-hotels'                => array( 'NH Hotels', 32 ),
+		'hy'                       => array( 'hy – The Axel Springer Consulting Group', 26 ),
+		'myra'                     => array( 'Myra Security', 20 ),
+		'rheinische-notarkammer'   => array( 'Rheinische Notarkammer', 34 ),
+		'abgeordnetenhaus-berlin'  => array( 'Abgeordnetenhaus Berlin', 24 ),
+	);
+}
+
+/** Logostreifen: Startseite fünf Logos, mit $alle sämtliche. */
+function lf_logo_streifen( bool $alle = false ): string {
+	$daten = lf_logo_daten();
+	$wahl  = $alle ? array_keys( $daten ) : array( 'dkb', 'thyssenkrupp', 'weleda', 'mueller', 'johanniter' );
+	$li    = '';
+	foreach ( $wahl as $k ) {
+		[ $name, $h ] = $daten[ $k ];
+		$li .= '<li><img src="' . lf_img( "logos/{$k}.webp" ) . '" alt="' . esc_attr( $name ) . '" height="' . $h . '" loading="lazy" decoding="async"></li>';
+	}
+	return lf_section( 'lf-logos lf-logos--bild',
+		lf_p( 'Wir produzieren für', 'lf-logos__label' ) . "\n"
+		. "<!-- wp:html -->\n<ul class=\"lf-logos__bilder\">" . $li . "</ul>\n<!-- /wp:html -->"
+	);
+}
+
+const LF_SIZES = '(min-width: 1200px) 600px, (min-width: 900px) 50vw, calc(100vw - 40px)';
+
+/** srcset aus den vorhandenen Breiten (…-600/-800/-1200.webp). */
+function lf_srcset( string $file ): string {
+	$teile = array();
+	foreach ( array( 600, 800, 1200 ) as $w ) {
+		$f = str_replace( '-1200.webp', "-{$w}.webp", $file );
+		if ( is_readable( get_theme_file_path( "assets/img/{$f}" ) ) ) {
+			$teile[] = lf_img( $f ) . " {$w}w";
+		}
+	}
+	return implode( ', ', $teile );
 }

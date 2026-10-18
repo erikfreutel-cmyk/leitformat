@@ -19,15 +19,15 @@ foreach ( $lf_zeit as $z ) {
 }
 
 $lf_team = array(
-	array( 'Wolfgang Patz', 'Gründer und Geschäftsführer. Strategie, Kundenkommunikation, Formate.' ),
-	array( 'Erik Freutel', 'Mitgründer. Formatentwicklung, Konzepte, Google Ads.' ),
-	array( 'Lenny', 'Aufnahme, Produktion, Qualitätssicherung.' ),
-	array( 'Andreas', 'Schnitt, Sounddesign, Postproduktion.' ),
-	array( 'Clemens', 'Veröffentlichung, Distribution, Plattformen.' ),
+	array( 'Wolfgang Patz', 'Gründer und Geschäftsführer. Strategie, Kundenkommunikation, Formate.', 'wolfgang-patz' ),
+	array( 'Erik Freutel', 'Mitgründer. Formatentwicklung, Konzepte, Google Ads.', 'erik-freutel' ),
+	array( 'Lenny', 'Aufnahme, Produktion, Qualitätssicherung.', 'lenny' ),
+	array( 'Andreas', 'Schnitt, Sounddesign, Postproduktion.', 'andreas' ),
+	array( 'Clemens', 'Veröffentlichung, Distribution, Plattformen.', 'clemens' ),
 );
 $lf_karten = '';
 foreach ( $lf_team as $t ) {
-	$lf_karten .= lf_group( 'lf-person', lf_p( '<strong>' . lf_e( $t[0] ) . '</strong>' ) . "\n" . lf_p( lf_e( $t[1] ), 'lf-muted' ) ) . "\n";
+	$lf_karten .= lf_group( 'lf-person', lf_image( 'team/' . $t[2] . '.webp', 'Porträt ' . $t[0], 'lf-person__foto' ) . "\n" . lf_p( '<strong>' . lf_e( $t[0] ) . '</strong>' ) . "\n" . lf_p( lf_e( $t[1] ), 'lf-muted' ) ) . "\n";
 }
 
 $lf_presse = lf_list( array(
@@ -44,8 +44,9 @@ echo lf_section( 'lf-intro lf-ueber',
 . "\n\n" . lf_section( 'lf-section--white lf-ablauf lf-zeit',
 	lf_h( 2, 'Von einem Blog zur Video-Podcast-Agentur.' ) . "\n" . lf_group( 'lf-steps', $lf_steps )
 )
-. "\n\n" . lf_section( 'lf-section--ink lf-wolfgang',
-	lf_group( 'lf-wolfgang__text',
+. "\n\n" . lf_section( 'lf-section--ink lf-wolfgang lf-wolfgang--bild',
+	lf_group( 'lf-wolfgang__bild', lf_image( 'team/wolfgang-patz-freigestellt.webp', 'Wolfgang Patz, Gründer von Leitformat', 'lf-wolfgang__foto' ) ) . "\n"
+	. lf_group( 'lf-wolfgang__text',
 		lf_p( 'Wolfgang Patz, Gründer und Geschäftsführer', 'lf-rolle' ) . "\n"
 		. lf_h( 2, '„Ein Podcast ist die authentischste Content-Quelle eines Unternehmens.“' ) . "\n"
 		. lf_p( 'Gelernter Fleischer, danach Jahre in leitender Verantwortung. 2017 der Neustart als Praktikant in einer Berliner Werbeagentur, um zu verstehen, wie Konzerne kommunizieren, dann ein Jahr in einer PR-Agentur. 2018 gründete er mit Erik Freutel die NextGen Media GmbH. Seit 2020 moderiert er den Hauptstadt-Podcast – Gespräche mit Politikern, Spitzensportlern, Schauspielern und CEOs.' ) . "\n"
