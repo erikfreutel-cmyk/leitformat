@@ -518,3 +518,43 @@ button.lf-video__play:hover { transform: scale(1.06); }
 .lf-prose--section h2 { margin-top: 0 !important; font-size: var(--wp--preset--font-size--headline-2); }
 .lf-prose--section h3 { margin: 32px 0 12px !important; font-size: var(--wp--preset--font-size--headline-3); }
 .lf-prose--section ul { display: flex; flex-direction: column; gap: 10px; }
+
+/* ---------- Referenzen ---------- */
+
+.lf-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.lf-filter button {
+	min-height: 44px; padding: 0 16px; border: 1.5px solid var(--lf-line); border-radius: 999px;
+	background: var(--lf-white); color: var(--lf-ink); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+}
+.lf-filter button[aria-pressed="true"] { background: var(--lf-ink); border-color: var(--lf-ink); color: var(--lf-white); }
+.lf-filter__status { margin-left: auto; font-size: 14px; color: var(--lf-grey); }
+.lf-ref-grid--alle { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 900px) { .lf-ref-grid--alle { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.lf-ref--bild { position: relative; aspect-ratio: auto; padding: 0; overflow: hidden; justify-content: flex-start; gap: 0; }
+.lf-ref--bild[hidden] { display: none; }
+.lf-ref__cover { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; }
+.lf-ref__cover--leer { background: var(--lf-ink); }
+.lf-ref__text { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px 18px; }
+.lf-ref__kurz { font-size: 13px; line-height: 1.4; color: var(--lf-grey-2); }
+.lf-sammel-nav ul { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 8px 0 0; padding: 0; list-style: none; }
+.lf-sammel-nav a { font-weight: 600; }
+.lf-crumb a { color: inherit; }
+.lf-ref__hero { display: block; width: 100%; max-width: 480px; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: var(--wp--custom--radius--card); margin-inline: auto; }
+.lf-fakten-zeile { display: grid; gap: 12px 24px; margin: 0; padding-top: 16px; border-top: 1px solid var(--lf-line); }
+@media (min-width: 600px) { .lf-fakten-zeile { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lf-fakten-zeile dt { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--lf-grey); }
+.lf-fakten-zeile dd { margin: 2px 0 0; }
+.lf-ref-body__grid { display: grid; gap: 40px; }
+@media (min-width: 900px) { .lf-ref-body__grid { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 56px; } }
+.lf-ref-body__side { display: flex; flex-direction: column; gap: 20px; }
+.lf-ref__h { font-size: var(--wp--preset--font-size--headline-3) !important; }
+.lf-audio { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.lf-audio .lf-video__consent { position: static; text-align: left; color: var(--lf-grey); }
+.lf-audio__player { width: 100%; height: 232px; border: 0; border-radius: var(--wp--custom--radius--card); }
+.lf-projekte .lf-container { gap: 0; }
+.lf-projekt { display: grid; gap: 20px; padding: 32px 0; border-top: 1px solid var(--lf-line); scroll-margin-top: 24px; }
+@media (min-width: 900px) { .lf-projekt { grid-template-columns: 240px minmax(0, 1fr); gap: 40px; } }
+.lf-projekt__cover { display: block; width: 100%; max-width: 240px; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: var(--wp--custom--radius--card); }
+.lf-projekt__text { display: flex; flex-direction: column; gap: 12px; }
+.lf-projekt__titel { font-size: var(--wp--preset--font-size--headline-3); }
+.lf-karten--dunkel .lf-karte__nr { color: var(--lf-grey-2); }

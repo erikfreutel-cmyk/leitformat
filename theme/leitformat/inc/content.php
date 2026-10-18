@@ -425,3 +425,7 @@ function lf_karten( array $items, string $class = '', bool $nummern = false ): s
 function lf_quelle( string $text, string $url ): string {
 	return '<a href="' . esc_url( $url ) . '" rel="noopener">' . $text . '</a>';
 }
+
+function lf_testimonial_gegenbauer_section(): string {
+	return lf_section( 'lf-testimonial-section', lf_testimonial_gegenbauer() );
+}

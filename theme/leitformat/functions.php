@@ -11,6 +11,7 @@ define( 'LF_VERSION', wp_get_theme( 'leitformat' )->get( 'Version' ) );
 
 require_once __DIR__ . '/inc/content.php';
 require_once __DIR__ . '/inc/seo.php';
+require_once __DIR__ . '/inc/referenzen.php';
 
 /**
  * SVG aus assets/img/ inline ausgeben (Logo im Header/Footer).
@@ -65,6 +66,9 @@ add_action( 'wp_enqueue_scripts', function () {
 
 	wp_enqueue_script( 'lf-nav', get_theme_file_uri( 'assets/js/nav.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 	wp_enqueue_script( 'lf-video', get_theme_file_uri( 'assets/js/video.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	if ( is_page( 'referenzen' ) ) {
+		wp_enqueue_script( 'lf-filter', get_theme_file_uri( 'assets/js/filter.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	}
 	if ( is_page( 'interview-podcast' ) ) {
 		wp_enqueue_script( 'lf-rechner', get_theme_file_uri( 'assets/js/rechner.js' ), array(), LF_VERSION, array( 'strategy' => 'defer', 'in_footer' => true ) );
 	}

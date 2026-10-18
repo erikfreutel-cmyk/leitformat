@@ -12,6 +12,7 @@ $pages = array(
 	'interview-podcast'         => array( 'Interview-Podcast', 'patterns', array( 'interview' ) ),
 	'video-podcast'             => array( 'Video-Podcast', 'patterns', array( 'video-podcast', 'ausspielungen', 'video-podcast-2' ) ),
 	'podcast-produktion'        => array( 'Podcast-Produktion', 'patterns', array( 'produktion', 'pilotfolge-karte', 'aufhoeren', 'audit', 'ablauf-produktion', 'kundenstimmen', 'faq-produktion', 'anfrage-produktion' ) ),
+	'referenzen'  => array( 'Referenzen', 'patterns', array( 'referenzen-uebersicht' ) ),
 	'ueber-uns'   => array( 'Über uns', 'patterns', array( 'ueber-uns' ) ),
 	'danke'       => array( 'Danke', 'patterns', array( 'danke' ) ),
 	'wiki'        => array( 'Podcast-Wiki', 'patterns', array( 'wiki-hub' ) ),

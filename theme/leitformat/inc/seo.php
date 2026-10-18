@@ -55,6 +55,10 @@ function lf_seo(): array {
 			'desc'  => 'Podcast produzieren lassen: Konzeption, Aufnahme, Schnitt, Clips, Veröffentlichung. Fertig in 5 Werktagen, Pilotfolge zum Festpreis von 2.900 €.',
 			'faq'   => 'produktion',
 		),
+		'referenzen'  => array(
+			'title' => 'Referenzen: 85 Podcast-Projekte – Leitformat',
+			'desc'  => 'Video-Podcasts und interne Formate für DKB, thyssenkrupp, Müller, Gegenbauer, Wikimedia und mehr – mit Folgen zum Anhören und Ansehen.',
+		),
 		'ueber-uns'   => array(
 			'title' => 'Über uns: Team und Studio in Berlin – Leitformat',
 			'desc'  => 'Wolfgang Patz, Erik Freutel und Team: Video-Podcasts aus dem eigenen Studio in Berlin. Ehemals NextGen Podcast, 33 Google-Bewertungen.',
@@ -87,6 +91,10 @@ function lf_meta_description(): string {
 	$seo = lf_seo();
 	if ( ! empty( $seo['desc'] ) ) {
 		return $seo['desc'];
+	}
+	if ( is_singular( 'referenz' ) ) {
+		$d = lf_ref();
+		return (string) ( $d['kurz'] ?? $d['intro'] ?? '' );
 	}
 	if ( is_singular() && has_excerpt() ) {
 		return get_the_excerpt();

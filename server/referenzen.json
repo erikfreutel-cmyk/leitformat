@@ -1,0 +1,2098 @@
+{
+ "uebersicht_alt": [
+  {
+   "pos": 1,
+   "slug": "wikimove",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Wikimove-Cover-300x300.jpg",
+   "alt": "Wikimove Cover"
+  },
+  {
+   "pos": 2,
+   "slug": "unternehmer-podcast",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2026/09/Hauptstadt-Podcast-Podcast-Cover-quadratisch-300x300.jpg",
+   "alt": "Aus dem Unternehmer Podcast wurde der Hauptstadt Podcast"
+  },
+  {
+   "pos": 3,
+   "slug": "ucare",
+   "filter_kategorie": [
+    "Medizin"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/All-Things-Urticaria-min-300x300.jpg",
+   "alt": "all things urticaria min"
+  },
+  {
+   "pos": 4,
+   "slug": "thyssenkrupp",
+   "filter_kategorie": [
+    "interner Podcast"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/10/Referenz-thyssenkrupp-300x300.jpg",
+   "alt": "referenz thyssenkrupp"
+  },
+  {
+   "pos": 5,
+   "slug": "return-on-innovation",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/10/website-roi-1-1440x1440-c-default-300x300.webp",
+   "alt": "Video-Podcast-Produktion für den Corporate Podcast Return on Innovation von hy"
+  },
+  {
+   "pos": 6,
+   "slug": "renting-or-buying",
+   "filter_kategorie": [
+    "Immobilien"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Renting-or-Byingx3f-min-300x300.jpg",
+   "alt": "cover renting or bying? min"
+  },
+  {
+   "pos": 7,
+   "slug": "psychotherapie-einfach-erklaert-2",
+   "filter_kategorie": [
+    "Medizin"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Psychotherapie-einfach-erklaert-min-1-300x300.jpeg",
+   "alt": "cover psychotherapie einfach erklärt min (1)"
+  },
+  {
+   "pos": 8,
+   "slug": "primagas",
+   "filter_kategorie": [
+    "interner Podcast"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Primagas-Cover-300x300.jpg",
+   "alt": "primagas cover"
+  },
+  {
+   "pos": 9,
+   "slug": "pluscast",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/02/PODCAST-COVER-768x768-1-300x300.jpg",
+   "alt": "podcast cover 768x768"
+  },
+  {
+   "pos": 10,
+   "slug": "nh-talks",
+   "filter_kategorie": [
+    "interner Podcast"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/02/NH-Hotels-Grau-min-300x300.jpg",
+   "alt": "nh hotels grau min"
+  },
+  {
+   "pos": 11,
+   "slug": "myra-minds",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/05/myra-security-300x300.png",
+   "alt": "myra security"
+  },
+  {
+   "pos": 12,
+   "slug": "mueller-gruppe",
+   "filter_kategorie": [
+    "interner Podcast"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Mueller-Grau-min-300x300.jpg",
+   "alt": "müller grau min"
+  },
+  {
+   "pos": 13,
+   "slug": "mit-haut-haar",
+   "filter_kategorie": [
+    "Medizin"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/02/cover-podcast-300x300.jpg",
+   "alt": "cover podcast"
+  },
+  {
+   "pos": 14,
+   "slug": "mci-live-deutschland",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/MCI-Live-Deutschland-1-min-300x300.jpg",
+   "alt": "mci live deutschland (1) min"
+  },
+  {
+   "pos": 15,
+   "slug": "madame-tussauds",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/Madame-Tussauds-1-min-300x300.jpg",
+   "alt": "madame tussauds (1) min"
+  },
+  {
+   "pos": 16,
+   "slug": "loan-to-value",
+   "filter_kategorie": [
+    "Immobilien"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/10/Loan-to-Value-300x300.jpg",
+   "alt": "loan to value"
+  },
+  {
+   "pos": 17,
+   "slug": "knix-talks",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/05/KNIX-talks-1-min-300x300.jpg",
+   "alt": "knix talks (1) min"
+  },
+  {
+   "pos": 18,
+   "slug": "klimabauern",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/11/LBV-Brandenburg-300x300.jpg",
+   "alt": "lbv brandenburg"
+  },
+  {
+   "pos": 19,
+   "slug": "kenjo-2",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/Kenjo-1-min-300x300.jpg",
+   "alt": "kenjo (1) min"
+  },
+  {
+   "pos": 20,
+   "slug": "jtl-software",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/JTL-Software-Grau-min-300x300.jpg",
+   "alt": "jtl software grau min"
+  },
+  {
+   "pos": 21,
+   "slug": "johanniter",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Johanniter-min-300x300.jpg",
+   "alt": "cover johanniter min"
+  },
+  {
+   "pos": 22,
+   "slug": "immo-insider",
+   "filter_kategorie": [
+    "Immobilien"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/02/Immo-Insider-Cover-300x300.jpeg",
+   "alt": "immo insider cover"
+  },
+  {
+   "pos": 23,
+   "slug": "idexx",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/IDEXX-1-min-300x300.jpg",
+   "alt": "idexx (1) min"
+  },
+  {
+   "pos": 24,
+   "slug": "ibbf",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/04/ibbf-Cover-300x300.jpg",
+   "alt": "ibbf Cover"
+  },
+  {
+   "pos": 25,
+   "slug": "haus-meister",
+   "filter_kategorie": [
+    "Immobilien"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Die-Haus-Meister-Cover-300x300.jpg",
+   "alt": "Die Haus Meister Cover"
+  },
+  {
+   "pos": 26,
+   "slug": "goldbeck-solar",
+   "filter_kategorie": [
+    "Employer Branding"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Goldbeck-Solar-300x300.jpeg",
+   "alt": "goldbeck solar"
+  },
+  {
+   "pos": 27,
+   "slug": "gegenbauer",
+   "filter_kategorie": [
+    "Employer Branding"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Gegenbauer-Der-Podcast-Cover-300x300.jpg",
+   "alt": "Gegenbauer Der Podcast Cover"
+  },
+  {
+   "pos": 28,
+   "slug": "freie-universitaet-berlin",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Freie-Universitaet-Berlin-Grau-min-300x300.jpg",
+   "alt": "freie universität berlin grau min"
+  },
+  {
+   "pos": 29,
+   "slug": "flurfunk-aus-herne",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Flurfunk_Cover-300x300.jpg",
+   "alt": "flurfunk cover"
+  },
+  {
+   "pos": 30,
+   "slug": "esv-podcast",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/05/ESV-im-Doalog-Podcast-300x300.png",
+   "alt": "ESV im Doalog Podcast"
+  },
+  {
+   "pos": 31,
+   "slug": "erlenbacher",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Erlenbacher-min-300x300.jpg",
+   "alt": "erlenbacher min"
+  },
+  {
+   "pos": 32,
+   "slug": "energieagentur-rheinland-pfalz",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Energieagentur--300x300.jpg",
+   "alt": "energieagentur"
+  },
+  {
+   "pos": 33,
+   "slug": "dihk",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/11/DIHK-300x300.jpg",
+   "alt": "dihk"
+  },
+  {
+   "pos": 34,
+   "slug": "change-management-rockstars",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/02/Change-Management-Rockstars-Cover-300x300.jpeg",
+   "alt": "cm rockstars 2 1.1.2"
+  },
+  {
+   "pos": 35,
+   "slug": "besiegelt",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2023/05/rhnotk-Cover-300x300.jpg",
+   "alt": "rhnotk cover"
+  },
+  {
+   "pos": 36,
+   "slug": "berliner-team",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Berliner-Team-2-min-300x300.jpg",
+   "alt": "berliner team (2) min"
+  },
+  {
+   "pos": 37,
+   "slug": "berg-macher",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2024/10/podcast-berg-macher-cover-staffel-2-300x300.jpg",
+   "alt": "podcast berg macher cover staffel 2"
+  },
+  {
+   "pos": 38,
+   "slug": "arolsen-archives",
+   "filter_kategorie": [
+    "Produktion & Beratung"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Arolsen-Archives-2-min-300x300.jpg",
+   "alt": "arolsen archives (2) min"
+  },
+  {
+   "pos": 39,
+   "slug": "anna-ewald-podcast",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Anna-Ewald_Cover.jpeg",
+   "alt": "anna ewald cover"
+  },
+  {
+   "pos": 40,
+   "slug": "acare",
+   "filter_kategorie": [
+    "Medizin"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/06/All-Things-Angioedema-1-min-300x300.jpg",
+   "alt": "all things angioedema (1) min"
+  },
+  {
+   "pos": 41,
+   "slug": "abgeordnetenhaus-berlin",
+   "filter_kategorie": [
+    "Interview & Wissen"
+   ],
+   "kachelbild": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Abgeordnetenhaus-Berlin-300x300.jpeg",
+   "alt": "abgeordnetenhaus berlin"
+  }
+ ],
+ "uebersicht_hinweise": [
+  "Seite /referenzen/ hat zwei H1: 'Unsere Referenzen' und '85+ produzierte Podcasts.'",
+  "Einleitung: 'Die hier gezeigten Projekte stehen exemplarisch für interne und externe Podcasts, die wir für Selbstständige, Unternehmen, Organisationen und Verbände realisiert haben und zum Teil bis heute betreuen.'",
+  "Filter: Alle, Employer Branding, Immobilien, Interview & Wissen, Medizin, Produktion & Beratung, interner Podcast",
+  "41 Kacheln, nur Bild (kein Titel, kein Teaser), Reihenfolge = umgekehrt alphabetisch nach Slug",
+  "Kacheln ohne Auftrag in dieser Liste: unternehmer-podcast (Bild 'Hauptstadt-Podcast', Alt 'Aus dem Unternehmer Podcast wurde der Hauptstadt Podcast'), primagas, goldbeck-solar, anna-ewald-podcast",
+  "Nicht auf der Übersicht verlinkt: schmetterlings-effekte, psychotherapie-einfach-erklaert (alte Fassung), kenjo (alte Fassung)",
+  "Übersicht verlinkt psychotherapie-einfach-erklaert-2 und kenjo-2"
+ ],
+ "fehlend": [
+  "hergrowth",
+  "her-growth"
+ ],
+ "fehlend_hinweise": [
+  "HerGrowth: /hergrowth/ und /her-growth/ liefern 404; WordPress-Suche (REST /wp-json/wp/v2/search) nach 'hergrowth', 'her growth' ohne Treffer; kein Link auf /referenzen/ oder auf den Medizin-Seiten. Projekt fehlt auf der alten Seite.",
+  "Alle 41 angefragten Projektslugs (inkl. psychotherapie-einfach-erklaert-2 und kenjo-2) liefern 200.",
+  "Die Gruppen-Slugs /interne-formate/, /immobilien/, /medizin/, /beratung-und-training/, /schnitt-und-lieferung/, /business/ existieren auf der alten Seite nicht (404) – es sind neue Gruppierungen."
+ ],
+ "projekte": [
+  {
+   "slug": "gegenbauer",
+   "gruppe": "einzel",
+   "podcast_name": "Gegenbauer Podcast",
+   "kunde": "Gegenbauer",
+   "branche": "Facility Management",
+   "format": "Video-Podcast",
+   "kategorien": [
+    "Video-Podcast",
+    "Employer Branding",
+    "Interview"
+   ],
+   "leistungen": "Strategische Neuausrichtung, Konzeption, redaktionelle Strukturierung, Moderation durch externen Host, Gäste-Vorgespräche, Aufnahme in unserem Studio, Postproduktion (Schnitt, Sound), Plattform-Setup, Upload-Management, Tests vor Veröffentlichung",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Gegenbauer hatte bereits einen Podcast. Er sollte moderner, zugänglicher und konsistenter werden, den Arbeitsalltag im Facility Management zeigen und dauerhaft auf mehreren Plattformen nutzbar sein.",
+   "format_text": "Nach einem Kick-off zu Zielen und Tonalität wurde das Format neu konzipiert. Die Folgen entstehen an geplanten Produktionstagen im Studio, mit externem Host und Vorgesprächen mit den Gästen; Schnitt, Sound und Veröffentlichung liegen bei uns.",
+   "ergebnis": "Ein klar strukturierter, langfristig angelegter Podcast, der Mitarbeitende des Facility Managements sichtbar macht. Er wurde veröffentlicht und als festes Kommunikationsinstrument etabliert.",
+   "kurz": "Bestehenden Mitarbeiter-Podcast neu aufgestellt und als festes Format etabliert.",
+   "zahlen": [
+    "Video-Podcast (16×9) – Formatangabe unter dem dritten Embed"
+   ],
+   "zitat": {
+    "text": "„Das Kosten-Nutzen-Verhältnis im Vergleich zu anderen Agenturen ist bei NextGen Podcast unangefochten Spitze.“",
+    "name": "Tom Kalányos",
+    "rolle": "damals Marketingleiter Gegenbauer"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/7l8YOqlYL4dDTOugDCbpuD",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Gegenbauer-Der-Podcast-Cover.jpg",
+   "probleme": [
+    "Text nutzt 'Mitarbeitenden eine Stimme zu geben' (Stimme-Metapher, auf neuer Seite verboten)",
+    "Alle drei Spotify-Embeds sind /video-Embeds, zwei davon aber mit 'Audio-Podcast (Spotify, Apple Podcasts, etc.)' beschriftet",
+    "Podcast-Name steht nicht im Text, nur im Cover-Dateinamen",
+    "Zitatgeber 'ehem. Marketingleiter' – Freigabe für Nennung prüfen"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/31LPKxxSPjt0FkvA3dhFuG",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/2DtVZ2m4yoZUT93pMRx9q1",
+     "start": null
+    },
+    {
+     "typ": "vimeo",
+     "id_oder_url": "https://player.vimeo.com/video/1052003179",
+     "start": 0,
+     "hinweis": "Video-Testimonial Tom Kalányos, Vorschaubild https://nextgen-podcast.de/wp-content/uploads/2024/01/Tom-Kalanyos-Interview.jpeg"
+    }
+   ]
+  },
+  {
+   "slug": "mueller-gruppe",
+   "gruppe": "einzel",
+   "podcast_name": "Interner Podcast",
+   "kunde": "Unternehmensgruppe Theo Müller",
+   "branche": "Lebensmittel / Molkerei",
+   "format": "Interner Podcast (Audio und Video, mehrsprachig)",
+   "kategorien": [
+    "Interner Podcast"
+   ],
+   "leistungen": "Technische Begleitung der Aufnahmen über eine zentrale Aufnahmeplattform, Postproduktion Audio und Video, Rohfassung und Transkripte zur Abstimmung, finale Aufbereitung und Auslieferung, mehrsprachige Ausspielung (Deutsch, Englisch, Polnisch)",
+   "rhythmus": "einmal im Monat",
+   "laufzeit": null,
+   "ausgangslage": "Der interne Podcast erscheint monatlich und richtet sich an Führungskräfte und Mitarbeitende. Gesucht war ein stabiles, gut konsumierbares Format, das auch über Ländergrenzen hinweg funktioniert.",
+   "format_text": "Die Aufnahmen laufen über eine zentrale Plattform und werden technisch begleitet. Das interne Team erhält Rohschnitt und Transkript, trägt Änderungen ein, nach Freigabe folgen die finalen Dateien in Deutsch, Englisch und Polnisch.",
+   "ergebnis": "Der Podcast erscheint regelmäßig und ist als Audio und Video nutzbar. Die drei Sprachfassungen erlauben eine einheitliche Kommunikation über Länder hinweg; der interne Aufwand bleibt durch feste Abläufe gering.",
+   "kurz": "Monatlicher interner Podcast in drei Sprachen, mit geringem internem Aufwand.",
+   "zahlen": [
+    "Der interne Podcast erscheint einmal im Monat",
+    "mehrsprachige Ausspielung in Deutsch, Englisch und Polnisch (drei Sprachen)"
+   ],
+   "zitat": {
+    "text": "„NextGen Podcast hat uns dabei geholfen, das Tool Podcast technisch und redaktionell aufs nächste Level zu heben. Wir schätzen die professionelle und pragmatische Zusammenarbeit sehr.“",
+    "name": "Carolin Kossin",
+    "rolle": "Corporate Communications Manager, Unternehmensgruppe Theo Müller"
+   },
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Mueller-min.jpg",
+   "probleme": [
+    "Keine Hörprobe (vertrauliches internes Format, Hinweistext 'Vertrauliche Zusammenarbeit' mit Floskel 'Gerne erläutern wir …')",
+    "Text nennt 'KI gestützten Übersetzungstools' – KI-Vokabular, auf neuer Seite als Ergebnis/Frist formulieren",
+    "Fehlende Bindestriche: 'Audio oder Video Beispiele', 'Podcast Formats', 'KI gestützten'",
+    "Kein Podcast-Name genannt; Branche nicht genannt",
+    "Kachelbild in der Übersicht ist Kundenlogo in Grau (Mueller-Grau-min), Detailseite farbig"
+   ]
+  },
+  {
+   "slug": "thyssenkrupp",
+   "gruppe": "einzel",
+   "podcast_name": "Interner Podcast",
+   "kunde": "thyssenkrupp",
+   "branche": "Industrie",
+   "format": "Interner Podcast (Audio, audiobasierte Videoformate)",
+   "kategorien": [
+    "Interner Podcast"
+   ],
+   "leistungen": "Laufende Postproduktion, Sound-Optimierung, redaktionelle Strukturierung, audiobasierte Videoformate mit Standbildern, Untertiteln und Audiogrammen, Auslieferung über gesicherte Transferwege; zusätzlich Begleitung eines Imagefilms für eine Führungskräfteveranstaltung",
+   "rhythmus": null,
+   "laufzeit": "seit mehreren Jahren",
+   "ausgangslage": "Während eines tiefgreifenden Change-Prozesses sollten Führungskräfte und Mitarbeitende regelmäßig und aus erster Hand informiert werden. Der Podcast war ausschließlich für den internen Einsatz bestimmt.",
+   "format_text": "thyssenkrupp nimmt intern auf und übergibt das Material. Unser Team optimiert den Ton, strukturiert die Inhalte und erstellt zusätzlich Videofassungen mit Standbild, Untertiteln und Audiogrammen, ausgeliefert über gesicherte Transferwege.",
+   "ergebnis": "Der Podcast ist ein fester Kanal im Change-Prozess und liefert regelmäßig Updates zu strategischen Themen. Durch die mehrjährige Zusammenarbeit wurde das Format laufend weiterentwickelt.",
+   "kurz": "Interner Podcast begleitet den Konzernumbau – seit mehreren Jahren.",
+   "zahlen": [
+    "seit mehreren Jahren (Zusammenarbeit)"
+   ],
+   "zitat": {
+    "text": "„Ich bin mit der Zusammenarbeit mit NextGen Podcast sehr zufrieden. Die Leistungen wurden zuverlässig und termingerecht erbracht. Hervorzuheben sind die hohe Flexibilität, die ausgeprägte Serviceorientierung sowie der stets professionelle Umgang.“",
+    "name": "Alexander Hub",
+    "rolle": "Kommunikation, thyssenkrupp"
+   },
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/10/Referenz-thyssenkrupp.jpg",
+   "probleme": [
+    "Keine Hörprobe (vertrauliches internes Format)",
+    "Fehlende Bindestriche: 'Change Prozesses', 'Podcast Formats', 'Audio oder Video Beispiele'",
+    "Kein Podcast-Name genannt"
+   ]
+  },
+  {
+   "slug": "return-on-innovation",
+   "gruppe": "einzel",
+   "podcast_name": "Return on Innovation",
+   "kunde": "hy",
+   "branche": "Unternehmensberatung",
+   "format": "Video-Podcast und Audio-Podcast (Corporate Podcast)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Audio-Postproduktion (Rohschnitt, Transkript, max. zwei Korrekturrunden), Video-Produktion ausgewählter Folgen mit eigenem Equipment vor Ort, Clips für LinkedIn, Messe-Produktion vor Ort, Auswertung der Performance-Daten und Formatberatung",
+   "rhythmus": "alle zwei Wochen",
+   "laufzeit": "seit 2025",
+   "ausgangslage": "Die Postproduktion lag zuvor bei einem Freelancer. Mit steigendem Anspruch fehlten ein verlässlicher Produktionspartner und jemand, der das Format anhand der Zahlen weiterentwickelt.",
+   "format_text": "hy nimmt die Audiofolgen selbst auf; unser Team liefert Rohschnitt und Transkript, nach höchstens zwei Korrekturrunden ist die Folge fertig. Video-Folgen und Messe-Gespräche werden vor Ort aufgezeichnet und zu langen Fassungen und LinkedIn-Clips verarbeitet.",
+   "ergebnis": "Return on Innovation erscheint alle zwei Wochen ohne Ausnahme und läuft heute als Audio, Video und Messe-Format. 35 Folgen, drei Formate; die internen Abstimmungsschleifen haben sich deutlich reduziert.",
+   "kurz": "35 Folgen, alle zwei Wochen, maximal zwei Korrekturrunden pro Folge.",
+   "zahlen": [
+    "35 Folgen",
+    "seit 2025"
+   ],
+   "zitat": {
+    "text": "„Durch die Zusammenarbeit mit NextGen Podcast konnten wir die Qualität unseres Podcasts weiterentwickeln. Der gesamte Produktionsprozess läuft für uns wesentlich entspannter ab, da sich die Korrekturschleifen reduziert haben und die Umsetzung schnell erfolgt.“",
+    "name": "Johanna Boccarius",
+    "rolle": "hy Consulting"
+   },
+   "embed": {
+    "typ": "vimeo",
+    "id_oder_url": "https://player.vimeo.com/video/1158773694",
+    "start": 43
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/10/website-roi-1-1440x1440-c-default.webp",
+   "probleme": [
+    "Rolle mit Tippfehler: 'interne Anspechpartnerin' (richtig: Ansprechpartnerin)",
+    "Zähler stehen im HTML als 0 und werden per Animation hochgezählt (35 / 2 / 2025) – ohne JS steht '0 +', '0 x', '0'",
+    "Zähler '2025' unter 'laufende Zusammenarbeit' ist missverständlich (Jahr, keine Menge)",
+    "Vimeo-Vorschaubild: https://nextgen-podcast.de/wp-content/uploads/2025/11/Mittel-thumb-hy-video-podcast.jpeg",
+    "Seite folgt anderem Aufbau (Ausgangslage/Audio-Postproduktion/Video-Podcast/Messe-Produktion/Strategische Weiterentwicklung/Ergebnis) als die übrigen Case Studies"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/5uJyGVOb6q1TEJowWPr2E0",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/1gcPBFpcBA0tkTsGPFblYH",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/11/hy_reel_1_v1-1080p.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/11/hy_reel_2_v1-1080p.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://www.youtube.com/@wennberatungdannhy",
+     "start": null,
+     "hinweis": "YouTube-Kanal"
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/0Ye1NFbnCA7JMdqSR7d83m",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "myra-minds",
+   "gruppe": "einzel",
+   "podcast_name": "Myra Minds",
+   "kunde": "Myra Security",
+   "branche": "IT-Sicherheit / Cybersecurity",
+   "format": "Video-Podcast (Studio-Produktion)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Konzeption des Videoformats, Planung des Setups, Gestaltung von Intro und Outro, Betreuung der Aufnahmen vor Ort in Berlin (Kamera, Ton, Licht), vollständige Postproduktion, Kurzvideos und Reels für Social Media, laufendes Testing",
+   "rhythmus": "Aufnahmen regelmäßig vor Ort in Berlin",
+   "laufzeit": null,
+   "ausgangslage": "Myra Security wollte Themen wie IT-Sicherheit, Datenschutz und Compliance verständlich vermitteln. Das Team hatte keine Podcast-Erfahrung; gefragt war ein langfristiges Videoformat mit klarer Struktur und professionellem Studio-Setup.",
+   "format_text": "Die Folgen werden vor Ort in Berlin aufgezeichnet, Kamera, Ton und Licht liegen bei uns. Aus jeder Folge entstehen zusätzlich kurze Clips und Reels für Social Media.",
+   "ergebnis": "Myra Minds ist als Videopodcast zur Cybersecurity etabliert.",
+   "kurz": "Videopodcast zur Cybersecurity – vom ersten Konzept bis zur Studioproduktion.",
+   "zahlen": [
+    "Vorschau-Animation (16×9)",
+    "LinkedIn Content (9×16)"
+   ],
+   "zitat": {
+    "text": "„Wir hatten keinerlei Erfahrung im Podcast-Bereich, dafür viele Ideen und hohe Erwartungen. Das Ergebnis übertrifft unsere Erwartungen – wir sind rundum zufrieden und planen bereits die nächste Episode. So macht Podcast-Arbeit Spaß!“",
+    "name": "Stefan Bordel",
+    "rolle": "Technical Writer, Myra Security"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/4TnySfPGSUtYsZ1Wg2JXlD",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/05/myra-security.png",
+   "probleme": [
+    "Text nutzt 'kompetente Stimme im Bereich Cybersecurity' (Stimme-Metapher)",
+    "Zitat enthält geschützte Bindestriche (U+2011) und schmale geschützte Leerzeichen (U+202F) – beim Einfügen erhalten oder bewusst normalisieren",
+    "Cover ist Logo 'myra-security.png', kein Podcast-Cover",
+    "Zitat nennt Vornamen 'Wolfgang' (Ansprechpartner der alten Agentur)"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/1yDbUUQHc1wcd6ed18vHfI",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/05/1744790208-myra-minds-sneak-peek-episode-1.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/05/reel_1_markus_manzke_v1-1080p.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/05/reel_1.1_–_bereits_erledigt_v1-1080p.mp4",
+     "start": null
+    }
+   ]
+  },
+  {
+   "slug": "klimabauern",
+   "gruppe": "einzel",
+   "podcast_name": "KlimaBauern",
+   "kunde": "Landesbauernverband Brandenburg",
+   "branche": "Landwirtschaft / Verband",
+   "format": "Audio-Podcast",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Konzeptionelle Beratung, technische Umsetzung der ersten Episode (remote), laufende Postproduktion der intern aufgenommenen Folgen, Cover-Entwürfe und visuelles Erscheinungsbild, Veröffentlichung",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Der Landesbauernverband Brandenburg wollte ein neues Format, das Fachthemen aus Landwirtschaft und Verbandspraxis für eine breite Zielgruppe verständlich macht. Die technische Umsetzung sollte professionell sein, der Verband aber selbst aufnehmen können.",
+   "format_text": "Die erste Folge wurde gemeinsam remote aufgenommen, um Standards festzulegen. Seitdem nimmt der Verband selbst auf, unser Team schneidet, optimiert den Klang und veröffentlicht.",
+   "ergebnis": "Ein Audioformat mit gleichbleibender Klangqualität, das fest in der Verbandskommunikation läuft. Durch die klare Aufgabenteilung bleibt der interne Aufwand gering.",
+   "kurz": "Verband nimmt selbst auf, Schnitt und Veröffentlichung kommen von uns.",
+   "zahlen": [],
+   "zitat": {
+    "text": "„Durch die Zusammenarbeit mit NextGen Podcast konnten wir unseren Podcast von Beginn an sauber aufsetzen und professionell weiterentwickeln. Besonders hilfreich war die konzeptionelle Unterstützung zu Beginn und die verlässliche Postproduktion im laufenden Betrieb. So können wir die Inhalte intern gut vorbereiten und wissen, dass die Qualität am Ende stimmt.“",
+    "name": "Lena Kolbow",
+    "rolle": "damals Pressesprecherin Landesbauernverband Brandenburg"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/6CEpgg40fiwfTeSSHDxRfv",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/11/LBV-Brandenburg.jpg",
+   "probleme": [
+    "Kategorie 'Interview' nur aus alter Filterkategorie 'Interview & Wissen' abgeleitet, Seite beschreibt das Gesprächsformat nicht",
+    "Zitatgeberin 'ehem. Pressesprecherin' – Freigabe prüfen",
+    "Seitentitel 'Case Study: LBV Podcast' weicht vom Podcast-Namen ab"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/6szv1pJD7tnJsTiI0o38BN",
+     "start": null
+    }
+   ]
+  },
+  {
+   "slug": "abgeordnetenhaus-berlin",
+   "gruppe": "einzel",
+   "podcast_name": "Von Stadt zu Stadt",
+   "kunde": "Abgeordnetenhaus Berlin",
+   "branche": "Öffentliche Hand / Landesparlament",
+   "format": "Video-Podcast (Vor-Ort-Produktion, Fokus Social-Media-Clips)",
+   "kategorien": [
+    "Video-Podcast",
+    "Öffentliche Hand"
+   ],
+   "leistungen": "Gemeinsame Formatentwicklung, mobile Produktion im Abgeordnetenhaus, Aufnahmeleitung, Postproduktion Audio und Video, kurze untertitelte Videoformate für LinkedIn und weitere Kanäle",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Das Abgeordnetenhaus wollte politische Inhalte direkt vor Ort aufzeichnen und für Social Media, vor allem LinkedIn, aufbereiten. Zielgruppe sind Berlinerinnen und Berliner, die sich für die Politik ihrer Stadt interessieren.",
+   "format_text": "Aufgezeichnet wird mit mobilem Equipment direkt im Abgeordnetenhaus. Im Mittelpunkt stehen nicht lange Folgen, sondern kurze, untertitelte Videos für digitale Kanäle.",
+   "ergebnis": "Es entstehen untertitelte Kurzvideos, die politische Themen barrierearm vermitteln und über Social Media eine interessierte Öffentlichkeit erreichen.",
+   "kurz": "Politik aus dem Landesparlament als untertitelte Clips für LinkedIn.",
+   "zahlen": [
+    "LinkedIn Content (9×16)"
+   ],
+   "zitat": {
+    "text": "„Mit NextGen Podcast konnten wir ein Videopodcast Format realisieren, das politische Inhalte professionell und verständlich vermittelt. Besonders überzeugt haben uns die verlässliche Umsetzung vor Ort, die hohe technische Qualität und die Möglichkeit, Inhalte auch für digitale Kanäle weiterzuverwenden.“",
+    "name": "Isabel Fritz",
+    "rolle": "Pressereferentin, Abgeordnetenhaus von Berlin"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/4NHvgG9LMv58Gyho2hSyWs",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/11/Abgeordnetenhaus-Berlin.jpeg",
+   "probleme": [
+    "Widerspruch: Labels und Zitat sprechen von 'Videopodcast', der Text sagt 'Fokus liegt nicht auf der Veröffentlichung eines klassischen Videopodcasts'",
+    "Kachel 'Video-Podcast (Behind the Scenes)' zeigt nur ein Standbild (thumb-agb.jpg), kein Video",
+    "Podcast-Name 'Von Stadt zu Stadt' steht nur in der H1, nicht im Fließtext"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/11/reel_1_3_v1-1080p-1.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/11/reel_5_v1-1080p.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/11/thumb-agb.jpg",
+     "start": null,
+     "hinweis": "'Video-Podcast (Behind the Scenes)' ist nur ein statisches Bild, kein Video"
+    }
+   ]
+  },
+  {
+   "slug": "wikimove",
+   "gruppe": "einzel",
+   "podcast_name": "WIKIMOVE",
+   "kunde": "Wikimedia",
+   "branche": "Gemeinnützige Organisation / Wissen",
+   "format": "Audio-Podcast (Remote-Aufnahme)",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Technische Überwachung der Remote-Aufnahmen (Riverside.fm), Postproduktion (Schnitt, Audio-Optimierung), Versand zur internen Abstimmung, finaler Versand und Distribution nach Freigabe, flexibles Veröffentlichungsmanagement",
+   "rhythmus": "flexible Veröffentlichung",
+   "laufzeit": null,
+   "ausgangslage": "Wikimedia brauchte eine verlässliche technische Produktion für Remote-Aufnahmen und eine Postproduktion, die Folgen für die interne Abstimmung vorbereitet. Vermarktet wird über die eigenen Kanäle von Wikimedia.",
+   "format_text": "Die Gespräche werden remote über Riverside.fm aufgezeichnet und technisch überwacht. Nach Schnitt und Tonbearbeitung gehen die Folgen zur Freigabe an Wikimedia und danach in die Distribution.",
+   "ergebnis": null,
+   "kurz": "Remote aufgenommen, sauber geschnitten, nach Freigabe veröffentlicht.",
+   "zahlen": [],
+   "zitat": {
+    "text": "„Wir arbeiten seit einiger Zeit mit NextGen bei der Produktion unseres WIKIMOVE Podcasts zusammen und sind mit der Zusammenarbeit sehr zufrieden. Wolfgang berät uns immer sehr gut während der Aufnahmen und ist sehr schnell und professionell bei der Nachbearbeitung.“",
+    "name": "Eva Martin",
+    "rolle": "Wikimedia Deutschland"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5NWeiU0DDkA373LgX8FaU3",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Wikimove-Cover.jpg",
+   "probleme": [
+    "Alte Seitenstruktur (Anforderung/Umsetzung als Stichpunkte), kein Ergebnis-Abschnitt",
+    "Floskel 'für Podcasts mit maximaler Wirkung'",
+    "Rolle der Zitatgeberin fehlt (nur 'Wikimedia')",
+    "Zitat nennt Vornamen 'Wolfgang'",
+    "Dieses Zitat steht fälschlich auch auf /berg-macher/"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/4sChd8SkWNsHp0bFQJ25FQ",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/7olhgddgj7KpWGOzSkPOQJ",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "pluscast",
+   "gruppe": "einzel",
+   "podcast_name": "PLUSCAST – Beyond the Lens",
+   "kunde": "Natascha Lindemann",
+   "branche": "Fotografie / Beauty / Content Creation",
+   "format": "Video-Podcast und Audio-Podcast (Interviews und Solo-Folgen)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Brainstorming und Konzeptentwicklung, Remote-Aufnahmen (Riverside.fm), Audio- und Videoproduktion, Postproduktion (Schnitt, Sound, Abmischung), Plattform-Management und Veröffentlichung auf Spotify, Apple Podcasts, Instagram und LinkedIn, Marketing über die Kanäle der Host",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die Beauty-Fotografin Natascha Lindemann wollte mit einem eigenen Format eine neue Zielgruppe erreichen und ihre Expertise zeigen. Geplant waren Interviews mit Personen aus Beauty, Fotografie und Marketing sowie Solo-Folgen.",
+   "format_text": "Die Folgen werden remote über Riverside.fm aufgezeichnet und als Audio und Video produziert. Veröffentlicht wird auf Spotify, Apple Podcasts, Instagram und LinkedIn, beworben über die bestehenden Kanäle der Host.",
+   "ergebnis": null,
+   "kurz": "Interview-Podcast einer Fotografin – als Audio und Video auf vier Kanälen.",
+   "zahlen": [
+    "'in den letzten sechs Monaten' (Zitat)"
+   ],
+   "zitat": {
+    "text": "„Die Zusammenarbeit mit Wolfgang von NextGen Podcast in den letzten sechs Monaten war einfach großartig! Wolfgangs Leidenschaft für Podcasts spiegelt sich in jeder Phase der Produktion wieder, von der Planung, über den Cut bis zur Veröffentlichung. Dank seiner Unterstützung habe ich nicht nur einen Podcast gestartet, sondern konnte auch mein Ziel erreichen auf einer persönlicheren Ebene mit meiner Community zu connecten. Ich kann NextGen Podcast uneingeschränkt weiterempfehlen – nicht nur Profis, sondern auch großartige Menschen, die sich wirklich für den Erfolg ihrer Kunden einsetzen!“",
+    "name": "Natascha Lindemann",
+    "rolle": "Fotografin"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/7i8TI0ryGKtaJjH9By7z6v",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/02/PODCAST-COVER-768x768-1.jpg",
+   "probleme": [
+    "Rolle mit Tippfehler: 'Internationale Beaty Fotografin' (Beauty)",
+    "Tippfehler im Zitat: 'spiegelt sich … wieder' (richtig: wider) – im Zitat belassen",
+    "Zitat enthält 'Leidenschaft' und 'einfach' – wörtlich belassen, aber im eigenen Text vermeiden",
+    "Seitentext: 'technische, strategische und kreative Umsetzung', 'maximaler Reichweite', 'hochkarätigen' (Verbotswort kreativ, Floskeln)",
+    "Cover-Datei heißt 'PODCAST-COVER-768x768-1.jpg' (Originalgröße 768 px)"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/7jrqggKly6D1DDazZjgfQz",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/1q5R5tvmcGF2UT8fVY8Gjw",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "besiegelt",
+   "gruppe": "einzel",
+   "podcast_name": "Besiegelt. Der Podcast",
+   "kunde": "Rheinische Notarkammer",
+   "branche": "Notariat / Recht",
+   "format": "Video-Podcast und Audio-Podcast (Interview)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Begleitung von der ersten Idee bis zur Produktion, Moderation durch externen Host, Remote-Aufnahmen (Riverside.fm), Video- und Audioproduktion, Postproduktion, Veröffentlichung auf Spotify, Apple Podcasts, Instagram und LinkedIn, Podcast-Marketing",
+   "rhythmus": "regelmäßige Veröffentlichung",
+   "laufzeit": "Launch im März 2023",
+   "ausgangslage": "Gesucht war ein Informations-Podcast, der die Arbeit von Notarinnen und Notaren und juristische Fachbegriffe verständlich erklärt. Themen wie Testament, Immobilienkaufvertrag und Erbfolge sollten Hörerinnen und Hörer auf ein Beratungsgespräch vorbereiten.",
+   "format_text": "Ein externer Host spricht mit wechselnden Notarinnen aus der Praxis. Aufgezeichnet wird remote über Riverside.fm, als Audio und Video für Streaming-Plattformen und Social Media.",
+   "ergebnis": "Der Podcast ging im März 2023 an den Start und veröffentlicht regelmäßig neue Folgen.",
+   "kurz": "Notarwissen im Interview – seit März 2023 regelmäßig, mit externem Host.",
+   "zahlen": [
+    "Erfolgreicher Launch im März 2023"
+   ],
+   "zitat": {
+    "text": "„Wir haben mit NextGen Podcast von der ersten Idee bis zur Produktion und Moderation unseres Podcasts zusammengearbeitet. Sie haben uns im gesamten Prozess hervorragend unterstützt. Die Zusammenarbeit mit NextGen Podcast ist sehr unkompliziert und zielorientiert.“",
+    "name": "Johanna Vogel",
+    "rolle": "Notarin, Rheinische Notarkammer"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/1BLemfPW25g7iwYm5ReQ8m",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/05/rhnotk-Cover.jpg",
+   "probleme": [
+    "H1 duzt: 'Alles, was du über das Notariat wissen musst'",
+    "Kunde (Rheinische Notarkammer) nur aus Dateinamen ableitbar – bestätigen",
+    "Uneinheitlich: 'Notarinnen' im Text, 'Notar*innen' in den Stichpunkten",
+    "Floskeln 'maximale Reichweite', 'Kontinuierliche Reichweitensteigerung' ohne Beleg",
+    "Leere H4-Überschrift im Markup"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/4jrOXH5nAWQVcKULB0kwgy",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2023/05/Braucht-jeder-ein-Testament-1.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2023/05/Was-ist-eine-Vorsorgevollmacht-1.mp4",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/7ii2QzlR85tdmavjjC2zVI",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "johanniter",
+   "gruppe": "einzel",
+   "podcast_name": "Fundraising-Podcast",
+   "kunde": "Johanniter",
+   "branche": "Hilfsorganisation / Gemeinnützig",
+   "format": "Video-Podcast und Audio-Podcast (Interview)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Grundlagenberatung, Halbtages-Workshop zur Konzeptentwicklung, Konzeption des Interview-Formats, technische Umsetzung der Remote-Aufnahmen, Moderation, Aufnahmeleitung, Postproduktion Audio und Video, Social-Media-Clips, Veröffentlichung",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die Fundraising-Abteilung der Johanniter wollte zeigen, wie vielfältig die Arbeit der Organisation ist, und bestehende wie potenzielle Unterstützer gezielter ansprechen.",
+   "format_text": "Im Interview-Format spricht der Moderator mit leitenden Personen aus verschiedenen Bereichen deutschlandweit über ihre Aufgaben. Aufgezeichnet wird remote, produziert als Audio und Video mit Clips für Social Media.",
+   "ergebnis": null,
+   "kurz": "Vom Halbtages-Workshop zum moderierten Interview-Podcast für das Fundraising.",
+   "zahlen": [
+    "Durchführung eines Halbtages-Workshops zur Konzeptentwicklung"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Johanniter-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Dieser Podcast befindet sich noch in der Entstehung, deshalb können wir hier noch keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Text nutzt 'maßgeschneiderten Workshops' (Verbotswort) und 'maximale Reichweite'",
+    "Kein Podcast-Name genannt",
+    "Kein Zitat, keine Hörprobe",
+    "Auf der Übersicht in Filterkategorie 'Produktion & Beratung', obwohl Einzelreferenz"
+   ]
+  },
+  {
+   "slug": "nh-talks",
+   "gruppe": "interne-formate",
+   "podcast_name": "NH Talks",
+   "kunde": "NH Hotel Group",
+   "branche": "Hotellerie",
+   "format": "Interner Podcast (Audio, Interview)",
+   "kategorien": [
+    "Interner Podcast",
+    "Employer Branding",
+    "Interview"
+   ],
+   "leistungen": "Konzept, Kick-off, Versand von Mikrofonen an die Gäste, Vorgespräche, Moderation durch externen Moderator, Remote-Aufnahmen (Riverside.fm), Postproduktion, langfristige Begleitung",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die NH Hotel Group wollte Mitarbeitenden aus verschiedenen Bereichen Raum geben, ihre Werdegänge und ihren Arbeitsalltag zu teilen. Ziel waren Transparenz und ein stärkeres Miteinander.",
+   "format_text": "Ein externer Moderator führt Interviews mit Teammitgliedern. Die Gäste bekommen Mikrofone zugeschickt, aufgezeichnet wird remote; veröffentlicht wird ausschließlich im Intranet.",
+   "ergebnis": null,
+   "kurz": "Interner Interview-Podcast für die Belegschaft einer Hotelgruppe.",
+   "zahlen": [
+    "Exklusive Veröffentlichung im NH-Intranet, geplant für 2024"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/02/NH-Hotels-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Da es sich um ein ausschließlich internes Format handelt, können wir keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "'geplant für 2024' veraltet",
+    "Text nutzt 'gibt … ihren Mitarbeitenden eine Stimme' (Stimme-Metapher)",
+    "Cover ist Kundenlogo in Grau"
+   ]
+  },
+  {
+   "slug": "idexx",
+   "gruppe": "interne-formate",
+   "podcast_name": "Standbild-Video-Podcast",
+   "kunde": "IDEXX",
+   "branche": "Veterinärdiagnostik",
+   "format": "Standbild-Video-Podcast",
+   "kategorien": [
+    "Interner Podcast"
+   ],
+   "leistungen": "Aufnahme über Online-Aufnahmetool, technische Aufnahmeleitung, sechs Standbild-Folgen (Audio + gebrandetes Bild), Postproduktion und Export",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "IDEXX wollte ein schlankes, professionelles Podcastformat und brauchte technische Unterstützung bei der Aufnahme.",
+   "format_text": "Sechs Folgen wurden über ein Online-Tool aufgenommen und technisch begleitet. Während der gesamten Tonspur läuft ein statisches, gebrandetes Bild – passend für YouTube oder interne Medien.",
+   "ergebnis": "Sechs Standbild-Folgen, fertig exportiert zur Veröffentlichung.",
+   "kurz": "Sechs Standbild-Videofolgen, remote aufgenommen und fertig exportiert.",
+   "zahlen": [
+    "sechs Podcastfolgen produziert",
+    "Erstellung von 6 Standbild-Podcast-Folgen (Audio + statisches Bild)"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/IDEXX-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Da es sich um ein ausschließlich internes Format handelt, können wir keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Widerspruch: Vorlagentext nennt 'ausschließlich internes Format', Text nennt 'ideal für Plattformen wie YouTube'",
+    "Cover ist Kundenlogo in Grau",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "flurfunk-aus-herne",
+   "gruppe": "interne-formate",
+   "podcast_name": "Flurfunk",
+   "kunde": "Ministerium des Innern NRW",
+   "branche": "Öffentliche Verwaltung",
+   "format": "Audio-Podcast (moderiert)",
+   "kategorien": [
+    "Interner Podcast",
+    "Öffentliche Hand",
+    "Interview"
+   ],
+   "leistungen": "Moderation, Vorbereitung, technische Aufnahmeleitung (Riverside.fm), Postproduktion, Transkripte, Folgenbeschreibungen, Titel, Intro- und Outro-Texte, Podcast-Reporting zur Erfolgsmessung",
+   "rhythmus": "monatlich",
+   "laufzeit": null,
+   "ausgangslage": "Das Ministerium des Innern NRW wollte monatlich über Themen der Landesverwaltung informieren – für Mitarbeitende und Interessierte, als reines Audioformat.",
+   "format_text": "Unser Team moderiert, verschickt die Aufnahmelinks und betreut die Remote-Aufnahme. Danach folgen Schnitt, Transkript, Titel und Beschreibung sowie ein Reporting zur Erfolgsmessung.",
+   "ergebnis": "Der Podcast erscheint seit Jahren monatlich.",
+   "kurz": "Monatlicher Podcast der Landesverwaltung – seit Jahren moderiert und produziert.",
+   "zahlen": [
+    "veröffentlicht … monatlich einen Podcast",
+    "Monatliche Produktion",
+    "Seit Jahren begleiten wir das Format"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/37aORHfunv9toSB4ZZWyKj",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Flurfunk_Cover.jpg",
+   "probleme": [
+    "Slug 'flurfunk-aus-herne' nennt Herne, Text nennt nur das Ministerium des Innern NRW – Kunde/Standort klären",
+    "'mit bereits ausgezeichneten Ergebnissen' – Auszeichnung ohne Quelle",
+    "Als 'interne Kommunikation' beschrieben, aber öffentlich auf Spotify/Apple – Einordnung klären",
+    "Schreibweise uneinheitlich 'Riverside.FM' vs. 'Riverside.fm'",
+    "Übersicht: Filterkategorie 'Interview & Wissen'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/4gT0OMU2umiA4cIAyaoGRZ",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/5BuTlE4mGF0y6NJK1yBsE4",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "freie-universitaet-berlin",
+   "gruppe": "interne-formate",
+   "podcast_name": "Audio- und Video-Podcast aus Webinar-Mitschnitten",
+   "kunde": "Freie Universität Berlin",
+   "branche": "Hochschule / Wissenschaft",
+   "format": "Audio- und Video-Podcast aus Webinar-Mitschnitten",
+   "kategorien": [
+    "Öffentliche Hand"
+   ],
+   "leistungen": "Sichtung und Strukturierung von Videomitschnitten, Klangoptimierung, Schnitt zu einer Podcast-Reihe, Lieferung von Audio- und Videomaterial",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die FU Berlin hatte eine Webinar- und Videokonferenzreihe zum Schwerpunkt Israel aufgezeichnet, über 20 Stunden Material. Dieses Wissen sollte als Podcast dauerhaft verfügbar werden.",
+   "format_text": "Die Mitschnitte wurden gesichtet, strukturiert, klanglich bereinigt und zu einer hörbaren Podcast-Reihe geschnitten. Die FU erhielt finale Audio- und Videodateien für ihre internen Kanäle.",
+   "ergebnis": "Aus über 20 Stunden Konferenzmaterial entstand eine Podcast-Reihe in Audio und Video zur Veröffentlichung über die Kanäle der Universität.",
+   "kurz": "Über 20 Stunden Webinar-Material zu einer Podcast-Reihe geschnitten.",
+   "zahlen": [
+    "Über 20 Stunden Videomaterial"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Freie-Universitaet-Berlin-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Da es sich um ein ausschließlich internes Format handelt, können wir keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Zeitform-Bruch: 'Wir liefern … damit die Inhalte … veröffentlicht werden konnten'",
+    "Cover ist Kundenlogo in Grau",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "madame-tussauds",
+   "gruppe": "interne-formate",
+   "podcast_name": "Live-Podcast-Aufzeichnung",
+   "kunde": "Madame Tussauds Berlin",
+   "branche": "Freizeit / Museum",
+   "format": "Live-Podcast-Aufzeichnung (Audio)",
+   "kategorien": [],
+   "leistungen": "Mobiles Technik-Setup vor Ort, eigene Mikrofon- und Aufnahmetechnik, technische Aufnahmeleitung während des Events, Live-Sound-Optimierung; keine Postproduktion",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Für ein Live-Event im Madame Tussauds Berlin sollte ein Podcast vor Publikum aufgezeichnet werden – in sauberer Tonqualität und ohne nachträglichen Schnitt.",
+   "format_text": "Unser Team baute mobile Technik im Museum auf, stellte Mikrofone und Aufnahmetechnik und leitete die Aufnahme während des gesamten Events.",
+   "ergebnis": null,
+   "kurz": "Live-Podcast vor Publikum im Wachsfigurenkabinett, sauber im ersten Take.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/Madame-Tussauds-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Da es sich um ein ausschließlich internes Format handelt, können wir keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Vorlagentext 'ausschließlich internes Format' passt nicht zu einem Live-Event vor Publikum",
+    "Cover ist Kundenlogo in Grau",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "mci-live-deutschland",
+   "gruppe": "interne-formate",
+   "podcast_name": "Audio-Podcast-Folge",
+   "kunde": "MCI Live Deutschland",
+   "branche": "Event- und Kommunikationsagentur",
+   "format": "Audio-Podcast-Folge (vor Ort mit Remote-Gast)",
+   "kategorien": [],
+   "leistungen": "Mobiles Recording-Equipment, technische Aufnahmeleitung vor Ort, Zuschaltung des Remote-Gasts, Behind-the-Scenes-Aufnahmen, Postproduktion, Podcast-Cover, Intro und Outro",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "MCI Live Deutschland wollte eine Podcast-Folge im eigenen Headquarter aufnehmen, mit einem zugeschalteten Gast, und brauchte dazu Postproduktion und visuelle Gestaltung.",
+   "format_text": "Aufgenommen wurde mit mobilem Setup im Headquarter, der Gast war remote zugeschaltet. Dazu entstanden Behind-the-Scenes-Aufnahmen, Cover, Intro und Outro.",
+   "ergebnis": null,
+   "kurz": "Eine Folge im Headquarter, Gast remote zugeschaltet, mit Cover und Intro.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/MCI-Live-Deutschland-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Da es sich um ein ausschließlich internes Format handelt, können wir keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Cover ist Kundenlogo in Grau",
+    "Abkürzung 'BTS' ohne Erklärung",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "jtl-software",
+   "gruppe": "interne-formate",
+   "podcast_name": "Audio-Podcast",
+   "kunde": "JTL Software",
+   "branche": "Software / E-Commerce",
+   "format": "Audio-Podcast (ursprünglich als Video-Podcast geplant)",
+   "kategorien": [
+    "Employer Branding",
+    "Interview"
+   ],
+   "leistungen": "Inhaltliches Konzept, technischer Rahmen, Intro und Outro, Beratung zur Umstellung von Video auf Audio, vollständige Postproduktion, Veröffentlichung und Distribution",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "JTL Software wollte einen Podcast zu Unternehmenskultur und People & Culture. Geplant war ein Videopodcast, umgesetzt wird er als reiner Audio-Podcast.",
+   "format_text": "Ein interner Experte aus dem JTL-Team moderiert und spricht mit Gästen über die Herausforderungen moderner Unternehmenskultur. Unser Team liefert Konzept, Intro, Outro, Postproduktion und Distribution.",
+   "ergebnis": null,
+   "kurz": "People-&-Culture-Podcast mit internem Host – von der Konzeption bis zur Distribution.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/JTL-Software-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Dieser Podcast befindet sich noch in der Entstehung, deshalb können wir hier noch keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Leerzeichen vor Punkt: 'JTL Software .'",
+    "Cover ist Kundenlogo in Grau",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "loan-to-value",
+   "gruppe": "immobilien",
+   "podcast_name": "Loan to Value",
+   "kunde": "EBM Financial",
+   "branche": "Gewerbliche Immobilienfinanzierung",
+   "format": "Audio-Podcast",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Konzeption und Benchmark-Analyse, Beratung zu Equipment und Studio-Setup in den EBM-Räumen, Plattform-Anbindung, Postproduktion der von EBM selbst aufgenommenen Folgen, Versand zur Abstimmung",
+   "rhythmus": "unregelmäßig, je nach Themen- und Marktgeschehen",
+   "laufzeit": null,
+   "ausgangslage": "EBM wollte ein lockeres Podcastformat für die gewerbliche Immobilienfinanzierung, das den CEO als Branchenexperten positioniert.",
+   "format_text": "Gastgeber Stephan Meyer spricht über Markt, Finanzierungen und Erfolgsgeschichten – verbunden mit Gin. EBM nimmt im eigenen, von uns eingerichteten Studio auf; unser Team übernimmt Schnitt und Sound.",
+   "ergebnis": null,
+   "kurz": "Eigenes Studio beim Kunden eingerichtet – Aufnahme intern, Postproduktion extern.",
+   "zahlen": [],
+   "zitat": {
+    "text": "„Wir arbeiten mit NextGen seit einigen Monaten zusammen und wir sind sehr glücklich so professionelle Unterstützung für unseren Podcast zu haben!!!! Vielen Dank an Wolfgang und sein Team 💐“",
+    "name": "Stefanie Sonnenberg",
+    "rolle": "Head of Marketing, EBM Financial"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5HQx4EsWaZ6Ztvnl6NipTA",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/10/Loan-to-Value.jpg",
+   "probleme": [
+    "Zitat enthält '!!!!' und Emoji '💐' – wörtlich belassen",
+    "Text: 'innovative Finanzierungslösungen', 'perfekt … zugeschnitten', 'maximale Sichtbarkeit' (Verbotswort/Floskeln)",
+    "Zitat und Foto (Stefanie-Sonnenberg-EBM-Financial-Head-of-Marketing.png) stehen fälschlich auch auf /arolsen-archives/"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/3pGPQIh6lxWoWqIiQ2U4ob",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/63NomNJXouuZTopKvvjxoe",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "immo-insider",
+   "gruppe": "immobilien",
+   "podcast_name": "Immo Insider",
+   "kunde": "Thomas Beyerle",
+   "branche": "Immobilienwirtschaft",
+   "format": "Audio-Podcast (Studio)",
+   "kategorien": [],
+   "leistungen": "Podcast-Webseite, Aufnahme in unserem Studio, technische Aufnahmeleitung, Intro und Outro, Cover, Plattform-Setup und Upload, Postproduktion, plattformspezifischer Content, Veröffentlichung, Marketing über die Kanäle des Hosts",
+   "rhythmus": "wöchentlich, jeden Montag",
+   "laufzeit": "seit September 2023",
+   "ausgangslage": "Thomas Beyerle, Professor und Analyst der Immobilienwirtschaft, wollte seine Expertise in kurzen Folgen zu Märkten, Trends und Prognosen vermitteln.",
+   "format_text": "Kurze Folgen, aufgenommen in unserem Studio. Dazu kamen eine eigene Podcast-Webseite, Cover, Intro, Outro und Content für einzelne Kanäle.",
+   "ergebnis": "Erstveröffentlichung im September 2023, seitdem eine Folge jeden Montag.",
+   "kurz": "Jeden Montag eine kurze Folge zur Immobilienwirtschaft – seit September 2023.",
+   "zahlen": [
+    "Erstveröffentlichung im September 2023, anschließend wöchentliche Folgen jeden Montag"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/4rTBj4zHILTEuFdQGHTbFN",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/02/Immo-Insider-Cover.jpeg",
+   "probleme": [
+    "Leerzeichen vor Komma: 'Thomas Beyerle ,'",
+    "'renommierter Experte', 'maximale Reichweite' – Floskeln",
+    "Kein Zitat"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/7tjz644UJrlhOqWhezz6tD",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/0e3RhOJ7elJHnehEzW9YL5",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "renting-or-buying",
+   "gruppe": "immobilien",
+   "podcast_name": "Renting or Buying",
+   "kunde": "Black Label Immobilien",
+   "branche": "Immobilienmakler",
+   "format": "Audio- und Video-Podcast (Studio und mobil) mit Social-Media-Clips",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Konzeption, Intro und Outro, Plattform-Anbindung, Aufnahmen im Studio und mobil, Postproduktion Audio und Video, Reels und Clips, Social-Media-Planung und Veröffentlichung über ein Posting-Tool",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Black Label Immobilien wollte Expats, die in Berlin eine Immobilie suchen, gezielt informieren und als Käufer ansprechen.",
+   "format_text": "Gastgeber Achim Ammann spricht mit Fachleuten über Mieten und Kaufen in Berlin. Aufgenommen wird im Studio und mobil, dazu entstehen Reels, die unser Team einplant und veröffentlicht.",
+   "ergebnis": null,
+   "kurz": "Immobilien-Podcast für Expats – mit Reels, die wir selbst einplanen und posten.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/1jp4wXhE7RSE2hlGwgkIZv",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Renting-or-Byingx3f-min.jpg",
+   "probleme": [
+    "Tippfehler im Cover-Dateinamen/Alt-Text: 'Bying' statt 'Buying' (Alt-Text 'cover renting or bying? min')",
+    "Kein Zitat"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/2weQ9d4LkpHihDqE43S51B",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/03/EB-Preview-Folge.mp4",
+     "start": null
+    },
+    {
+     "typ": "andere",
+     "id_oder_url": "https://nextgen-podcast.de/wp-content/uploads/2025/03/EB-Reels-draussen.mp4",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/05qmrzvG3OxJcrUh04jo0j",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "haus-meister",
+   "gruppe": "immobilien",
+   "podcast_name": "Die Haus-Meister",
+   "kunde": "Strategiekollegen",
+   "branche": "Immobilienwirtschaft",
+   "format": "Audio-Podcast (Interview / Diskussion)",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Technische Aufnahmeleitung, Aufnahme-Location, Intro und Outro, Cover, Plattform-Setup und Upload-Management, Tests vor jeder Veröffentlichung, Vermarktung",
+   "rhythmus": "alle zwei Wochen",
+   "laufzeit": "seit April 2021",
+   "ausgangslage": "Ein Diskussionsformat sollte Mythen und Vorurteile über die Immobilienwirtschaft prüfen – mit Fachleuten, unterschiedlichen Standpunkten und Fakten.",
+   "format_text": "Moderierte Diskussionen mit Fachleuten der Branche, aufgenommen an einer von uns gestellten Location. Cover, Intro, Outro und Plattform-Setup kamen ebenfalls von uns.",
+   "ergebnis": "Seit April 2021 erscheint alle zwei Wochen eine neue Folge.",
+   "kurz": "Seit April 2021 alle zwei Wochen: Diskussion über die Immobilienbranche.",
+   "zahlen": [
+    "Erstveröffentlichung im April 2021, mit fortlaufender Produktion neuer Episoden alle zwei Wochen"
+   ],
+   "zitat": {
+    "text": "„NextGen Media unterstützt uns bei der Produktion & Vermarktung unseres Podcasts. Die Zusammenarbeit macht viel Spaß & ist sehr erfolgreich.“",
+    "name": "Andy Dietrich",
+    "rolle": "Strategiekollegen"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/46VAzwNx4ivBQ55Bp2W3NF",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/04/Die-Haus-Meister-Cover.jpg",
+   "probleme": [
+    "Zitat nennt 'NextGen Media' statt 'NextGen Podcast' (alter Name) – wörtlich belassen",
+    "Behauptung 'einer der erfolgreichsten und meistgehörten Immobilien-Podcasts Deutschlands, laut zahlreichen Branchen-Experten' ohne Quelle – nicht übernehmen",
+    "Rolle des Zitatgebers fehlt (nur Firmenname)"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/0Sap5VSeV57bZ2uR0KBAoi",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/5XFKP8grK2WxLLdzwE9L0p",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "acare",
+   "gruppe": "medizin",
+   "podcast_name": "All Things Angioedema",
+   "kunde": "ACARE",
+   "branche": "Medizin / Angioödem-Netzwerk",
+   "format": "Video-Podcast (Relaunch eines Audio-Podcasts)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Online-Aufnahmetool, technische Aufnahmeleitung, Postproduktion mit Intro, Outro und Sound, Cover in 1:1, 4:5, 9:16 und 16:9, untertitelte Reels, Content-Planung und Veröffentlichung, Austausch mit Gästen, monatliches Reporting",
+   "rhythmus": "regelmäßig; Reporting monatlich",
+   "laufzeit": null,
+   "ausgangslage": "ACARE hatte einen bestehenden Audio-Podcast und wollte ihn neu aufsetzen, mit Video und Social-Media-Inhalten.",
+   "format_text": "Die Gespräche werden online aufgezeichnet und technisch begleitet. Aus jeder Folge entstehen Video, untertitelte Reels und Cover in vier Formaten; ein monatliches Reporting zeigt die Entwicklung.",
+   "ergebnis": null,
+   "kurz": "Vom Audio- zum Video-Podcast – mit Reels und monatlichem Reporting.",
+   "zahlen": [
+    "Cover für alle relevanten Formate (1:1, 4:5, 9:16, 16:9)",
+    "Monatliche Reportings"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/4dzxrvVadmO3GoKBP355yr",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/All-Things-Angioedema-1-min.jpg",
+   "probleme": [
+    "Text beginnt mit 'Auch ACARE …' – bezieht sich auf UCARE, steht aber allein",
+    "'maßgeschneiderten Covern' (Verbotswort)",
+    "Podcast-Name nur aus Cover-Dateinamen ableitbar",
+    "Kein Zitat",
+    "Spotify-Embeds sind /video-Embeds (Video-Folgen)"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/5SSXsqj32OMGNbmB2ilEwQ",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/4hRYOFmW79h6bwtdnPkTtq",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "ucare",
+   "gruppe": "medizin",
+   "podcast_name": "All Things Urticaria",
+   "kunde": "UCARE Network",
+   "branche": "Medizin / Urtikaria-Netzwerk",
+   "format": "Video-Podcast und Audio-Podcast (Relaunch)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Online-Recording mit technischer Aufnahmeleitung, Postproduktion mit Intro, Outro und Sound, Cover in 1:1, 4:5, 9:16 und 16:9, untertitelte Reels, Veröffentlichung und Content-Planung, laufende Beratung, monatliche Reportings",
+   "rhythmus": "regelmäßig; Reporting monatlich",
+   "laufzeit": null,
+   "ausgangslage": "UCARE Network hatte einen bestehenden Audio-Podcast und suchte einen Partner, um ihn zu professionalisieren und um Video und visuelles Branding zu ergänzen.",
+   "format_text": "Die Gespräche werden online aufgezeichnet. Unser Team liefert Schnitt, Intro, Outro, Cover in vier Formaten und untertitelte Reels und veröffentlicht die Folgen.",
+   "ergebnis": "Der Podcast läuft nun regelmäßig als Audio und Video; monatliche Reportings dienen der Erfolgskontrolle.",
+   "kurz": "Bestehenden Audio-Podcast um Video, Reels und monatliches Reporting ergänzt.",
+   "zahlen": [
+    "Covern für sämtliche Plattformformate (1:1, 4:5, 9:16, 16:9)",
+    "monatliche Reportings"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/6Je7W0rgpXmImYzRlp8VbN",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/All-Things-Urticaria-min.jpg",
+   "probleme": [
+    "Podcast-Name nur aus Cover-Dateinamen ableitbar",
+    "Floskel 'auf das nächste Level zu heben'",
+    "Kein Zitat",
+    "Text nahezu identisch mit /acare/"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/7whVgcc4gMXqMzPDJXcdyu",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/7l1Vrfpm3IvixD87L0QWWV",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "mit-haut-haar",
+   "gruppe": "medizin",
+   "podcast_name": "Mit Haut & Haar",
+   "kunde": null,
+   "branche": "Dermatologie",
+   "format": "Audio-Podcast (Experteninterviews)",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Konzept, Intro und Outro, technische Einrichtung und Hosting-Anbindung, Remote-Aufnahmen (Riverside.fm), externer Host, Postproduktion, Veröffentlichung auf Spotify, Apple Podcasts und YouTube, Marketing",
+   "rhythmus": "alle zwei Wochen",
+   "laufzeit": "seit Januar 2024",
+   "ausgangslage": "Gesucht war ein Format, das über verbreitete Haut- und Haarerkrankungen wie Akne, Schuppenflechte oder Haarausfall verständlich und fachlich fundiert aufklärt.",
+   "format_text": "Ein externer Host spricht mit wechselnden Dermatologinnen und Dermatologen. Aufgezeichnet wird remote, veröffentlicht auf Spotify, Apple Podcasts und YouTube.",
+   "ergebnis": "Start im Januar 2024, seitdem alle zwei Wochen eine neue Folge.",
+   "kurz": "Dermatologie im Interview – seit Januar 2024 alle zwei Wochen.",
+   "zahlen": [
+    "Erfolgreicher Launch im Januar 2024 mit einer neuen Folge alle zwei Wochen"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5b9LLpXB2wODXGPL75jbxu",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/02/cover-podcast.jpg",
+   "probleme": [
+    "Auftraggeber wird nicht genannt",
+    "Seitentitel duzt: 'der Podcast für Deine Hautgesundheit'",
+    "Floskel 'maximale Reichweite'",
+    "Kein Zitat"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/54C5Aak4xyhVBkggwGmXOo",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/0bdHCX3qjNrOUC9Mz70Mkz",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "schmetterlings-effekte",
+   "gruppe": "medizin",
+   "podcast_name": "Schmetterlings-Effekte",
+   "kunde": "Beate Lindemann",
+   "branche": "Psychologische Begleitung",
+   "format": "Audio-Podcast",
+   "kategorien": [],
+   "leistungen": "Kick-off, Benchmark-Analyse, Konzeption und Redaktionsplanung, Testfolgen, Intro und Outro, Cover, Podcast-Webseite, Plattform-Setup und Upload, Marketing, laufende Produktion",
+   "rhythmus": "alle zwei Wochen",
+   "laufzeit": "seit Mai 2023",
+   "ausgangslage": "Beate Lindemann wollte einen Podcast zu psychologischer Begleitung starten – mit klarer Positionierung im Podcast-Markt und einer eigenen Webseite.",
+   "format_text": "Nach Kick-off und Benchmark-Analyse entstanden Konzept, Redaktionsplan, Testfolgen, Cover, Intro und Outro. Danach folgte die laufende Produktion im Zwei-Wochen-Rhythmus.",
+   "ergebnis": "Veröffentlichung im Mai 2023, seitdem neue Folgen im Zwei-Wochen-Rhythmus.",
+   "kurz": "Von der Benchmark-Analyse zum Start im Mai 2023, seitdem alle zwei Wochen.",
+   "zahlen": [
+    "Regelmäßige Produktion neuer Folgen im Zwei-Wochen-Rhythmus",
+    "Erfolgreiche Veröffentlichung im Mai 2023"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/6mXkgOZ1cvWNFQaNeGhbBl",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/06/Schmetterlings-Effekte-Cover.jpg",
+   "probleme": [
+    "Seite ist nicht auf /referenzen/ verlinkt (verwaiste Seite)",
+    "Gefühlsbetonte Sprache ('Inhalte, die gehört und gefühlt werden', 'Ein Podcast, der bewegt')",
+    "Einordnung unter 'medizin' fraglich (psychologische Begleitung, kein medizinischer Auftraggeber genannt)",
+    "Kein Zitat"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/3ppzp7PWbu1HxK2L7DUL1v",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/75TJZOvuQfDXrBAJXXMdec",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "psychotherapie-einfach-erklaert",
+   "gruppe": "medizin",
+   "podcast_name": "Psychotherapie einfach erklärt",
+   "kunde": "Prof. Dr. Frank Godemann und Robert Schuiszils",
+   "branche": "Psychotherapie / psychische Gesundheit",
+   "format": "Video-Podcast und Audio-Podcast (Interview, Studio und mobil)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Konzeption mit den Hosts, Intro und Outro, Studio und technische Leitung, mobile Aufnahmen mit Experten in verschiedenen Städten, Postproduktion Audio und Video, Social-Media-Clips, Aufbau und Verwaltung des YouTube-Kanals, Anbindung an Podcast-Host, Marketing, monatliche Reportings",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Zwei Fachleute wollten Fragen rund um Psychologie und Therapie verständlich beantworten – von Beginn an als Audio und Video, mit Interviews mit Expertinnen und Experten aus ganz Deutschland.",
+   "format_text": "Aufgezeichnet wird im Studio und mobil in verschiedenen Städten. Unser Team hat den YouTube-Kanal aufgebaut, erstellt Clips für Social Media und misst den Erfolg monatlich.",
+   "ergebnis": null,
+   "kurz": "Psychotherapie im Interview – im Studio und unterwegs in mehreren Städten.",
+   "zahlen": [
+    "Monatliche Erfolgsmessung",
+    "monatliche Reportings"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5OTr1bSk1Z4TIBAQpUCS60",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Cover_Psychotherapie-einfach-erklaert-min-1.jpeg",
+   "probleme": [
+    "Duplikat: /psychotherapie-einfach-erklaert/ (ältere Fassung, nicht auf /referenzen/ verlinkt) und /psychotherapie-einfach-erklaert-2/ (aktuelle Fassung, verlinkt). Daten aus -2 übernommen; alte Seite auf neue weiterleiten (301).",
+    "Alte Fassung enthält kopierten Wikimedia-Vorlagentext ('Versand der fertigen Folgen an Wikimedia …', 'Wikimedia Marketing-Kanäle') und Tippfehler 'einzelen'",
+    "Widerspruch: -2 nennt 'einem Psychologen und einem Psychotherapeuten', alte Fassung nennt Facharzt für Psychiatrie und Psychotherapie (Godemann) und psychologischen Psychotherapeuten (Schuiszils)",
+    "'maßgeschneiderten Marketingstrategie' (Verbotswort), 'maximale Reichweite'",
+    "Auftraggeber nicht eindeutig genannt",
+    "Alte Fassung hat anderes Cover: https://nextgen-podcast.de/wp-content/uploads/2024/10/psychotherapie-einfach-erklaert-kclcl73tq93ag.webp",
+    "Kein Zitat"
+   ],
+   "slug_alt": "psychotherapie-einfach-erklaert-2",
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/1l9WyGmNvxXAImCJUn72aj",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/2xaS2k4YtSZTaJqjv2KxaE",
+     "start": null,
+     "hinweis": "Show"
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/4BVstfvIdH5TuAQAxMFufl",
+     "start": null,
+     "hinweis": "von der alten Duplikatseite /psychotherapie-einfach-erklaert/"
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/20ebgwKAYGGCYsnjjp8ScQ",
+     "start": null,
+     "hinweis": "von der alten Duplikatseite"
+    }
+   ]
+  },
+  {
+   "slug": "knix-talks",
+   "gruppe": "beratung-und-training",
+   "podcast_name": "KN:IX talks",
+   "kunde": "BAG RelEx",
+   "branche": "Extremismusprävention / Zivilgesellschaft",
+   "format": "Podcast-Schulung (Inhouse-Produktion) und Trailer",
+   "kategorien": [],
+   "leistungen": "Kick-off (1 Stunde), Konzeption der Schulung, Postproduktion des Trailers mit Intro und Outro, Vor-Ort-Workshop (4 Stunden) mit Übungen, Q&A, Schulungsunterlagen",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die BAG RelEx produziert den Podcast KN:IX talks zur Islamismusprävention selbst. Mitarbeitende sollten lernen, von der Konzeption bis zur Veröffentlichung eigenständig zu produzieren.",
+   "format_text": "Nach einem einstündigen Kick-off folgte ein vierstündiger Workshop vor Ort mit Theorie, Übungen und Fragerunde. Dazu kamen Schulungsunterlagen und ein produzierter Trailer mit Intro und Outro.",
+   "ergebnis": "Die Mitarbeitenden produzieren den Podcast seitdem eigenständig; die Schulungsunterlagen sichern das Wissen für neue Teammitglieder.",
+   "kurz": "Vier Stunden Workshop – danach produziert das Team seinen Podcast selbst.",
+   "zahlen": [
+    "1-stündiges Kick-Off-Meeting",
+    "4-stündiger Vor-Ort-Workshop"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5UYCx1Bh3S5NxCWjxB0Ao6",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/05/KNIX-talks-1-min-1.jpg",
+   "probleme": [
+    "'maßgeschneiderte Podcast-Schulung' (Verbotswort)",
+    "Ergebnis ('Langfristige Befähigung …') steht nur als Stichpunkt in 'Umsetzung', nicht belegt",
+    "Langform von 'BAG RelEx' nicht auf der Seite – vor Verwendung prüfen",
+    "Kein Zitat"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/0jkFLtf4Ks6huxbGVlpOPa",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/7G5BZvrrdtGYRmru1qT0PA",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "berliner-team",
+   "gruppe": "beratung-und-training",
+   "podcast_name": "Schnitt-Workshop",
+   "kunde": "Berliner Team GbR",
+   "branche": null,
+   "format": "Schnitt-Workshop (Adobe Audition)",
+   "kategorien": [],
+   "leistungen": "Eintägiger Praxis-Workshop vor Ort in Hennigsdorf zu Adobe Audition, gemeinsamer Produktions-Workflow, Fragerunde, ausführliches Tutorial als Nachschlagewerk",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Das Berliner Team wollte seinen Podcast künftig selbst schneiden und brauchte dazu eine Schulung in Adobe Audition.",
+   "format_text": "Ein eintägiger Workshop vor Ort in Hennigsdorf vermittelte Grundlagen und fortgeschrittene Techniken. Ein schriftliches Tutorial dient als Nachschlagewerk und zur Einarbeitung neuer Teammitglieder.",
+   "ergebnis": null,
+   "kurz": "Ein Tag Workshop in Adobe Audition, dazu ein Tutorial für neue Teammitglieder.",
+   "zahlen": [
+    "Eintages-Workshop"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Berliner-Team-Grau-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': '… deshalb können wir hier keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Cover ist Kundenlogo in Grau (Übersicht zeigt anderes Bild Berliner-Team-2-min)",
+    "Branche des Kunden nicht genannt",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "energieagentur-rheinland-pfalz",
+   "gruppe": "beratung-und-training",
+   "podcast_name": "Podcast-Beratung",
+   "kunde": "Energieagentur Rheinland-Pfalz",
+   "branche": "Energie / Landesagentur",
+   "format": "Podcast-Beratung (Online-Call)",
+   "kategorien": [
+    "Öffentliche Hand"
+   ],
+   "leistungen": "Vorbereitung anhand der Kundenfragen, einstündiger Online-Call zu Erstellung, Technik und Ausrichtung, Bereitstellung der Videoaufzeichnung",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die Energieagentur Rheinland-Pfalz wollte ihre geplante Audiokommunikation strategisch ausrichten und hatte konkrete Fragen zu Erstellung, Technik und Inhalt.",
+   "format_text": "Unser Team bereitete die Fragen vor und beantwortete sie in einem einstündigen Online-Call. Die Aufzeichnung steht der Energieagentur intern zur Verfügung.",
+   "ergebnis": null,
+   "kurz": "Eine Stunde Beratung, Aufzeichnung zur internen Nutzung.",
+   "zahlen": [
+    "einstündiger Online-Call"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Energieagentur.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': '… haben wir eine Podcast-Beratung durchgeführt, deshalb können wir hier keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "'Eine weiterführende Zusammenarbeit ist in Planung' – Stand prüfen",
+    "Sehr kleines Projekt (1 Stunde) – Eignung als Referenz prüfen"
+   ]
+  },
+  {
+   "slug": "ibbf",
+   "gruppe": "beratung-und-training",
+   "podcast_name": "How to make a Podcast (Video-Reihe)",
+   "kunde": "ibbf – Institut für betriebliche Bildungsforschung",
+   "branche": "Bildung / Weiterbildung (Zielgruppe Energiebranche)",
+   "format": "Video-Tutorial-Reihe",
+   "kategorien": [],
+   "leistungen": "Kick-off (2 Stunden), Benchmark-Analyse, Konzeption, Testvideos, Skripte und Storyboard, Aufnahme der Video-Reihe, Postproduktion, Handout",
+   "rhythmus": null,
+   "laufzeit": "Veröffentlichung 2021",
+   "ausgangslage": "Das ibbf wollte ein Tutorial, mit dem Firmen aus der Energiebranche einen eigenen Podcast starten können.",
+   "format_text": "Nach Kick-off, Benchmark-Analyse und Konzeption entstanden Skripte, Storyboard und Testvideos. Dann wurde die 23-teilige Video-Reihe aufgenommen, geschnitten und um ein Handout ergänzt.",
+   "ergebnis": "Eine 23-teilige Video-Reihe 'How to make a Podcast', veröffentlicht 2021.",
+   "kurz": "23 Lernvideos zum Podcast-Start, mit Skript, Storyboard und Handout.",
+   "zahlen": [
+    "23-teiligen Video-Reihe",
+    "2-stündiges Kick-Off-Meeting",
+    "Veröffentlichung 2021"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "vimeo",
+    "id_oder_url": "https://player.vimeo.com/video/473027141",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/05/ibbf-Cover.jpg",
+   "probleme": [
+    "H1 nur 'Podcast Tutorial'; kein Fließtext zu Ausgangslage oder Ergebnis",
+    "Abschnitt heißt 'Hörproben', enthält aber Videos",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "vimeo",
+     "id_oder_url": "https://player.vimeo.com/video/473031390",
+     "start": null
+    },
+    {
+     "typ": "vimeo",
+     "id_oder_url": "https://player.vimeo.com/video/473029433",
+     "start": null
+    },
+    {
+     "typ": "vimeo",
+     "id_oder_url": "https://player.vimeo.com/video/473049430",
+     "start": null
+    }
+   ]
+  },
+  {
+   "slug": "dihk",
+   "gruppe": "schnitt-und-lieferung",
+   "podcast_name": "Audio-Podcast",
+   "kunde": "Deutsche Industrie- und Handelskammer (DIHK)",
+   "branche": "Wirtschaftsverband / Kammer",
+   "format": "Audio-Podcast (Sonderfolgen aus Aufzeichnungen)",
+   "kategorien": [],
+   "leistungen": "Extraktion der Tonspuren, Klangoptimierung (Lautstärke, Hall, Rauschen), Schnitt, Intro mit Sprechertext und Musik, Outro, Lieferung als MP3",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die DIHK hatte mehrere Sonderaufzeichnungen aus einer digitalen Aufzeichnungssoftware, die als Podcastfolgen erscheinen sollten.",
+   "format_text": "Die Tonspuren wurden einzeln extrahiert, in Lautstärke, Hall und Rauschen bearbeitet und geschnitten. Ein eigenes Intro mit Sprechertext und Musik sowie ein Outro rahmen jede Folge.",
+   "ergebnis": "Vier fertige Audiofolgen als MP3 für die DIHK.",
+   "kurz": "Aus Konferenz-Rohmaterial vier sendefertige Audiofolgen gemacht.",
+   "zahlen": [
+    "vier hochwertige Audiopodcast-Folgen",
+    "vier professionell produzierte MP3-Audiocasts"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/11/DIHK_grau.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Dieser Podcast befindet sich noch in der Entstehung, deshalb können wir hier noch keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Widerspruch: Vorlagentext 'noch in der Entstehung', Text beschreibt abgeschlossenes Projekt (vier Folgen geliefert)",
+    "Leerzeichen vor Komma: 'Tonspuren ,', 'Musik ,'",
+    "Thema nur im Seitentitel: 'DIHK Sonderpodcast – Vereinbarkeit im Handwerk'",
+    "Cover ist Kundenlogo in Grau",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "esv-podcast",
+   "gruppe": "schnitt-und-lieferung",
+   "podcast_name": "ESV im Dialog",
+   "kunde": "Erich Schmidt Verlag",
+   "branche": "Fachverlag",
+   "format": "Audio-Podcast (Remote, Interview)",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Terminabstimmung mit Gästen, technische Überwachung der Aufnahmen (Riverside.fm), Intro und Outro (eingesprochen), Postproduktion, Versand zur Abstimmung, Plattform-Management und Tests, Vermarktung über ESV-Kanäle",
+   "rhythmus": "unregelmäßig, anlassbezogen",
+   "laufzeit": null,
+   "ausgangslage": "Der Erich Schmidt Verlag wollte Fachthemen aus Recht, Wirtschaft, Steuern, Arbeitsschutz und Philologie in einem aktuellen Format mit Fachleuten besprechen.",
+   "format_text": "Folgen entstehen anlassbezogen als Remote-Gespräche, technisch überwacht. Unser Team schneidet, schickt die Folge zur Abstimmung an den Verlag und veröffentlicht nach Freigabe.",
+   "ergebnis": null,
+   "kurz": "Anlassbezogener Fachpodcast eines Verlags – remote aufgenommen, nach Freigabe veröffentlicht.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/3d8thmDeibkJgPYm0RPaCZ",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2023/05/ESV-im-Doalog-Podcast.png",
+   "probleme": [
+    "Tippfehler im Cover-Dateinamen und Alt-Text: 'ESV im Doalog Podcast' (Dialog)",
+    "Behauptung 'einer der führenden Fachverlage im deutschen Sprachraum' ohne Quelle",
+    "Kein Zitat",
+    "Übersicht: Filterkategorie 'Interview & Wissen'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/7hPYACZ50ag9BCUAlXLiiD",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/6o5XPi6emVeaPmZz64iSOe",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "erlenbacher",
+   "gruppe": "schnitt-und-lieferung",
+   "podcast_name": "Video-Podcast und Audio-Podcast",
+   "kunde": "Erlenbacher Backwaren",
+   "branche": "Backwaren / B2B",
+   "format": "Video-Podcast und Audio-Podcast (Brand Podcast)",
+   "kategorien": [
+    "Video-Podcast"
+   ],
+   "leistungen": "Konzeption, Intro und Outro, Cover und Episodenbilder, technische Aufnahmeleitung, Postproduktion Audio und Video, Social-Media-Content, Distribution, monatliches Reporting",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Erlenbacher wollte mit einem Brand Podcast die Marke stärken und neue B2B-Kontakte gewinnen.",
+   "format_text": "Unser Team begleitet von der Konzeption bis zur regelmäßigen Veröffentlichung: Aufnahme, Audio und Video, Cover, Episodenbilder, Social-Media-Clips und ein monatliches Reporting.",
+   "ergebnis": null,
+   "kurz": "Brand Podcast für B2B-Kontakte in der Backwarenbranche, mit monatlichem Reporting.",
+   "zahlen": [
+    "monatliches Reporting"
+   ],
+   "zitat": null,
+   "embed": null,
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/04/Erlenbacher-min.jpg",
+   "probleme": [
+    "Vorlagentext unter 'Hörproben': 'Dieser Podcast befindet sich noch in der Entstehung, deshalb können wir hier noch keine Hörprobe bereitstellen. Doch eines ist sicher: Die Qualität unserer Arbeit ist, wie immer, auf höchstem Niveau.'",
+    "Kein Podcast-Name genannt",
+    "Einordnung in 'schnitt-und-lieferung' fraglich – Seite beschreibt Komplettbetreuung inkl. Konzeption",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ]
+  },
+  {
+   "slug": "arolsen-archives",
+   "gruppe": "schnitt-und-lieferung",
+   "podcast_name": "Audio-Podcast und Video-Podcast",
+   "kunde": "Arolsen Archives",
+   "branche": "Archiv / Erinnerungskultur",
+   "format": "Audio-Podcast und Video-Podcast (Adaption einer YouTube-Videoreihe)",
+   "kategorien": [
+    "Video-Podcast"
+   ],
+   "leistungen": "Postproduktion zur Adaption des Videomaterials, Audio-Optimierung, dramaturgische Neustrukturierung, Schnitt von Videos für den Videopodcast",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Die Arolsen Archives hatten eine aufwendig produzierte True-Crime-Videoreihe zu realen NS-Verbrechen auf YouTube. Die Geschichten sollten zusätzlich als Podcast erscheinen.",
+   "format_text": "Das bestehende Videomaterial wurde für das Hören bearbeitet, klanglich optimiert und dramaturgisch neu gegliedert. Zusätzlich entstanden Videofassungen für die Nutzung als Videopodcast.",
+   "ergebnis": null,
+   "kurz": "YouTube-Videoreihe zu NS-Verbrechen als Audio- und Videopodcast aufbereitet.",
+   "zahlen": [],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/3DILkxXgCa8Wp8o4oVDh2h",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/03/Arolsen-Archives-2-min.jpg",
+   "probleme": [
+    "Falsches Zitat: Das Zitat von Stefanie Sonnenberg (EBM Financial, gehört zu /loan-to-value/) steht samt Foto auf dieser Seite – zitat=null gesetzt",
+    "Wortwahl 'fesselnde Podcast-Erzählstruktur' / 'True-Crime' bei NS-Verbrechen – Ton für neue Seite prüfen",
+    "Kein Podcast-Name genannt",
+    "Übersicht: Filterkategorie 'Produktion & Beratung'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/4Ngk1jRYysbzAMnKRcyWnb",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/5tZJKUX0I3jG88pZh6wRqy",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "change-management-rockstars",
+   "gruppe": "business",
+   "podcast_name": "Change Management Rockstars",
+   "kunde": "Maik Neumann",
+   "branche": "Beratung / Change Management",
+   "format": "Audio-Podcast (Interview, Studio und remote)",
+   "kategorien": [
+    "Interview"
+   ],
+   "leistungen": "Aufnahme in unserem Studio und remote (Riverside.fm), technische Aufnahmeleitung, Intro und Outro, Cover, Plattform-Setup und Upload, Postproduktion, plattformspezifische Inhalte, Marketing über die Kanäle des Hosts, Werbung auf LinkedIn und Spotify",
+   "rhythmus": "wöchentlich, jeden Montag",
+   "laufzeit": "seit Januar 2024",
+   "ausgangslage": "Ein Change Manager wollte ein Format, in dem Fachleute Best Practices zu Transformation aus verschiedenen Branchen teilen, und es gezielt bei seiner Zielgruppe etablieren.",
+   "format_text": "Gastgeber Maik spricht mit erfahrenen Change-Fachleuten, im Studio oder remote. Unser Team übernimmt Aufnahme, Schnitt, Cover, Intro, Outro und Werbung auf LinkedIn und Spotify.",
+   "ergebnis": "Erstveröffentlichung im Januar 2024, seitdem jeden Montag eine neue Folge.",
+   "kurz": "Seit Januar 2024 jeden Montag eine Folge zu Change Management.",
+   "zahlen": [
+    "Erstveröffentlichung im Januar 2024, mit neuen Folgen jeden Montag"
+   ],
+   "zitat": {
+    "text": "„Super engagierte Agentur mit einer guten Expertise und einer sehr angenehmen Portion Pragmatismus. Sehr zu empfehlen für Podcast-Starter und Fortgeschrittene.“",
+    "name": "Maik Neumann",
+    "rolle": "Change Manager"
+   },
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/5hahAOSr4OjWkDIWkeodD1",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/02/Change-Management-Rockstars-Cover.jpeg",
+   "probleme": [
+    "Leerzeichen vor Komma: 'Gastgeber Maik ,'",
+    "PwC-Nennung – Freigabe prüfen (Podcast ist Projekt der Person, nicht von PwC?)",
+    "Übersicht: Filterkategorie 'Interview & Wissen'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/6icRPGEBoeyqddnEBApftT",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/7pIFgsXSi6Z6dCsqByFfHq",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "berg-macher",
+   "gruppe": "business",
+   "podcast_name": "Berg & Macher",
+   "kunde": null,
+   "branche": "Organisationsentwicklung / New Work",
+   "format": "Video-Podcast (Remote, Interview)",
+   "kategorien": [
+    "Video-Podcast",
+    "Interview"
+   ],
+   "leistungen": "Beratung zur technischen Optimierung (Setup, Aufnahme, Workflow), Umstellung auf Video-Podcast, Remote-Aufnahmen (Riverside.fm), Reels und Social-Media-Snippets, Versand der fertigen Folgen; Veröffentlichung durch den Kunden",
+   "rhythmus": null,
+   "laufzeit": null,
+   "ausgangslage": "Ein bestehender Podcast zu agiler Organisationsentwicklung, Unternehmenskultur und New Work sollte professioneller werden und auf Video umstellen.",
+   "format_text": "Experteninterviews mit wechselnden Gästen, remote über Riverside.fm in Audio und Video. Unser Team liefert fertige Folgen sowie Reels; veröffentlicht wird vom Kunden selbst.",
+   "ergebnis": null,
+   "kurz": "Bestehenden Audio-Podcast auf Video umgestellt, mit Reels für Social Media.",
+   "zahlen": [
+    "podcast-berg-macher-cover-staffel-2 (Cover-Dateiname nennt Staffel 2)"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/4mgDmkcw2e0VjefFez2TTy",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2024/10/podcast-berg-macher-cover-staffel-2.jpg",
+   "probleme": [
+    "Falsches Zitat: Das Zitat von Eva Martin (Wikimedia, 'WIKIMOVE Podcasts', gehört zu /wikimove/) steht auf dieser Seite – zitat=null gesetzt",
+    "Auftraggeber nicht genannt",
+    "Text schreibt aus Sicht des Kunden ('suchen wir nach innovativen Lösungen') – Perspektivfehler und Verbotswort 'innovativ'",
+    "Seitentitel 'Berg und Macher', H1 'Berg & Macher' – Schreibweise vereinheitlichen",
+    "Übersicht: Filterkategorie 'Interview & Wissen'"
+   ],
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/14NFP0fARtgX58mSDxD2xy",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/2a3OhQfaYlfRNm8Ts7LrFd",
+     "start": null,
+     "hinweis": "Show"
+    }
+   ]
+  },
+  {
+   "slug": "kenjo",
+   "gruppe": "business",
+   "podcast_name": "Video-Podcast",
+   "kunde": "Kenjo",
+   "branche": "HR-Software",
+   "format": "Video-Podcast",
+   "kategorien": [
+    "Video-Podcast"
+   ],
+   "leistungen": "Konzeption und Beratung, Intro, Outro und Cover, Anbindung an den Podcast-Host, regelmäßige Aufnahmen über Online-Tool, Postproduktion Audio und Video, untertitelte Reels, monatliches Reporting",
+   "rhythmus": "regelmäßig; Reporting monatlich",
+   "laufzeit": null,
+   "ausgangslage": "Kenjo, ein Berliner Softwareunternehmen für HR, wollte Themen rund um moderne Arbeitswelten und HR-Software in einem neuen Videoformat vermitteln.",
+   "format_text": "Die Folgen werden regelmäßig über ein Online-Tool aufgezeichnet und als Audio und Video produziert. Dazu kommen untertitelte Reels und ein monatliches Reporting.",
+   "ergebnis": null,
+   "kurz": "Neuer Videopodcast für ein HR-Softwareunternehmen, mit monatlichem Reporting.",
+   "zahlen": [
+    "monatliches Reporting",
+    "Alte Fassung /kenjo/: 'Jede 20-30-minütige Episode'"
+   ],
+   "zitat": null,
+   "embed": {
+    "typ": "spotify",
+    "id_oder_url": "https://open.spotify.com/embed/episode/1ql7lE6WqdBg5WmduXgGse",
+    "start": null
+   },
+   "cover": "https://nextgen-podcast.de/wp-content/uploads/2025/06/Kenjo-1-min.jpg",
+   "probleme": [
+    "Duplikat: /kenjo/ (ältere Fassung, nicht auf /referenzen/ verlinkt) und /kenjo-2/ (aktuelle Fassung, verlinkt). Daten aus -2 übernommen; alte Seite per 301 weiterleiten.",
+    "Alte Fassung /kenjo/ enthält kopierten Wikimedia-Vorlagentext ('Versand … an Wikimedia', 'Wikimedia Marketing-Kanäle'), Tippfehler 'einzelen' und duzt ('Freut euch …, bleibt informiert'); Satz endet ohne Punkt",
+    "Alte Fassung beschreibt Zielgruppe Blue-Collar-Branchen (Bau, Produktion, Logistik, Gesundheitswesen, Gastgewerbe) und Folgenlänge 20–30 Minuten – in -2 fehlt das",
+    "Alte Fassung hat anderes Cover: https://nextgen-podcast.de/wp-content/uploads/2024/10/Kenjo-1.webp",
+    "Kein Podcast-Name genannt",
+    "Kein Zitat"
+   ],
+   "slug_alt": "kenjo-2",
+   "weitere_embeds": [
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/644cXTD3jOU2WdMzONijSR",
+     "start": null
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/show/0vXgLkJXnQ29MbybkKmyFq",
+     "start": null,
+     "hinweis": "Show"
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/66u08r0sxzqCZtNgutbR2l",
+     "start": null,
+     "hinweis": "von der alten Duplikatseite /kenjo/"
+    },
+    {
+     "typ": "spotify",
+     "id_oder_url": "https://open.spotify.com/embed/episode/0glFsfJl2O4JG67UwekyPd",
+     "start": null,
+     "hinweis": "von der alten Duplikatseite /kenjo/"
+    }
+   ]
+  }
+ ]
+}
